@@ -140,33 +140,34 @@ for row in progressbar(lines, desc="parsing bibtex"):
                 if glottocodes[ncode].category == "Spoken L1 Language" and \
                         glottocodes[ncode].macroareas:
                     bib_by_variety[glottocodes[ncode].glottocode] += [key]
-print("[i] retrieved codes for {0} language varieties".format(len(cols)))
+print("[i] retrieved codes for {0} language varieties".format(len(bib_by_variety)))
 
 # retrieve only annotated resources
-annotated = {k: [] for k in cols}
-computed = {k: [] for k in cols}
-tracker = collections.defaultdict(set)
-for key, vals in progressbar(cols.items(), desc="retrieve annotated resources"):
+annotated = {k: [] for k in bib_by_variety}
+computed = {k: [] for k in bib_by_variety}
+tracker_annotated = collections.defaultdict(set)
+tracker_computed = collections.defaultdict(set)
+for key, vals in progressbar(bib_by_variety.items(), desc="retrieve annotated resources"):
     keep_annotated = []
     keep_computed = []
     for value in vals:
         annotation = bib_by_source[value].get("hhtype", "")
         year = bib_by_source[value].get("year", "")
         creators = [("", "")]
-        if "author" in data[value]:
+        if "author" in bib_by_source[value]:
             creators = author_string(bib_by_source[value]["author"])
-        elif "editor" in data[value]:
+        elif "editor" in bib_by_source[value]:
             creators = author_string(bib_by_source[value]["editor"])
         if not creators:
             creators = [("", "")]
         family_name, first_name = creators[0]
         if family_name and first_name and len(year) == 4:
-            tracker[family_name + "-" + year].add(value)
             if "(computerized assignment" in annotation:
                 keep_computed += [(value, family_name + "-" + year)]
+                tracker_computed[family_name + "-" + year].add(value)
             elif annotation:
                 keep_annotated += [(value, family_name + "-" + year)]
-
+                tracker_annotated[family_name + "-" + year].add(value)
     annotated[key] += keep_annotated
     computed[key] += keep_computed
 
@@ -184,7 +185,7 @@ by_area = {
 
 with open("map-data-annotated.tsv", "w") as f:
     f.write("Glottocode\tSources\tLatitude\tLongitude\tFamily\tMacroarea\n")
-    for k, v in progressbar(annotated.items(), desc="write map data"):
+    for k, v in progressbar(annotated.items(), desc="write map data (annotated)"):
         f.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\n".format(
             k, 
             len(v),
@@ -197,7 +198,7 @@ with open("map-data-annotated.tsv", "w") as f:
 
 with open("map-data-computed.tsv", "w") as f:
     f.write("Glottocode\tSources\tLatitude\tLongitude\tFamily\tMacroarea\n")
-    for k, v in progressbar(computed.items(), desc="write map data"):
+    for k, v in progressbar(computed.items(), desc="write map data (computed)"):
         f.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\n".format(
             k, 
             len(v),
@@ -227,40 +228,95 @@ for area, (a, c) in by_area.items():
 result = tabulate(table, floatfmt=[".2f"] , tablefmt="pipe", headers="firstrow")
 with open("statistics.md", "w") as f:
     f.write(result)
+print("[i] table of average number of resources per variety")
 print(result)
 
 
-
+# make a list of authors that is "cleaned"
+selection_annotated, selection_computed = {}, {}
+for key, valueset in tracker_annotated.items():
+    for value in valueset:
+        selection_annotated[value] = key
+for key, valueset in tracker_computed.items():
+    for value in valueset:
+        selection_computed[value] = key
 
 # check for duplicats
 # author, year, title
-author = collections.defaultdict(list)
-for key, book in data.items():
-    if "lgcode" in book and "author" in book:
-        persons = author_string(book["author"])
+author_annotated = collections.defaultdict(list)
+author_computed = collections.defaultdict(list)
+for key, book in bib_by_source.items():
+    if key in selection_annotated:
+        cleaned_key = selection_annotated[key]
+        if "author" in book:
+            persons = author_string(book["author"])
+        else:
+            persons = author_string(book["editor"])
         for last, first in persons:
-            author[last + " // " + first] += [key]
+            author_annotated[last + " // " + first] += [cleaned_key]
+    if key in selection_computed:
+        cleaned_key = selection_computed[key]
+        if "author" in book:
+            persons = author_string(book["author"])
+        else:
+            persons = author_string(book["editor"])
+        for last, first in persons:
+            author_computed[last + " // " + first] += [cleaned_key]
+
+all_authors = collections.defaultdict(lambda : [[], []])
+for name, books in author_annotated.items():
+    all_authors[name][0] = books
+for name, books in author_computed.items():
+    all_authors[name][1] = books
+
 
 with open("authors.tsv", "w") as f:
-    for name, books in sorted(author.items(), key=lambda x: len(x[1]),
+    f.write("Family_Name\tName\tResources_Annotated\tSources_Annotated\tResources_Computed\tSources_Computed\n")
+    for name, books in sorted(all_authors.items(), key=lambda x: len(set(x[1][0])),
                               reverse=True):
-        f.write("{0[0]}\t{0[1]}\t{1}\n".format(
+        f.write("{0[0]}\t{0[1]}\t{1}\t{2}\t{3}\t{4}\n".format(
             name.split(" // "),
-            len(books)))
+            len(set(books[0])),
+            len(books[0]),
+            len(set(books[1])),
+            len(books[1])
+            ))
 
+# store data for the different parts (write "resource" table and link to
+# sources)
 
+resources = collections.defaultdict(lambda : {"languages": [], "sources": [],
+                                              "types": []})
+for language, keys in bib_by_variety.items():
+    for key in keys:
+        if key in selection_annotated:
+            rtype = "annotated"
+            rkey = selection_annotated[key]
+        if key in selection_computed:
+            rtype = "computed"
+            rkey = selection_computed[key]
+        if rkey:
+            resources[rkey]["languages"] += [language]
+            resources[rkey]["sources"] += [key]
+            resources[rkey]["types"] += [rtype]
 
+# write preliminary list of references to file / extract glottolog information
+reference_table = collections.defaultdict(list)
+for key, vals in resources.items():
+    languages = {k: [] for k in set(vals["languages"])}
+    for i in range(len(vals["languages"])):
+        languages[vals["languages"][i]] += [(key, vals["sources"][i],
+                                             vals["types"][i],
+                                             bib_by_source[vals["sources"][i]]["hhtype"]
+                                             )]
+    for language, info in languages.items():
+        reference_table[language] += info
+# the references now assemble the cleaned key plus the description
+# the next step consists in harmonizing the assignments and then extracting
+# both the references and the resources from there
 
-
-
-# count sources for the 7580 languages
-table = []
-for code, refs in cols.items():
-    if glottocodes[code].level.id == "language" and glottocodes[code].category == "Spoken L1 Language":
-        table += [[code, len(refs)]]
-
-
-
+input("stop here")
+# count individual sources for Mansi and the Phom
 my_table = {
         "ethnographic": [],
         "overview": [],
