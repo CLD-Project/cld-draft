@@ -6,6 +6,8 @@ from tqdm import tqdm as progressbar
 from zipfile import ZipFile
 from pathlib import Path
 from cldfcatalog import Config
+from statistics import mean, median, stdev
+from tabulate import tabulate
 
 preprocess_authors = {
         "Hall and A., Robert and Jr.": "Hall Junior, Robert A.",
@@ -15,6 +17,7 @@ preprocess_authors = {
         }
 
 unify_authors = {
+        "Kari, James (interviewer)": "Kari, James",
         "others": None,
         "trans.": None,
         "____": None,
@@ -22,7 +25,8 @@ unify_authors = {
         "No Author Stated": "Anonymous, Unknown Author",
         "Anonymous": "Anonymous, Unknown Author",
         "[Anonymous]": "Anonymous, Unknown Author",
-        "Unknown Author": "Anymous, Unknown Author",
+        "Unknown Author": "Anonymous, Unknown Author",
+        "Author Unknown": "Anonymous, Unknown Author",
         "trans. trans.": None,
         "trans. ___": None,
         "___, trans.": None,
@@ -118,8 +122,8 @@ else:
         lines = [row for row in f]
     print("[i] loaded bibliography from BibTeX-file")
 
-data = collections.defaultdict(dict)
-cols = collections.defaultdict(list)
+bib_by_source = collections.defaultdict(dict)
+bib_by_variety = collections.defaultdict(list)
 
 for row in progressbar(lines, desc="parsing bibtex"):
     if row.startswith("@"):
@@ -127,7 +131,7 @@ for row in progressbar(lines, desc="parsing bibtex"):
     if row.startswith("   ") and " = {" in row:
         parts = row.strip().split(" = {")
         attr, val = parts[0], " = {".join(parts[1:])
-        data[key][attr] = val.strip("},")
+        bib_by_source[key][attr] = val.strip("},")
     if "lgcode = " in row:
         codes = row.strip().split(" = {")[1][:-2]
         ncodes = Entry.lgcodes(codes)
@@ -135,36 +139,52 @@ for row in progressbar(lines, desc="parsing bibtex"):
             if ncode in glottocodes:
                 if glottocodes[ncode].category == "Spoken L1 Language" and \
                         glottocodes[ncode].macroareas:
-                    cols[glottocodes[ncode].glottocode] += [key]
+                    bib_by_variety[glottocodes[ncode].glottocode] += [key]
 print("[i] retrieved codes for {0} language varieties".format(len(cols)))
 
 # retrieve only annotated resources
-rpl = {k: [] for k in cols}
+annotated = {k: [] for k in cols}
+computed = {k: [] for k in cols}
 tracker = collections.defaultdict(set)
-for k, vals in progressbar(cols.items(), desc="retrieve annotated resources"):
-    keep = []
-    for v in vals:
-        if data[v].get("hhtype") and not "(computerized assignment" in \
-                data[v].get("hhtype", ""):
-            if "author" in data[v]:
-                authors = author_string(data[v]["author"])
-                if not authors:
-                    authors = [("", "")]
-            elif "editor" in data[v]:
-                authors = author_string(data[v]["editor"])
-            else:
-                authors = [("", "")]
-            first, last = authors[0]
-            if first and last and not "_" in first:
-                if len(data[v].get("year", "")) == 4:
-                    keep += [(v, authors[0][0] + "-" + data[v]["year"])]
-                    tracker[authors[0][0] + "-" + data[v]["year"]].add(v)
-    rpl[k] = keep
+for key, vals in progressbar(cols.items(), desc="retrieve annotated resources"):
+    keep_annotated = []
+    keep_computed = []
+    for value in vals:
+        annotation = bib_by_source[value].get("hhtype", "")
+        year = bib_by_source[value].get("year", "")
+        creators = [("", "")]
+        if "author" in data[value]:
+            creators = author_string(bib_by_source[value]["author"])
+        elif "editor" in data[value]:
+            creators = author_string(bib_by_source[value]["editor"])
+        if not creators:
+            creators = [("", "")]
+        family_name, first_name = creators[0]
+        if family_name and first_name and len(year) == 4:
+            tracker[family_name + "-" + year].add(value)
+            if "(computerized assignment" in annotation:
+                keep_computed += [(value, family_name + "-" + year)]
+            elif annotation:
+                keep_annotated += [(value, family_name + "-" + year)]
+
+    annotated[key] += keep_annotated
+    computed[key] += keep_computed
 
 
-with open("map-data.tsv", "w") as f:
+# count the average numbers per variety
+annotated_resources, computed_resources = [], []
+by_area = {
+        "eurasia": [[], []],
+        "northamerica": [[], []],
+        "southamerica": [[], []],
+        "australia": [[], []],
+        "pacific": [[], []],
+        "africa": [[], []]
+        }
+
+with open("map-data-annotated.tsv", "w") as f:
     f.write("Glottocode\tSources\tLatitude\tLongitude\tFamily\tMacroarea\n")
-    for k, v in progressbar(rpl.items(), desc="write map data"):
+    for k, v in progressbar(annotated.items(), desc="write map data"):
         f.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\n".format(
             k, 
             len(v),
@@ -172,8 +192,46 @@ with open("map-data.tsv", "w") as f:
             glottocodes[k].longitude,
             glottocodes[k].family or "",
             glottocodes[k].macroareas[0].id))
+        annotated_resources += [len(v)]
+        by_area[glottocodes[k].macroareas[0].id][0] += [len(v)]
+
+with open("map-data-computed.tsv", "w") as f:
+    f.write("Glottocode\tSources\tLatitude\tLongitude\tFamily\tMacroarea\n")
+    for k, v in progressbar(computed.items(), desc="write map data"):
+        f.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\n".format(
+            k, 
+            len(v),
+            glottocodes[k].latitude,
+            glottocodes[k].longitude,
+            glottocodes[k].family or "",
+            glottocodes[k].macroareas[0].id))
+        computed_resources += [len(v)]
+        by_area[glottocodes[k].macroareas[0].id][1] += [len(v)]
 
 print("retrieved codes and references")
+table = [
+        ["Subset", "Mean (A)", "Median (A)", "STD (A)", "Mean (C)", "Median (C)", "STD (C)"],
+        [
+            "all", 
+            mean(annotated_resources), 
+            median(annotated_resources),
+            stdev(annotated_resources), 
+            mean(computed_resources), 
+            median(computed_resources),
+            stdev(computed_resources)],
+        ]
+for area, (a, c) in by_area:
+    table += [[area, mean(a), median(a), stdev(a), mean(c), median(c),
+               stdev(c)]]
+
+result = tabulate(table, floatfmt=".2f", tablefmt="pipe")
+with open("statistics.md", "w") as f:
+    f.write(result)
+print(result)
+
+
+
+
 # check for duplicats
 # author, year, title
 author = collections.defaultdict(list)
@@ -189,6 +247,7 @@ with open("authors.tsv", "w") as f:
         f.write("{0[0]}\t{0[1]}\t{1}\n".format(
             name.split(" // "),
             len(books)))
+
 
 
 
