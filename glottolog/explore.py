@@ -220,11 +220,11 @@ table = [
             median(computed_resources),
             stdev(computed_resources)],
         ]
-for area, (a, c) in by_area:
+for area, (a, c) in by_area.items():
     table += [[area, mean(a), median(a), stdev(a), mean(c), median(c),
                stdev(c)]]
 
-result = tabulate(table, floatfmt=".2f", tablefmt="pipe")
+result = tabulate(table, floatfmt=[".2f"] , tablefmt="pipe", headers="firstrow")
 with open("statistics.md", "w") as f:
     f.write(result)
 print(result)
