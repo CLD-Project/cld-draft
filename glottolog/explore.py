@@ -8,6 +8,7 @@ from pathlib import Path
 from cldfcatalog import Config
 from statistics import mean, median, stdev
 from tabulate import tabulate
+from clldutils.misc import slug
 
 preprocess_authors = {
         "Hall and A., Robert and Jr.": "Hall Junior, Robert A.",
@@ -153,6 +154,7 @@ for key, vals in progressbar(bib_by_variety.items(), desc="retrieve annotated re
     for value in vals:
         annotation = bib_by_source[value].get("hhtype", "")
         year = bib_by_source[value].get("year", "")
+        title = bib_by_source[value].get("title", "").strip()
         creators = [("", "")]
         if "author" in bib_by_source[value]:
             creators = author_string(bib_by_source[value]["author"])
@@ -161,13 +163,15 @@ for key, vals in progressbar(bib_by_variety.items(), desc="retrieve annotated re
         if not creators:
             creators = [("", "")]
         family_name, first_name = creators[0]
-        if family_name and first_name and len(year) == 4:
+        if family_name and first_name and len(year) == 4 and year.isdigit() and title:
+            book_key = family_name + "-" + year + "-" + "_".join([
+                slug(s) for s in title.split()[:4]])
             if "(computerized assignment" in annotation:
-                keep_computed += [(value, family_name + "-" + year)]
-                tracker_computed[family_name + "-" + year].add(value)
+                keep_computed += [(value, book_key)]
+                tracker_computed[book_key].add(value)
             elif annotation:
-                keep_annotated += [(value, family_name + "-" + year)]
-                tracker_annotated[family_name + "-" + year].add(value)
+                keep_annotated += [(value, book_key)]
+                tracker_annotated[book_key].add(value)
     annotated[key] += keep_annotated
     computed[key] += keep_computed
 
@@ -226,10 +230,11 @@ for area, (a, c) in by_area.items():
                stdev(c)]]
 
 result = tabulate(table, floatfmt=[".2f"] , tablefmt="pipe", headers="firstrow")
-with open("statistics.md", "w") as f:
-    f.write(result)
+
+
 print("[i] table of average number of resources per variety")
 print(result)
+
 
 
 # make a list of authors that is "cleaned"
@@ -240,6 +245,26 @@ for key, valueset in tracker_annotated.items():
 for key, valueset in tracker_computed.items():
     for value in valueset:
         selection_computed[value] = key
+
+with open("statistics.md", "w") as f:
+    f.write("# Sources Per Variety\n\n")
+    f.write(result)
+    f.write("\n")
+    f.write("# Basic Statistics\n\n")
+    f.write(
+            tabulate([
+                ["Key", "Value"],
+                ["Language Varieties", len(bib_by_variety)],
+                ["References (Unique)", len(tracker_annotated) + len(tracker_computed)],
+                ["References (Annotated)", len(tracker_annotated)],
+                ["References (Computed)", len(tracker_computed)],
+                ["Sources (Non-Unique)", len(selection_annotated) + len(selection_computed)],
+                ["Sources (Annotated)", len(selection_annotated)],
+                ["Sources (Computed)", len(selection_computed)],
+                ],
+                     tablefmt="pipe",
+                     headers="firstrow",
+                     tablefmt=".2f"))
 
 # check for duplicats
 # author, year, title
@@ -289,6 +314,7 @@ resources = collections.defaultdict(lambda : {"languages": [], "sources": [],
                                               "types": []})
 for language, keys in bib_by_variety.items():
     for key in keys:
+        rkey = False
         if key in selection_annotated:
             rtype = "annotated"
             rkey = selection_annotated[key]
@@ -301,7 +327,7 @@ for language, keys in bib_by_variety.items():
             resources[rkey]["types"] += [rtype]
 
 # write preliminary list of references to file / extract glottolog information
-reference_table = collections.defaultdict(list)
+reference_dict = collections.defaultdict(list)
 for key, vals in resources.items():
     languages = {k: [] for k in set(vals["languages"])}
     for i in range(len(vals["languages"])):
@@ -310,12 +336,33 @@ for key, vals in resources.items():
                                              bib_by_source[vals["sources"][i]]["hhtype"]
                                              )]
     for language, info in languages.items():
-        reference_table[language] += info
+        reference_dict[language] += info
+
 # the references now assemble the cleaned key plus the description
 # the next step consists in harmonizing the assignments and then extracting
 # both the references and the resources from there
 
-input("stop here")
+# write data to file now, or ideally, just create a database
+# merge sources that are merged to identical keys
+reference_table = []
+for key, vals in reference_dict.items():
+    # here, assemble by vals[1]
+    # +++
+    for val in vals:
+        reference_table += [[
+            key, # language_id
+            val[0], # resource_id
+            val[1], # source_ids
+            val[2], # assignment status
+            val[3], # basic informatin type]]
+resource_table = []
+
+
+
+
+# reference table must now be created for a particular glottocode
+
+
 # count individual sources for Mansi and the Phom
 my_table = {
         "ethnographic": [],
