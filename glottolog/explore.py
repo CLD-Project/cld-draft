@@ -9,73 +9,10 @@ from cldfcatalog import Config
 from statistics import mean, median, stdev
 from tabulate import tabulate
 from clldutils.misc import slug
+import json
 
-preprocess_authors = {
-        "Hall and A., Robert and Jr.": "Hall Junior, Robert A.",
-        "Joyce Huckett and Awadoudo and Huckett Adiguma and Awadoudo Joyce and Adiguma and Laumamala": \
-                "Huckett, Joyce and Navakwaya, Fuwali and Awadoudo, Adilo'a",
 
-        }
-
-unify_authors = {
-        "Kari, James (interviewer)": "Kari, James",
-        "others": None,
-        "trans.": None,
-        "____": None,
-        "____ ____": None,
-        "No Author Stated": "Anonymous, Unknown Author",
-        "Anonymous": "Anonymous, Unknown Author",
-        "[Anonymous]": "Anonymous, Unknown Author",
-        "Unknown Author": "Anonymous, Unknown Author",
-        "Author Unknown": "Anonymous, Unknown Author",
-        "trans. trans.": None,
-        "trans. ___": None,
-        "___, trans.": None,
-        "___ ___": None,
-        "___, ___": None,
-        "trans. Author Unknown": None,
-        "Unknown, trans. Author": None,
-        "others trans.": None,
-        "trans. others": None,
-        "trans., others": None,
-        "others, trans.": None,
-        "[s.n]": None,
-        "Instituto Lingüístico de Verano": "SIL, Summer Institute of Linguistics",
-        "[UK]": None,
-        "Anónimo": "Anonymous, Unknown Author",
-        "CEDI": "CEDI, CEDI",
-        "Anonymous, {}": "Anonymous, Unknown Author",
-        "Wangka Maya Pilbara Aboriginal Language Center": "WMPALC, Wangka Maya Pilbara Aboriginal Language Center",
-        "[SIL]": "SIL, Summer Institute of Linguistics",
-        "[Ghana]": None,
-        "[South_Africa]": None,
-        "N/A": "Anonymous, Unknown Author",
-        "Jochelson, Waldemar [Iokhel'son, Vladimir]": "Jochelson, Waldemar",
-        "Jr.": None,
-        "[SWA/Namibia]": None,
-        "No Author Stated,": "Anonymous, Unknown Author",
-        "{No Author Stated": "Anonymous, Unknown Author",
-        "comps.": None,
-        "[1???]": None,
-        "[White_Fathers]": None,
-        "Deibler, Jr., Ellis W.": "Deibler Junior, Ellis W.",
-        "Salser, Jr., Jay K.": "Salser Junior, Jay K.",
-        "Jones, Jr., Robert B.": "Jones Junior, Robert B.",
-        "CIDCA": "CIDCA, CIDCA",
-        "China": None,
-        "___": None,
-        "ISO 639-3 Registration Authority": "ISO 639, ISO 639-3 Registration Authority",
-        "SIL": "SIL, Summer Institute of Linguistics",
-        "SIL International": "SIL, Summer Institute of Linguistics",
-        "SIL Ethiopia": "SIL, Summer Institute of Linguistics",
-        "Benishangul-Gumuz Language Development Project": "BGLDP, Benishangul-Gumuz Language Development Project",
-        "SIL Cameroun": "SIL, Summer Institute of Linguistics",
-        "SIL Indonesia": "SIL, Summer Institute of Linguistics",
-        "Starosts. S.": "Starostin, Sergey A.",
-        "INEI": "INEI, INEI",
-        }
-
-def author_string(author):
+def author_string(author, unify_authors, preprocess_authors):
     """
     Function unifies the author string of BibTeX entries.
 
@@ -106,6 +43,12 @@ def author_string(author):
         out += [(last, first)]
     return out
 
+
+with open("preprocessing.json") as f:
+    prep = json.load(f)
+    unify_authors = prep["authors"]
+    preprocess_authors = prep["author_string"]
+    basic_info_types = prep["bits"]
 
 cfg = Config.from_file()
 g_ = Glottolog(cfg.get_clone("glottolog"))
@@ -157,14 +100,16 @@ for key, vals in progressbar(bib_by_variety.items(), desc="retrieve annotated re
         title = bib_by_source[value].get("title", "").strip()
         creators = [("", "")]
         if "author" in bib_by_source[value]:
-            creators = author_string(bib_by_source[value]["author"])
+            creators = author_string(bib_by_source[value]["author"],
+                                     unify_authors, preprocess_authors)
         elif "editor" in bib_by_source[value]:
-            creators = author_string(bib_by_source[value]["editor"])
+            creators = author_string(bib_by_source[value]["editor"],
+                                     unify_authors, preprocess_authors)
         if not creators:
             creators = [("", "")]
         family_name, first_name = creators[0]
         if family_name and first_name and len(year) == 4 and year.isdigit() and title:
-            book_key = family_name + "-" + year + "-" + "_".join([
+            book_key = family_name.replace(" ", "_") + "-" + year + "-" + "_".join([
                 slug(s) for s in title.split()[:4]])
             if "(computerized assignment" in annotation:
                 keep_computed += [(value, book_key)]
@@ -264,7 +209,7 @@ with open("statistics.md", "w") as f:
                 ],
                      tablefmt="pipe",
                      headers="firstrow",
-                     tablefmt=".2f"))
+                     floatfmt=".2f"))
 
 # check for duplicats
 # author, year, title
@@ -274,17 +219,21 @@ for key, book in bib_by_source.items():
     if key in selection_annotated:
         cleaned_key = selection_annotated[key]
         if "author" in book:
-            persons = author_string(book["author"])
+            persons = author_string(book["author"], unify_authors,
+                                    preprocess_authors)
         else:
-            persons = author_string(book["editor"])
+            persons = author_string(book["editor"], unify_authors,
+                                    preprocess_authors)
         for last, first in persons:
             author_annotated[last + " // " + first] += [cleaned_key]
     if key in selection_computed:
         cleaned_key = selection_computed[key]
         if "author" in book:
-            persons = author_string(book["author"])
+            persons = author_string(book["author"], unify_authors,
+                                    preprocess_authors)
         else:
-            persons = author_string(book["editor"])
+            persons = author_string(book["editor"], unify_authors,
+                                    preprocess_authors)
         for last, first in persons:
             author_computed[last + " // " + first] += [cleaned_key]
 
@@ -345,23 +294,92 @@ for key, vals in resources.items():
 # write data to file now, or ideally, just create a database
 # merge sources that are merged to identical keys
 reference_table = []
+visited_resources = set()
 for key, vals in reference_dict.items():
     # here, assemble by vals[1]
-    # +++
+    recs = collections.defaultdict(lambda : {"bit": collections.defaultdict(list),
+                                    "sources": []})
     for val in vals:
-        reference_table += [[
-            key, # language_id
-            val[0], # resource_id
-            val[1], # source_ids
-            val[2], # assignment status
-            val[3], # basic informatin type]]
-resource_table = []
+        recs[val[0]]["sources"] += [val[1]]
+        recs[val[0]]["bit"][val[3]] += [val[2]]
+    for k, info in recs.items():
+        for bit, status in info["bit"].items():
+            if len(set(status)) == 2:
+                status = "annotated"
+            elif len(set(status)) == 1:
+                status = status[0]
+            if status == "annotated":
+                bits = bit.split(";")
+            else:
+                bits = [bit]
+            for bit_ in bits:
+                # retrieve the cleaned bits
+                dok, bit_norm = basic_info_types[bit_]
+                if dok:
+                    reference_table += [[
+                        key, # language_id
+                        k, # resource_id
+                        dok,
+                        bit_norm,
+                        status
+                        ]]
+                    visited_resources.add(k)
 
+resource_table = []
+for key, vals in resources.items():
+    if key in visited_resources:
+        # take first source and extract author and title
+        sources = [bib_by_source[v] for v in vals["sources"]]
+        authors = [source.get("author", source.get("editor", "")) for source in
+                  sources]
+        titles = [source["title"] for source in sources]
+        years = [source["year"] for source in sources]
+
+        if len(set(authors)) > 1:
+            author_variants = " // ".join(sorted(set(authors)))
+        else:
+            author_variants = ""
+        if len(set(titles)) > 1:
+            title_variants = " // ".join(sorted(set(titles)))
+        else:
+            title_variants = ""
+
+        resource_table += [[
+            key,
+            authors[0],
+            author_variants,
+            titles[0],
+            title_variants,
+            years[0],
+            " ".join(vals["sources"])
+            ]]
+
+with open("resources.tsv", "w") as f:
+    f.write("\t".join([
+        "ID", "Creators", "Creator_Variants", "Title", "Title_Variants",
+        "Year", "Sources"]) + "\n")
+    for row in resource_table:
+        f.write("\t".join(row) + "\n")
+
+with open("references.tsv", "w") as f:
+    f.write("\t".join([
+        "ID", "Language_ID", "Reference_ID", "DomainOfKnowledge", "BasicInformationType", "Status"]) + "\n")
+    current_language = ""
+    idx = 1
+    for row in sorted(reference_table):
+        if row[0] != current_language:
+            current_language = row[0]
+            idx = 1
+        else:
+            idx += 1
+        key = current_language + "-" + str(idx)
+        f.write(key + "\t" + "\t".join(row) + "\n")
 
 
 
 # reference table must now be created for a particular glottocode
 
+input("stop here")
 
 # count individual sources for Mansi and the Phom
 my_table = {
