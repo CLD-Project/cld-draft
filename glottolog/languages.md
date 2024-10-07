@@ -4,6 +4,7 @@
 
 ### Basic Statistics
 
+| Key | Value |
 |:------------------------------------|---------:|
 | Varieties                           |  1732    |
 | Sources (all)                       | 84216    |
