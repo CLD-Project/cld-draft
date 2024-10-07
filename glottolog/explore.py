@@ -68,6 +68,7 @@ else:
 
 bib_by_source = collections.defaultdict(dict)
 bib_by_variety = collections.defaultdict(list)
+languages = {}
 
 for row in progressbar(lines, desc="parsing bibtex"):
     if row.startswith("@"):
@@ -83,7 +84,27 @@ for row in progressbar(lines, desc="parsing bibtex"):
             if ncode in glottocodes:
                 if glottocodes[ncode].category == "Spoken L1 Language" and \
                         glottocodes[ncode].macroareas:
-                    bib_by_variety[glottocodes[ncode].glottocode] += [key]
+                    gcode = glottocodes[ncode].glottocode
+                    bib_by_variety[gcode] += [key]
+
+languages = {}
+for gcode, sources in progressbar(bib_by_variety.items(), desc="parsing glottolog"):
+    languages[gcode] = {
+            "name": glottocodes[gcode].name,
+            "family": glottocodes[gcode].family.name if glottocodes[gcode].family else "",
+            "latitude": glottocodes[gcode].latitude,
+            "longitude": glottocodes[gcode].longitude,
+            "macroarea": glottocodes[gcode].macroareas[0].name,
+            "sources": len(sources),
+            }
+
+
+
+# write to file
+with open('glottolog.json', "w") as f:
+    json.dump({"varieties": bib_by_variety, "sources": bib_by_source,
+              "languages": languages}, f)
+    
 print("[i] retrieved codes for {0} language varieties".format(len(bib_by_variety)))
 
 # retrieve only annotated resources
@@ -124,12 +145,12 @@ for key, vals in progressbar(bib_by_variety.items(), desc="retrieve annotated re
 # count the average numbers per variety
 annotated_resources, computed_resources = [], []
 by_area = {
-        "eurasia": [[], []],
-        "northamerica": [[], []],
-        "southamerica": [[], []],
-        "australia": [[], []],
-        "pacific": [[], []],
-        "africa": [[], []]
+        "Eurasia": [[], []],
+        "North America": [[], []],
+        "South America": [[], []],
+        "Australia": [[], []],
+        "Africa": [[], []],
+        "Papunesia": [[], []],
         }
 
 with open("map-data-annotated.tsv", "w") as f:
@@ -141,7 +162,7 @@ with open("map-data-annotated.tsv", "w") as f:
             glottocodes[k].latitude,
             glottocodes[k].longitude,
             glottocodes[k].family or "",
-            glottocodes[k].macroareas[0].id))
+            glottocodes[k].macroareas[0].name))
         annotated_resources += [len(v)]
         by_area[glottocodes[k].macroareas[0].id][0] += [len(v)]
 
@@ -378,6 +399,59 @@ with open("references.tsv", "w") as f:
 
 
 # reference table must now be created for a particular glottocode
+
+
+# write macroarea to file
+with open("languages.md", "w") as f:
+    f.write("# Languages by Macro-Area\n\n")
+    for macroarea in ["Eurasia", "North America", "South America", "Australia",
+                      "Africa", "Papunesia"]:
+        ma_data = {k: v for k, v in languages.items() if v["macroarea"] ==
+                   macroarea}
+
+        f.write("## Macro-Area " + macroarea + "\n\n")
+        f.write("### Basic Statistics\n\n")
+
+        varieties = len(ma_data)
+        sources = sum([v["sources"] for v in ma_data.values()])
+        sources_target = sum([len(
+            [s for s in bib_by_variety[k] if s in
+                                 selection_annotated or s in
+             selection_computed]) for k in ma_data])
+        sources_annotated = sum([len(
+            [s for s in bib_by_variety[k] if s in
+                                 selection_annotated]) for k in ma_data])
+        sources_computed = sum([len(
+            [s for s in bib_by_variety[k] if s in
+                                 selection_computed]) for k in ma_data])
+        
+        f.write(tabulate([
+            ["Varieties", varieties],
+            ["Sources (all)", sources],
+            ["Sources per Variety (all)", "{0:.2f}".format(sources / varieties)],
+            ["Sources (Target Corpus)", sources_target],
+            ["Sources per Variety (Target Corpus)", "{0:.2f}".format(sources_target / varieties)],
+            ["Sources (annotated)", sources_annotated],
+            ["Sources per Variety (annotated)", "{0:.2f}".format(sources_annotated / varieties)],
+            ["Sources (computed)", sources_computed],
+            ["Sources per Variety (computed)", "{0:.2f}".format(sources_computed / varieties)],
+            ],
+                         tablefmt="pipe"))
+        f.write("\n\n\n")
+        f.write("### Languages by Family\n\n")
+
+        by_fam = collections.defaultdict(int)
+        for k, v in ma_data.items():
+            by_fam[v["family"]] += 1
+        table = [["Language Family", "Varieties"]]
+        for family, varieties in sorted(by_fam.items(), key=lambda x: x[1],
+                                        reverse=True):
+            table += [[family, varieties]]
+        table += [["Total", sum(by_fam.values())]]
+        f.write(tabulate(table, tablefmt='pipe', headers='firstrow'))
+        f.write("\n\n\n")
+        print(tabulate(table))
+
 
 input("stop here")
 
