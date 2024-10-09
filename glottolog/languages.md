@@ -35,7 +35,7 @@
 | Mongolic-Khitan     |          17 |
 | Japonic             |          16 |
 | Tungusic            |          15 |
-|                     |          12 |
+| Isolates            |          12 |
 | Great Andamanese    |          10 |
 | Chukotko-Kamchatkan |           7 |
 | Abkhaz-Adyge        |           5 |
@@ -77,7 +77,7 @@
 | Algic                   |          47 |
 | Athabaskan-Eyak-Tlingit |          46 |
 | Mayan                   |          34 |
-|                         |          31 |
+| Isolates                |          31 |
 | Salishan                |          25 |
 | Indo-European           |          24 |
 | Mixe-Zoque              |          19 |
@@ -143,7 +143,7 @@
 |:------------------|------------:|
 | Arawakan          |          74 |
 | Tupian            |          70 |
-|                   |          64 |
+| Isolates          |          64 |
 | Pano-Tacanan      |          45 |
 | Quechuan          |          43 |
 | Cariban           |          42 |
@@ -217,7 +217,7 @@
 | Western Daly            |          11 |
 | Nyulnyulan              |          10 |
 | Worrorran               |          10 |
-|                         |           9 |
+| Isolates                |           9 |
 | Mirndi                  |           5 |
 | Iwaidjan Proper         |           4 |
 | Maningrida              |           4 |
@@ -270,7 +270,7 @@
 | Dogon             |          20 |
 | Ta-Ne-Omotic      |          19 |
 | Indo-European     |          17 |
-|                   |          16 |
+| Isolates          |          16 |
 | Khoe-Kwadi        |          14 |
 | Nubian            |          13 |
 | Austronesian      |          13 |
@@ -326,7 +326,7 @@
 | Austronesian             |        1234 |
 | Nuclear Trans New Guinea |         316 |
 | Nuclear Torricelli       |          55 |
-|                          |          52 |
+| Isolates                 |          52 |
 | Sepik                    |          36 |
 | Ramu                     |          24 |
 | Timor-Alor-Pantar        |          23 |
