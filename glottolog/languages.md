@@ -4,31 +4,32 @@
 
 ### Basic Statistics
 
+| Key                                 |    Value |
 |:------------------------------------|---------:|
-| Varieties                           |  1732    |
-| Sources (all)                       | 84216    |
-| Sources per Variety (all)           |    48.62 |
-| Sources (Target Corpus)             | 42932    |
-| Sources per Variety (Target Corpus) |    24.79 |
-| Sources (annotated)                 | 25429    |
-| Sources per Variety (annotated)     |    14.68 |
-| Sources (computed)                  | 17503    |
-| Sources per Variety (computed)      |    10.11 |
+| Varieties                           |  1733    |
+| Sources (all)                       | 84226    |
+| Sources per Variety (all)           |    48.6  |
+| Sources (Target Corpus)             | 42937    |
+| Sources per Variety (Target Corpus) |    24.78 |
+| Sources (annotated)                 | 25431    |
+| Sources per Variety (annotated)     |    14.67 |
+| Sources (computed)                  | 17506    |
+| Sources per Variety (computed)      |    10.1  |
 
 
 ### Languages by Family
 
 | Language Family     |   Varieties |
 |:--------------------|------------:|
+| Sino-Tibetan        |         513 |
 | Indo-European       |         512 |
-| Sino-Tibetan        |         511 |
 | Austroasiatic       |         158 |
 | Tai-Kadai           |          95 |
 | Dravidian           |          82 |
 | Afro-Asiatic        |          65 |
 | Uralic              |          49 |
-| Hmong-Mien          |          44 |
 | Turkic              |          43 |
+| Hmong-Mien          |          43 |
 | Nakh-Daghestanian   |          36 |
 | Austronesian        |          26 |
 | Mongolic-Khitan     |          17 |
@@ -47,13 +48,14 @@
 | Koreanic            |           2 |
 | Jarawa-Onge         |           2 |
 | Hurro-Urartian      |           2 |
-| Total               |        1732 |
+| Total               |        1733 |
 
 
 ## Macro-Area North America
 
 ### Basic Statistics
 
+| Key                                 |    Value |
 |:------------------------------------|---------:|
 | Varieties                           |   671    |
 | Sources (all)                       | 26625    |
@@ -122,6 +124,7 @@
 
 ### Basic Statistics
 
+| Key                                 |    Value |
 |:------------------------------------|---------:|
 | Varieties                           |   572    |
 | Sources (all)                       | 34847    |
@@ -150,7 +153,7 @@
 | Chibchan          |          15 |
 | Chapacuran        |          12 |
 | Chocoan           |           9 |
-| Mataguayan        |           7 |
+| Matacoan          |           7 |
 | Huitotoan         |           7 |
 | Yanomamic         |           6 |
 | Barbacoan         |           6 |
@@ -192,6 +195,7 @@
 
 ### Basic Statistics
 
+| Key                                 |    Value |
 |:------------------------------------|---------:|
 | Varieties                           |   355    |
 | Sources (all)                       | 13182    |
@@ -240,6 +244,7 @@
 
 ### Basic Statistics
 
+| Key                                 |    Value |
 |:------------------------------------|---------:|
 | Varieties                           |  2210    |
 | Sources (all)                       | 94073    |
@@ -301,6 +306,7 @@
 
 ### Basic Statistics
 
+| Key                                 |    Value |
 |:------------------------------------|---------:|
 | Varieties                           |  2123    |
 | Sources (all)                       | 41499    |
@@ -320,7 +326,7 @@
 | Austronesian             |        1234 |
 | Nuclear Trans New Guinea |         316 |
 | Nuclear Torricelli       |          55 |
-|                          |          51 |
+|                          |          52 |
 | Sepik                    |          36 |
 | Ramu                     |          24 |
 | Timor-Alor-Pantar        |          23 |
@@ -393,7 +399,6 @@
 | Bogia                    |           2 |
 | East Kutubu              |           2 |
 | Japonic                  |           1 |
-| Maybratic                |           1 |
 | Total                    |        2123 |
 
 

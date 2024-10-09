@@ -3,7 +3,7 @@ import re
 from pyglottolog import Glottolog
 from pyglottolog.references.bibfiles import Entry
 from tqdm import tqdm as progressbar
-from zipfile import ZipFile
+import zipfile
 from pathlib import Path
 from cldfcatalog import Config
 from statistics import mean, median, stdev
@@ -57,7 +57,7 @@ glottocodes = g_.languoids_by_code()
 print("[i] loaded Glottolog data")
 
 if not Path("glottolog-5.0.bib").exists():
-    with ZipFile("glottolog-5.0.bib.zip") as zf:
+    with zipfile.ZipFile("glottolog-5.0.bib.zip") as zf:
         with zf.open("glottolog-5.0.bib") as f:
             lines = [row.decode("utf-8") for row in f]
     print("[i] loaded bibliography from zip-file")
@@ -104,6 +104,9 @@ for gcode, sources in progressbar(bib_by_variety.items(), desc="parsing glottolo
 with open('glottolog.json', "w") as f:
     json.dump({"varieties": bib_by_variety, "sources": bib_by_source,
               "languages": languages}, f)
+with zipfile.ZipFile("glottolog.json.zip", mode="w",
+                     compression=zipfile.ZIP_DEFLATED) as zf:
+    zf.write("glottolog.json")
     
 print("[i] retrieved codes for {0} language varieties".format(len(bib_by_variety)))
 
@@ -164,7 +167,7 @@ with open("map-data-annotated.tsv", "w") as f:
             glottocodes[k].family or "",
             glottocodes[k].macroareas[0].name))
         annotated_resources += [len(v)]
-        by_area[glottocodes[k].macroareas[0].id][0] += [len(v)]
+        by_area[glottocodes[k].macroareas[0].name][0] += [len(v)]
 
 with open("map-data-computed.tsv", "w") as f:
     f.write("Glottocode\tSources\tLatitude\tLongitude\tFamily\tMacroarea\n")
@@ -177,7 +180,7 @@ with open("map-data-computed.tsv", "w") as f:
             glottocodes[k].family or "",
             glottocodes[k].macroareas[0].id))
         computed_resources += [len(v)]
-        by_area[glottocodes[k].macroareas[0].id][1] += [len(v)]
+        by_area[glottocodes[k].macroareas[0].name][1] += [len(v)]
 
 print("retrieved codes and references")
 table = [
@@ -230,7 +233,8 @@ with open("statistics.md", "w") as f:
                 ],
                      tablefmt="pipe",
                      headers="firstrow",
-                     floatfmt=".2f"))
+                     floatfmt=".2f")
+            )
 
 # check for duplicats
 # author, year, title
@@ -299,13 +303,13 @@ for language, keys in bib_by_variety.items():
 # write preliminary list of references to file / extract glottolog information
 reference_dict = collections.defaultdict(list)
 for key, vals in resources.items():
-    languages = {k: [] for k in set(vals["languages"])}
+    langs = {k: [] for k in set(vals["languages"])}
     for i in range(len(vals["languages"])):
-        languages[vals["languages"][i]] += [(key, vals["sources"][i],
+        langs[vals["languages"][i]] += [(key, vals["sources"][i],
                                              vals["types"][i],
                                              bib_by_source[vals["sources"][i]]["hhtype"]
                                              )]
-    for language, info in languages.items():
+    for language, info in langs.items():
         reference_dict[language] += info
 
 # the references now assemble the cleaned key plus the description
@@ -401,6 +405,7 @@ with open("references.tsv", "w") as f:
 # reference table must now be created for a particular glottocode
 
 
+
 # write macroarea to file
 with open("languages.md", "w") as f:
     f.write("# Languages by Macro-Area\n\n")
@@ -436,7 +441,7 @@ with open("languages.md", "w") as f:
             ["Sources (computed)", sources_computed],
             ["Sources per Variety (computed)", "{0:.2f}".format(sources_computed / varieties)],
             ],
-                         tablefmt="pipe"))
+                         tablefmt="pipe", headers = ["Key", "Value"]))
         f.write("\n\n\n")
         f.write("### Languages by Family\n\n")
 
