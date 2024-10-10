@@ -5,5 +5,5 @@ This repository provides some initial overview on tests and ideas regarding the 
 For details, check the overview on:
 * [Languages by Macro-Area](glottolog/languages.md#languages-by-macro-area)
 * [Sources Per Variety](glottolog/statistics.md#sources-per-variety)
-* [Basic Statistics](glottolog/statistics.md#sources-per-variety)
+* [Basic Statistics](glottolog/statistics.md#basic-statistics)
 
