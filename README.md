@@ -4,6 +4,12 @@ This repository provides some initial overview on tests and ideas regarding the 
 
 For details, check the overview on:
 * [Languages by Macro-Area](glottolog/languages.md#languages-by-macro-area)
+  - [Macro-Area Eurasia](glottolog/languages.md#macro-area-eurasia)
+  - [Macro-Area North America](glottolog/languages.md#macro-area-north-america)
+  - [Macro-Area South America](glottolog/languages.md#macro-area-south-america)
+  - [Macro-Area Australia](glottolog/languages.md#macro-area-australia)
+  - [Macro-Area Africa](glottolog/languages.md#macro-area-africa)
+  - [Macro-Area Papunesia](glottolog/languages.md#macro-area-papunesia)
 * [Sources Per Variety](glottolog/statistics.md#sources-per-variety)
 * [Basic Statistics](glottolog/statistics.md#basic-statistics)
 
