@@ -13,3 +13,6 @@ For details, check the overview on:
 * [Sources Per Variety](glottolog/statistics.md#sources-per-variety)
 * [Basic Statistics](glottolog/statistics.md#basic-statistics)
 
+For the code, check the script:
+
+* [explore.py](glottolog/explore.py)
