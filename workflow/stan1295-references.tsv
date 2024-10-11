@@ -1,0 +1,589 @@
+ID	Language_ID	Reference_ID	DomainOfKnowledge	BasicInformationType	Status
+stan1295-1	stan1295	Abraham-1986-the_grammar_of_german	Grammar	Reference Grammar	computed
+stan1295-2	stan1295	Abraham-1991-discourse_particles_descriptive_and	Grammar	Reference Grammar	computed
+stan1295-3	stan1295	Abraham-1991-discourse_particles_in_german	Grammar	Grammar Sketch	computed
+stan1295-4	stan1295	Abraham-1992-structural_properties_of_information	Grammar	Reference Grammar	computed
+stan1295-5	stan1295	Abraham-1992-the_base_structure_of	Grammar	Grammar Sketch	computed
+stan1295-6	stan1295	Abraham-1995-structural_properties_of_information	Grammar	Reference Grammar	computed
+stan1295-7	stan1295	Abraham-1998-dodd_b_eckhardblack_chr	Grammar	Reference Grammar	computed
+stan1295-8	stan1295	Abraham-2000-modal_particles_in_german	Genealogy	Affiliation	computed
+stan1295-9	stan1295	Abraham-2001-syntax_and_semantics_of	Grammar	Reference Grammar	computed
+stan1295-10	stan1295	Abraham-2002-german_clause_structure_under	Grammar	Grammar Sketch	computed
+stan1295-11	stan1295	Abraham-2007-discourse_binding_dp_and	Grammar	Grammar Sketch	computed
+stan1295-12	stan1295	Adler-1846-ollendorffs_new_method_of	Grammar	Grammar Sketch	computed
+stan1295-13	stan1295	Albertus-1573-teutsch_grammatick_oder_sprachkunst	Grammar	Grammar Sketch	annotated
+stan1295-14	stan1295	Anagnostopoulou-2008-notes_on_the_person	Grammar	Grammar Sketch	computed
+stan1295-15	stan1295	Atterer-2004-on_the_phonetics_and	Phonology		computed
+stan1295-16	stan1295	Auer-1996-the_prefront_field_in	Genealogy	Affiliation	computed
+stan1295-17	stan1295	Averintseva-Klisch-2007-the_role_of_discourse	Grammar	Grammar Sketch	computed
+stan1295-18	stan1295	Averintseva-Klisch-2008-11_german_right_dislocation	Grammar	Grammar Sketch	computed
+stan1295-19	stan1295	Axel-2005-studies_on_old_high	Grammar	Reference Grammar	computed
+stan1295-20	stan1295	Axel-2007-studies_on_old_high	Grammar	Reference Grammar	computed
+stan1295-21	stan1295	Axel-Tober-2011-correlation_and_clause_integration	Grammar	Grammar Sketch	computed
+stan1295-22	stan1295	Bach-1962-the_order_of_elements	Grammar	Reference Grammar	computed
+stan1295-23	stan1295	Bacon-1906-bacons_new_german_course	Grammar	Reference Grammar	computed
+stan1295-24	stan1295	Bader-2016-complex_center_embedding_in	Genealogy	Affiliation	computed
+stan1295-25	stan1295	Bader-2023-2_how_free_is	Genealogy	Affiliation	computed
+stan1295-26	stan1295	Barrios-2017-obrien__fagan_2016	Phonology		computed
+stan1295-27	stan1295	Bartsch-1995-situations_tense_and_aspect	Grammar	Grammar Sketch	computed
+stan1295-28	stan1295	Baumgarten-2008-writer_construction_in_english	Grammar	Grammar Sketch	computed
+stan1295-29	stan1295	Bayer-1990-what_bavarian_negative_concord	Grammar	Grammar Sketch	computed
+stan1295-30	stan1295	Bayer-1991-german_particles_in_a	Grammar	Reference Grammar	computed
+stan1295-31	stan1295	Bayer-1991-german_particles_in_modular	Grammar	Reference Grammar	computed
+stan1295-32	stan1295	Bayer-2016-a_new_diagnostic_for	Grammar	Grammar Sketch	computed
+stan1295-33	stan1295	Bayer-2016-emphatic_topicalization_and_the	Grammar	Grammar Sketch	computed
+stan1295-34	stan1295	Beck-2014-contrasting_english_and_german	Grammar	Reference Grammar	computed
+stan1295-35	stan1295	Beck-2014-contrasting_english_and_german	Grammar	Reference Grammar	computed
+stan1295-36	stan1295	Becker-1830-a_grammar_of_the	Grammar	Reference Grammar	computed
+stan1295-37	stan1295	Becker-1845-a_grammar_of_the	Grammar	Reference Grammar	computed
+stan1295-38	stan1295	Becker-1967-generative_phonology_and_dialect	Phonology		computed
+stan1295-39	stan1295	Becker-1968-materials_for_the_understanding	Text		computed
+stan1295-40	stan1295	Becker-2003-ruhrdeutsch_die_sprache_des	Grammar	Reference Grammar	annotated
+stan1295-41	stan1295	Beedham-1989-investigating_grammar_through_lexical	Grammar	Reference Grammar	computed
+stan1295-42	stan1295	Beermann-1997-syntactic_discontinuity_and_predicate	Grammar	Reference Grammar	computed
+stan1295-43	stan1295	Behaghel-1923-deutsche_syntax_eine_geschichtliche	Grammar	Reference Grammar	computed
+stan1295-44	stan1295	Benner-2012-phonological_processing_of_german	Phonology		computed
+stan1295-45	stan1295	Bentivogli-2018-neural_versus_phrasebased_mt	Grammar	Grammar Sketch	computed
+stan1295-46	stan1295	Benware-1986-phonetics_and_phonology_of	Phonology		computed
+stan1295-47	stan1295	Berg-2006-the_internal_structure_of	Grammar	Grammar Sketch	computed
+stan1295-48	stan1295	Berg-2016-a_note_on_the	Genealogy	Affiliation	computed
+stan1295-49	stan1295	Berlin-1972-skizze_der_deutschen_grammatik	Grammar	Reference Grammar	annotated
+stan1295-50	stan1295	Berman-2003-clausal_syntax_of_german	Grammar	Reference Grammar	computed
+stan1295-51	stan1295	Bernays-1833-a_compendious_german_grammar	Grammar	Reference Grammar	computed
+stan1295-52	stan1295	Besch-2004-language_history_a_handbook	Grammar	Reference Grammar	computed
+stan1295-53	stan1295	Betz-2008-grammar_and_interaction_pivots	Grammar	Reference Grammar	computed
+stan1295-54	stan1295	Beyer-2017-variation_in_the_structure	Grammar	Grammar Sketch	computed
+stan1295-55	stan1295	Bhatt-1990-die_syntaktische_struktur_der	Grammar	Grammar Sketch	computed
+stan1295-56	stan1295	Bidese-2014-the_vulnerability_of_the	Grammar	Grammar Sketch	computed
+stan1295-57	stan1295	Bierwisch-1967-syntactic_features_in_morphology	Grammar	Grammar Sketch	computed
+stan1295-58	stan1295	Bisiada-2013-changing_conventions_in_german	Grammar	Grammar Sketch	computed
+stan1295-59	stan1295	Bithell-1952-german_pronunciation_and_phonology	Phonology		computed
+stan1295-60	stan1295	Bittner-2000-gender_classification_and_the	Genealogy	Affiliation	computed
+stan1295-61	stan1295	Boas-1978-lexical_entries_for_verbs	Lexicon	Dictionary	computed
+stan1295-62	stan1295	Boas-1981-lexical_entries_for_verbs	Lexicon	Dictionary	computed
+stan1295-63	stan1295	Boas-2009-the_life_and_death	Grammar	Grammar Sketch	annotated
+stan1295-64	stan1295	Bohnacker-2007-how_to_start_a	Grammar	Reference Grammar	computed
+stan1295-65	stan1295	Bohnacker-2008-the_clauseinitial_position_in	Grammar	Grammar Sketch	computed
+stan1295-66	stan1295	Borgert-1975-a_german_reference_grammar	Grammar	Reference Grammar	computed
+stan1295-67	stan1295	Bosch-2017-the_timecourse_of_morphosyntactic	Grammar	Reference Grammar	computed
+stan1295-68	stan1295	Bott-2018-german_particle_verbs_compositionality	Grammar	Reference Grammar	computed
+stan1295-69	stan1295	Boyes-Braem-2001-a_multimedia_bilingual_database	Lexicon	Dictionary	computed
+stan1295-70	stan1295	Brandt-2009-the_discourse_bases_of	Grammar	Grammar Sketch	computed
+stan1295-71	stan1295	Brandt-2011-german_childrens_productivity_with	Grammar	Grammar Sketch	computed
+stan1295-72	stan1295	Braun-1990-verbfirst_and_verbthird_declarative	Grammar	Grammar Sketch	computed
+stan1295-73	stan1295	Braun-2006-phonetics_and_phonology_of	Phonology		computed
+stan1295-74	stan1295	Braun-2010-when_are_german_girls	Grammar	Reference Grammar	computed
+stan1295-75	stan1295	Bredel-2006-zur_geschichte_der_interpunktionskonzeptionen	Grammar	Reference Grammar	computed
+stan1295-76	stan1295	Brekle-1981-biobibliographical_handbook_of_18thcentury	Grammar	Reference Grammar	computed
+stan1295-77	stan1295	Breul-1906-a_german_and_english	Lexicon	Dictionary	computed
+stan1295-78	stan1295	Brinkmann-1995-the_locative_alternation_its	Grammar	Grammar Sketch	computed
+stan1295-79	stan1295	Brinkmann-1997-the_locative_alternation_in	Grammar	Grammar Sketch	computed
+stan1295-80	stan1295	Brockhaus-1995-final_devoicing_in_the	Phonology		computed
+stan1295-81	stan1295	Bross-2018-the_clausal_syntax_of	Grammar	Reference Grammar	computed
+stan1295-82	stan1295	Bross-2019-the_clausal_syntax_of	Grammar	Reference Grammar	computed
+stan1295-83	stan1295	Bross-2020-encoding_different_types_of	Grammar	Reference Grammar	computed
+stan1295-84	stan1295	Brunt-1983-the_influence_of_the	Lexicon	Wordlist	computed
+stan1295-85	stan1295	Brüser-2001-worterbuch_des_kreols_der	Lexicon	Dictionary	computed
+stan1295-86	stan1295	Buck-1999-a_concise_german_grammar	Grammar	Reference Grammar	annotated
+stan1295-87	stan1295	Burchardt-2012-die_deutsche_sprache_im	Grammar	Grammar Sketch	computed
+stan1295-88	stan1295	Burchert-2003-does_morphology_make_the	Grammar	Grammar Sketch	computed
+stan1295-89	stan1295	Burger-2010-phraseologie_eine_einfuhrung_am	Grammar	Grammar Sketch	computed
+stan1295-90	stan1295	Businger-1966-zur_syntax_von_haben	Grammar	Reference Grammar	computed
+stan1295-91	stan1295	Butler-1973-a_technique_for_sentence	Grammar	Grammar Sketch	computed
+stan1295-92	stan1295	Büring-2001-the_syntax_and_semantics	Grammar	Reference Grammar	computed
+stan1295-93	stan1295	Cabredo_Hofherr-2012-prepositiondeterminer_amalgams_in_german	Grammar	Reference Grammar	computed
+stan1295-94	stan1295	Cahill-1997-the_inflectional_phonology_of	Phonology		computed
+stan1295-95	stan1295	Calanas_Continente-1998-a_functionallexematic_description_of	Grammar	Reference Grammar	computed
+stan1295-96	stan1295	Calderwood-Schnorr-1996-collins_pocket_german_dictionary	Lexicon	Dictionary	computed
+stan1295-97	stan1295	Campanini-2012-the_syntax_and_semantics	Grammar	Reference Grammar	computed
+stan1295-98	stan1295	Caratini-2009-vowel_and_consonantal_quantity	Phonology		computed
+stan1295-99	stan1295	Carroll-1993-the_representation_of_spatial	Grammar	Grammar Sketch	computed
+stan1295-100	stan1295	Choi-1998-optimizing_structure_in_context	Grammar	Grammar Sketch	computed
+stan1295-101	stan1295	Clahsen-1992-the_acquisition_of_agreement	Grammar	Grammar Sketch	computed
+stan1295-102	stan1295	Clahsen-2003-derivational_morphology_in_the	Grammar	Grammar Sketch	computed
+stan1295-103	stan1295	Clardy-1954-a_description_and_analysis	Grammar	Grammar Sketch	annotated
+stan1295-104	stan1295	Classen-1979-on_the_trichotomic_time	Grammar	Grammar Sketch	computed
+stan1295-105	stan1295	Clifton-2001-review_of_the_phonology	Phonology		computed
+stan1295-106	stan1295	Clyne-1978-2_some_germanenglish_language	Grammar	Grammar Sketch	computed
+stan1295-107	stan1295	Cochran-1974-cochrans_german_review_grammar	Grammar	Reference Grammar	computed
+stan1295-108	stan1295	Collings-1990-2_the_acquisition_of	Grammar	Reference Grammar	computed
+stan1295-109	stan1295	Colonna-2012-information_structure_effects_on	Grammar	Grammar Sketch	computed
+stan1295-110	stan1295	Coniglio-2019-relative_clause_marking_in	Grammar	Grammar Sketch	computed
+stan1295-111	stan1295	Connolly-1987-case_grammar_and_word	Grammar	Reference Grammar	computed
+stan1295-112	stan1295	Cramer-2009-construction_of_a_german	Grammar	Reference Grammar	computed
+stan1295-113	stan1295	Crysmann-2003-on_the_treatment_of	Grammar	Reference Grammar	computed
+stan1295-114	stan1295	Crysmann-2005-relative_clause_extraposition_in	Grammar	Grammar Sketch	computed
+stan1295-115	stan1295	Curme-1905-a_grammar_of_the	Grammar	Reference Grammar	computed
+stan1295-116	stan1295	Curme-1922-a_grammar_of_the	Grammar	Reference Grammar	computed
+stan1295-117	stan1295	Curme-1952-a_grammar_of_the	Grammar	Reference Grammar	computed
+stan1295-118	stan1295	Curme-1964-a_grammar_of_the	Grammar	Reference Grammar	computed
+stan1295-119	stan1295	Dalby-1965-lexicon_of_the_mediaeval	Lexicon	Dictionary	computed
+stan1295-120	stan1295	De_Kuthy-2002-discontinuous_nps_in_german	Grammar	Reference Grammar	computed
+stan1295-121	stan1295	Delisle-1993-anaphora_in_german_discourse	Grammar	Grammar Sketch	computed
+stan1295-122	stan1295	Demske-2018-syntax_and_discourse_structure	Grammar	Reference Grammar	computed
+stan1295-123	stan1295	Diedrichsen-2014-a_role_and_reference	Grammar	Reference Grammar	computed
+stan1295-124	stan1295	Dinnsen-1971-the_three_degrees_of	Phonology		computed
+stan1295-125	stan1295	Dipper-2008-computing_distance_and_relatedness	Text		computed
+stan1295-126	stan1295	Dodd-2003-modern_german_grammar	Grammar	Reference Grammar	computed
+stan1295-127	stan1295	Dodd-2003-modern_german_grammar_a	Grammar	Reference Grammar	annotated
+stan1295-128	stan1295	Doherty-2001-discourse_relators_and_the	Grammar	Grammar Sketch	computed
+stan1295-129	stan1295	Doherty-2001-discourse_theory_and_the	Grammar	Grammar Sketch	computed
+stan1295-130	stan1295	Dombrowski-2005-acoustic_patterns_and_communicative	Grammar	Grammar Sketch	computed
+stan1295-131	stan1295	Donaldson-2006-german_an_essential_grammar	Grammar	Reference Grammar	annotated
+stan1295-132	stan1295	Donaldson-2007-german_an_essential_grammar	Grammar	Reference Grammar	computed
+stan1295-133	stan1295	Donhauser-2007-the_mouton_interactive_introduction	Grammar	Grammar Sketch	computed
+stan1295-134	stan1295	Dressler-1998-bloomer_robert_1994_systemcongruity	Grammar	Grammar Sketch	computed
+stan1295-135	stan1295	Durrell-1996-hammers_german_grammar_and	Grammar	Reference Grammar	computed
+stan1295-136	stan1295	Durrell-2002-hammers_german_grammar_and	Grammar	Reference Grammar	annotated
+stan1295-137	stan1295	Durrell-2021-hammers_german_grammar_and	Grammar	Reference Grammar	computed
+stan1295-138	stan1295	Dürscheid-2002-klaus_welke_deutsche_syntax	Grammar	Reference Grammar	computed
+stan1295-139	stan1295	Ebling-2015-factors_to_consider_when	Grammar	Grammar Sketch	computed
+stan1295-140	stan1295	Ebobissé-1988-les_verbaux_du_dangaleat	Lexicon	Dictionary	computed
+stan1295-141	stan1295	Ehrich-2000-sortale_bedeutung_und_argumentstruktur	Grammar	Grammar Sketch	computed
+stan1295-142	stan1295	Eichhorn-1854-the_practical_german_grammar	Grammar	Reference Grammar	computed
+stan1295-143	stan1295	Eikel-1954-new_braunfels_texas_german	Grammar	Grammar Sketch	annotated
+stan1295-144	stan1295	Eisenberg-1983-writing_system_and_morphology	Grammar	Grammar Sketch	computed
+stan1295-145	stan1295	Eisman-2014-heidrun_hegewald_and_the	Genealogy	Affiliation	computed
+stan1295-146	stan1295	Elgersma-1999-optimality_theory_and_natural	Grammar	Grammar Sketch	computed
+stan1295-147	stan1295	Ellert-2013-information_structure_affects_the	Grammar	Grammar Sketch	computed
+stan1295-148	stan1295	Elsner-2015-adverbial_morphology_in_german	Grammar	Grammar Sketch	computed
+stan1295-149	stan1295	Emonds-2007-discovering_syntax_clause_structures	Grammar	Reference Grammar	computed
+stan1295-150	stan1295	Engel-1977-syntax_der_deutschen_gegenwartssprache	Grammar	Reference Grammar	computed
+stan1295-151	stan1295	Engel-1994-syntax_der_deutschen_gegenwartssprache	Grammar	Reference Grammar	computed
+stan1295-152	stan1295	Engel-2009-syntax_der_deutschen_gegenwartssprache	Grammar	Reference Grammar	computed
+stan1295-153	stan1295	Eppler-2010-emigranto_the_syntax_of	Grammar	Reference Grammar	computed
+stan1295-154	stan1295	Evert-2017-the_impact_of_translation	Text		computed
+stan1295-155	stan1295	Fagan-1992-the_syntax_and_semantics	Grammar	Reference Grammar	computed
+stan1295-156	stan1295	Fagan-2009-german_a_linguistic_introduction	Grammar	Grammar Sketch	computed
+stan1295-157	stan1295	Falk-2011-object_pronouns_in_german	Grammar	Reference Grammar	computed
+stan1295-158	stan1295	Fanselow-2004-cyclic_phonologysyntax_interaction_movement	Grammar	Reference Grammar	computed
+stan1295-159	stan1295	Fanselow-2004-cyclic_phonologysyntaxinteraction_ppt_movement	Grammar	Reference Grammar	computed
+stan1295-160	stan1295	Farasyn-2018-the_interplay_between_genre	Grammar	Reference Grammar	computed
+stan1295-161	stan1295	Featherston-2005-magnitude_estimation_and_what	Grammar	Reference Grammar	computed
+stan1295-162	stan1295	Fehrmann-2013-exploiting_space_in_german	Grammar	Grammar Sketch	computed
+stan1295-163	stan1295	Fetzer-2012-discourse_relations_in_english	Grammar	Grammar Sketch	computed
+stan1295-164	stan1295	Finkbeiner-2015-the_grammar_and_pragmatics	Grammar	Reference Grammar	computed
+stan1295-165	stan1295	Follen-1828-practical_grammar_of_the	Grammar	Reference Grammar	computed
+stan1295-166	stan1295	Fox-1984-german_intonation_an_outline	Grammar	Grammar Sketch	computed
+stan1295-167	stan1295	Fox-2005-the_structure_of_german	Grammar	Grammar Sketch	computed
+stan1295-168	stan1295	Freiwald-2023-theme_in_english_and	Grammar	Grammar Sketch	computed
+stan1295-169	stan1295	Frey-2004-a_medial_topic_position	Genealogy	Affiliation	computed
+stan1295-170	stan1295	Frey-2004-notes_on_the_syntax	Grammar	Reference Grammar	computed
+stan1295-171	stan1295	Frey-2004-the_grammarpragmatics_interface_and	Grammar	Reference Grammar	computed
+stan1295-172	stan1295	Fritz-1992-remarks_on_the_structure	Grammar	Grammar Sketch	computed
+stan1295-173	stan1295	Fuhrhop-2011-the_interaction_between_morphology	Grammar	Reference Grammar	computed
+stan1295-174	stan1295	Færch-1984-ja_und__og	Grammar	Grammar Sketch	computed
+stan1295-175	stan1295	Féry-1991-german_schwa_in_prosodic	Grammar	Grammar Sketch	computed
+stan1295-176	stan1295	Féry-2003-final_devoicing_and_the	Lexicon	Dictionary	computed
+stan1295-177	stan1295	Féry-2005-the_focus_and_prosodic	Grammar	Grammar Sketch	computed
+stan1295-178	stan1295	Gagarina-2012-discourse_cohesion_in_the	Grammar	Grammar Sketch	computed
+stan1295-179	stan1295	Gerdes-2001-word_order_in_german	Grammar	Reference Grammar	computed
+stan1295-180	stan1295	Geyken-2015-a_living_text_archive	Text		computed
+stan1295-181	stan1295	Giegerich-1985-metrical_phonology_and_phonological	Grammar	Grammar Sketch	computed
+stan1295-182	stan1295	Giegerich-1989-syllable_structure_and_lexical	Grammar	Grammar Sketch	computed
+stan1295-183	stan1295	Giinthner-2000-from_concessive_connector_to	Grammar	Grammar Sketch	computed
+stan1295-184	stan1295	Gilbert-1970-6_the_phonology_morphology	Grammar	Grammar Sketch	computed
+stan1295-185	stan1295	Giusti-1990-the_syntax_of_floating	Grammar	Reference Grammar	computed
+stan1295-186	stan1295	Giusti-1991-zuinfinitivals_and_sentential_structure	Grammar	Grammar Sketch	computed
+stan1295-187	stan1295	Goebel-2000-from_text_to_example	Text		computed
+stan1295-188	stan1295	Golato-2002-grammar_and_interaction_reported	Grammar	Reference Grammar	computed
+stan1295-189	stan1295	Golston-1996-zero_morphology_and_constraint	Grammar	Grammar Sketch	computed
+stan1295-190	stan1295	Golston-1998-the_structure_of_the	Grammar	Grammar Sketch	computed
+stan1295-191	stan1295	Goss-2000-the_evolution_of_a	Grammar	Grammar Sketch	computed
+stan1295-192	stan1295	Grabe-1998-comparative_intonational_phonology_english	Phonology		computed
+stan1295-193	stan1295	Grestenberger-2015-number_marking_in_german	Grammar	Grammar Sketch	computed
+stan1295-194	stan1295	Grewendorf-1993-german_a_grammatical_sketch	Grammar	Grammar Sketch	computed
+stan1295-195	stan1295	Grewendorf-1995-german_a_grammatical_sketch	Grammar	Grammar Sketch	computed
+stan1295-196	stan1295	Grice-2005-german_intonation_in_autosegmentalmetrical	Phonology		computed
+stan1295-197	stan1295	Grijzenhout-1998-the_role_of_coronal	Grammar	Grammar Sketch	computed
+stan1295-198	stan1295	Grimm-1822-deutsche_grammatik_german_grammar	Grammar	Reference Grammar	computed
+stan1295-199	stan1295	Grimm-1999-deutsches_worterbuch_von_jacob	Lexicon	Dictionary	computed
+stan1295-200	stan1295	Grimm-2006-intonational_patterns_and_word	Grammar	Grammar Sketch	computed
+stan1295-201	stan1295	Grosz-2005-dn_in_viennese_german	Grammar	Reference Grammar	computed
+stan1295-202	stan1295	Grote-2000-a_german_prepositional_phrase	Grammar	Reference Grammar	computed
+stan1295-203	stan1295	Grove-2016-article_selection_and_anaphora	Grammar	Grammar Sketch	computed
+stan1295-204	stan1295	Gut-2001-crosslinguistic_structures_in_the	Phonology		computed
+stan1295-205	stan1295	Gut-2008-phonology_of_advanced_learners	Phonology		computed
+stan1295-206	stan1295	Gut-2009-nonnative_speech_a_corpusbased	Phonology		computed
+stan1295-207	stan1295	Gut-2010-88_nonnative_speech_a	Phonology		computed
+stan1295-208	stan1295	Gutzmann-2012-expressive_intensifiers_in_german	Grammar	Reference Grammar	computed
+stan1295-209	stan1295	Gärtner-2000-what_do_reduced_pronominals	Grammar	Reference Grammar	computed
+stan1295-210	stan1295	Günthner-2000-from_concessive_connector_to	Grammar	Grammar Sketch	computed
+stan1295-211	stan1295	Günthner-2003-lexicalgrammatical_variation_and_development	Grammar	Grammar Sketch	computed
+stan1295-212	stan1295	Habermann-2007-aspects_of_a_diachronic	Grammar	Reference Grammar	computed
+stan1295-213	stan1295	Hachem-2015-multifunctionality_the_internal_and	Grammar	Reference Grammar	computed
+stan1295-214	stan1295	Haider-1993-deutsche_syntax__generativ	Grammar	Reference Grammar	computed
+stan1295-215	stan1295	Haider-1997-projective_economy_on_the	Grammar	Grammar Sketch	computed
+stan1295-216	stan1295	Haider-2010-the_syntax_of_german	Grammar	Reference Grammar	computed
+stan1295-217	stan1295	Hale-1966-review_of_syntax_des	Grammar	Reference Grammar	computed
+stan1295-218	stan1295	Hall-1989-lexical_phonology_and_the	Phonology		computed
+stan1295-219	stan1295	Hall-1992-syllable_structure_and_syllablerelated	Grammar	Grammar Sketch	computed
+stan1295-220	stan1295	Hall-1993-the_phonology_of_german	Phonology		computed
+stan1295-221	stan1295	Hall-1998-a_note_on_secondary	Grammar	Grammar Sketch	computed
+stan1295-222	stan1295	Hall-1999-phonotactics_and_the_prosodic	Grammar	Grammar Sketch	computed
+stan1295-223	stan1295	Hall-1999-the_phonological_word_a	Phonology		computed
+stan1295-224	stan1295	Hall-2002-loanword_nativization_in_modern	Phonology		computed
+stan1295-225	stan1295	Hall-2003-modern_german_pronunciation_an	Grammar	Grammar Sketch	computed
+stan1295-226	stan1295	Hall-2014-the_phonology_of_westphalian	Phonology		computed
+stan1295-227	stan1295	Hall-2022-velar_fronting_in_german	Phonology		computed
+stan1295-228	stan1295	Hamm-2009-donhauser_karin__annette	Grammar	Grammar Sketch	computed
+stan1295-229	stan1295	Hammond-1981-a_german_reference_grammar	Grammar	Reference Grammar	computed
+stan1295-230	stan1295	Hanink-2018-postsyntactic_inflection_of_the	Grammar	Grammar Sketch	computed
+stan1295-231	stan1295	Happ-2014-deutsche_gebardensprache_ein_lehr	Text		computed
+stan1295-232	stan1295	Harbert-1977-clause_union_and_german	Grammar	Grammar Sketch	computed
+stan1295-233	stan1295	Harren-2007-11_arbeitstagung_zur_gesprachsforschung	Grammar	Grammar Sketch	computed
+stan1295-234	stan1295	Hartmann-2006-comparative_studies_in_germanic	Grammar	Reference Grammar	computed
+stan1295-235	stan1295	Hartmann-2018-derivational_morphology_in_flux	Grammar	Grammar Sketch	computed
+stan1295-236	stan1295	Haselbach-2011-deconstructing_the_meaning_of	Grammar	Reference Grammar	computed
+stan1295-237	stan1295	Hasse-2019-the_interaction_of_phonological	Phonology		computed
+stan1295-238	stan1295	Hawkins-1995-argumentpredicate_structure_in_grammar	Grammar	Reference Grammar	computed
+stan1295-239	stan1295	Heid-2008-providing_corpus_data_for	Lexicon	Dictionary	computed
+stan1295-240	stan1295	Heide-2010-the_influence_of_morphological	Grammar	Grammar Sketch	computed
+stan1295-241	stan1295	Heinz-1994-argument_structure_and_case	Grammar	Grammar Sketch	computed
+stan1295-242	stan1295	Hempl-1898-german_orthography_and_phonology	Phonology		computed
+stan1295-243	stan1295	Hendriks-2005-structuring_space_in_discourse	Grammar	Grammar Sketch	computed
+stan1295-244	stan1295	Hickey-2000-on_the_phonology_of	Phonology		computed
+stan1295-245	stan1295	Hinrichs-1989-subcategorization_and_vp_structure	Grammar	Grammar Sketch	computed
+stan1295-246	stan1295	Hinterhölzl-2018-implications_of_displaced_affixes	Grammar	Grammar Sketch	computed
+stan1295-247	stan1295	Hoeing-1997-the_phrase_structure_of	Grammar	Grammar Sketch	computed
+stan1295-248	stan1295	Hohaus-2021-comparisons_of_equality_with	Genealogy	Affiliation	computed
+stan1295-249	stan1295	Hohenstein-2005-interactional_expectations_and_lingusitic	Grammar	Grammar Sketch	computed
+stan1295-250	stan1295	Hoole-2002-articulatory_analysis_of_the	Phonology		computed
+stan1295-251	stan1295	Hopp-2011-internal_and_external_factors	Grammar	Grammar Sketch	computed
+stan1295-252	stan1295	House-1996-contrastive_discourse_analysis_and	Grammar	Grammar Sketch	computed
+stan1295-253	stan1295	House-2011-linking_constructions_in_english	Text		computed
+stan1295-254	stan1295	Hüning-2010-adjective__noun_constructions	Grammar	Reference Grammar	computed
+stan1295-255	stan1295	Ickelsamer-1535-teutsche_grammatica	Grammar	Grammar Sketch	annotated
+stan1295-256	stan1295	Iverson-1992-the_place_of_structure	Grammar	Grammar Sketch	computed
+stan1295-257	stan1295	Jacobs-1986-the_syntax_of_focus	Grammar	Reference Grammar	computed
+stan1295-258	stan1295	Jacobs-2018-on_main_clause_phenomena	Grammar	Grammar Sketch	computed
+stan1295-259	stan1295	Jambressisch-1742-lexicon_latinum_lexicon_latinum	Lexicon	Dictionary	annotated
+stan1295-260	stan1295	Jarnatovskaja-1984-zu_stilistischen_moglichkeiten_der	Grammar	Grammar Sketch	computed
+stan1295-261	stan1295	Jessen-1995-acoustic_correlates_of_word	Phonology		computed
+stan1295-262	stan1295	Jessen-1998-phonetics_and_phonology_of	Phonology		computed
+stan1295-263	stan1295	Jessen-1999-phonetics_and_phonology_of	Phonology		computed
+stan1295-264	stan1295	Jobin-2011-semantically_driven_change_in	Grammar	Grammar Sketch	computed
+stan1295-265	stan1295	Johnson-1986-a_gpsg_account_of	Grammar	Grammar Sketch	computed
+stan1295-266	stan1295	Jones-1976-a_lexicon_of_french	Lexicon	Dictionary	computed
+stan1295-267	stan1295	Jones-2000-german_lexicography_in_the	Grammar	Reference Grammar	computed
+stan1295-268	stan1295	Jones-2005-a_frequency_dictionary_of	Lexicon	Dictionary	computed
+stan1295-269	stan1295	Jones-2006-a_frequency_dictionary_of	Lexicon	Dictionary	computed
+stan1295-270	stan1295	Joswig-2005-review_of_the_phonology	Phonology		computed
+stan1295-271	stan1295	Junker-1965-persischdeutsches_worterbuch	Lexicon	Dictionary	computed
+stan1295-272	stan1295	Junker-1966-persischdeutsches_worterbuch	Lexicon	Dictionary	computed
+stan1295-273	stan1295	Junker-2002-persischdeutsch_worterbuch	Lexicon	Dictionary	computed
+stan1295-274	stan1295	Jurish-2008-finding_canonical_forms_for	Text		computed
+stan1295-275	stan1295	Kabak-2006-the_phonology_and_morphology	Grammar	Grammar Sketch	computed
+stan1295-276	stan1295	Kabatnik-2022-relationship_management_by_means	Genealogy	Affiliation	computed
+stan1295-277	stan1295	Kameyama-2004-modal_expressions_in_japanese	Grammar	Grammar Sketch	computed
+stan1295-278	stan1295	Karagjosova-2004-the_meaning_and_function	Grammar	Grammar Sketch	computed
+stan1295-279	stan1295	Kasper-2015-3_linking_syntax_and	Grammar	Reference Grammar	computed
+stan1295-280	stan1295	Kastovsky-1994-typological_differences_between_english	Grammar	Grammar Sketch	computed
+stan1295-281	stan1295	Kathol-1995-linearizationbased_german_syntax	Grammar	Reference Grammar	computed
+stan1295-282	stan1295	Kathol-1999-linearization_vs_phrase_structure	Grammar	Grammar Sketch	computed
+stan1295-283	stan1295	Kathol-2001-positional_effects_in_a	Grammar	Reference Grammar	computed
+stan1295-284	stan1295	Kaufmann-2005-the_auin_translated_from	Text		computed
+stan1295-285	stan1295	Kauschke-2007-characteristics_of_maternal_input	Lexicon	Wordlist	computed
+stan1295-286	stan1295	Kempen-2003-6_dutch_and_german	Grammar	Reference Grammar	computed
+stan1295-287	stan1295	Kienpointner-2005-semantic_roles_within_a	Grammar	Reference Grammar	computed
+stan1295-288	stan1295	Kirkness-2006-die_grimmschen_handexemplare_des	Lexicon	Dictionary	computed
+stan1295-289	stan1295	Kirsten-1991-adolf_lamprechts_german_grammar	Grammar	Reference Grammar	computed
+stan1295-290	stan1295	Klaper-2013-building_a_germansimple_german	Text		computed
+stan1295-291	stan1295	Klein-2002-the_argumenttime_structure_of	Grammar	Grammar Sketch	computed
+stan1295-292	stan1295	Knop-2017-chapter_7_the_family	Genealogy	Affiliation	computed
+stan1295-293	stan1295	Kohler-1991-terminal_intonation_patterns_in	Phonology		computed
+stan1295-294	stan1295	Kohler-1995-einfuhrung_in_die_phonetik	Phonology		computed
+stan1295-295	stan1295	Konerding-2004-wolfgang_j_koschnick_management	Lexicon	Dictionary	computed
+stan1295-296	stan1295	Konerding-2005-handbuch_der_deutschen_konnektoren	Grammar	Reference Grammar	computed
+stan1295-297	stan1295	Konrad-2013-the_lexical_structure_of	Grammar	Grammar Sketch	computed
+stan1295-298	stan1295	Kosta-2006-on_free_word_order	Grammar	Grammar Sketch	computed
+stan1295-299	stan1295	Kraehenmann-2003-swiss_german_vowel_length	Phonology		computed
+stan1295-300	stan1295	Kraiss-2012-determiner_phrase_and_definiteness	Grammar	Grammar Sketch	computed
+stan1295-301	stan1295	Kramer-2011-klappenbachsteinitz_worterbuch_der_deutschen	Lexicon	Dictionary	computed
+stan1295-302	stan1295	Krause-1999-two_notes_on_prenominal	Grammar	Grammar Sketch	computed
+stan1295-303	stan1295	Krenn-2008-description_of_evaluation_resource	Grammar	Reference Grammar	computed
+stan1295-304	stan1295	Kresić-2017-chapter_8_a_format	Grammar	Reference Grammar	computed
+stan1295-305	stan1295	Kunz-2013-towards_a_comparison_of	Text		computed
+stan1295-306	stan1295	Kutscher-2007-nonverbale_pradikation_in_der	Grammar	Grammar Sketch	computed
+stan1295-307	stan1295	Kuzla-2010-compensation_for_assimilatory_devoicing	Grammar	Grammar Sketch	computed
+stan1295-308	stan1295	Kučera-1968-a_comparative_quantitative_phonology	Phonology		computed
+stan1295-309	stan1295	König-1988-clause_integration_in_german	Grammar	Grammar Sketch	computed
+stan1295-310	stan1295	König-1990-adverbien_und_partikeln_ein	Lexicon	Dictionary	computed
+stan1295-311	stan1295	Kügler-2009-sentence_length_position_and	Grammar	Grammar Sketch	computed
+stan1295-312	stan1295	Lambek-2000-type_grammar_meets_german	Grammar	Reference Grammar	computed
+stan1295-313	stan1295	Langer-1998-werner_abraham__elly	Grammar	Reference Grammar	computed
+stan1295-314	stan1295	Lapshinova-Koltunski-2010-german_clauseembedding_predicates	Grammar	Grammar Sketch	computed
+stan1295-315	stan1295	Lederer-1969-reference_grammar_of_the	Grammar	Reference Grammar	computed
+stan1295-316	stan1295	Lee-Schoenfeld-2007-beyond_coherence_the_syntax	Grammar	Reference Grammar	computed
+stan1295-317	stan1295	Lee-Schoenfeld-2016-the_syntax_of_external	Grammar	Reference Grammar	computed
+stan1295-318	stan1295	Legère-1973-contrastive_sketch_of_postnominal	Grammar	Grammar Sketch	computed
+stan1295-319	stan1295	Lehn-1957-rosental_low_german_synchronic	Phonology		computed
+stan1295-320	stan1295	Lehn-1957-rosenthal_low_german_synchronic	Phonology		computed
+stan1295-321	stan1295	Lehr-2004-zeitgeschichtliches_worterbuch_der_deutschen	Lexicon	Dictionary	computed
+stan1295-322	stan1295	Lettner-2013-uwe_quasthoff_sabine_fiedler	Lexicon	Dictionary	computed
+stan1295-323	stan1295	Lindauer-2002-how_syllable_structure_affects	Grammar	Grammar Sketch	computed
+stan1295-324	stan1295	Lindtner-2008-aufgabe__desiderate_	Grammar	Grammar Sketch	computed
+stan1295-325	stan1295	List-2020-towards_a_refined_wordlist	Lexicon	Dictionary	computed
+stan1295-326	stan1295	List-2021-using_edictor_20_to	Lexicon	Wordlist	computed
+stan1295-327	stan1295	Lobin-1989-a_dependency_syntax_of	Grammar	Reference Grammar	computed
+stan1295-328	stan1295	Loch-2005-kleines_worterbuch_tetum_	Lexicon	Dictionary	computed
+stan1295-329	stan1295	Lockwood-1968-historical_german_syntax	Grammar	Reference Grammar	computed
+stan1295-330	stan1295	Lohnstein-2004-inflectional_morphology_and_sentence	Grammar	Grammar Sketch	computed
+stan1295-331	stan1295	Louden-1992-language_contact_and_the	Genealogy	Affiliation	computed
+stan1295-332	stan1295	Lutz-2004-et_parasitic_gaps_and	Grammar	Grammar Sketch	computed
+stan1295-333	stan1295	Lutz-2010-word_accent_position_and	Genealogy	Affiliation	computed
+stan1295-334	stan1295	Lutzeier-1991-major_pillars_of_german	Grammar	Reference Grammar	computed
+stan1295-335	stan1295	Lötscher-2009-katrin_axel_studies_on	Grammar	Reference Grammar	computed
+stan1295-336	stan1295	Lühr-2009-translating_information_structure_a	Grammar	Grammar Sketch	computed
+stan1295-337	stan1295	Mannheimer-1853-the_study_of_german	Grammar	Reference Grammar	computed
+stan1295-338	stan1295	Marusch-2012-tense_morphology_in_german	Grammar	Grammar Sketch	computed
+stan1295-339	stan1295	Marzouk-2021-german_light_verb_construction	Grammar	Reference Grammar	computed
+stan1295-340	stan1295	Max-2008-dimensions_of_discourse_presuppositions	Grammar	Grammar Sketch	computed
+stan1295-341	stan1295	Maylor-2002-lexical_template_morphology_change	Grammar	Grammar Sketch	computed
+stan1295-342	stan1295	McFadden-2006-german_inherent_datives_and	Grammar	Grammar Sketch	computed
+stan1295-343	stan1295	McIntyre-2001-german_double_particles_as	Grammar	Grammar Sketch	computed
+stan1295-344	stan1295	McIntyre-2002-verbsecond_and_backformations_and	Grammar	Reference Grammar	computed
+stan1295-345	stan1295	McLelland-2014-language_description_prescription_and	Grammar	Reference Grammar	computed
+stan1295-346	stan1295	Meinhold-1982-phonologie_der_deutschen_gegenwartssprache	Phonology		computed
+stan1295-347	stan1295	Meurers-1999-lexical_generalizations_in_the	Grammar	Reference Grammar	computed
+stan1295-348	stan1295	Meurers-2000-lexical_generalizations_in_the	Grammar	Reference Grammar	computed
+stan1295-349	stan1295	Meyer-1993-compound_comprehension_in_isolation	Grammar	Grammar Sketch	computed
+stan1295-350	stan1295	Miao-2005-loanword_adaption_in_mandarin	Phonology		computed
+stan1295-351	stan1295	Micelli-2012-field_topology_and_information	Grammar	Grammar Sketch	computed
+stan1295-352	stan1295	Moltmann-1990-syllabification_and_lexical_phonology	Phonology		computed
+stan1295-353	stan1295	Muthmann-1991-rucklaufiges_deutsches_worterbuch_handbuch	Lexicon	Dictionary	computed
+stan1295-354	stan1295	Mücke-2008-the_vowel_triggers_the	Phonology		computed
+stan1295-355	stan1295	Müller-1996-early_subordination_the_acquisition	Grammar	Grammar Sketch	computed
+stan1295-356	stan1295	Müller-1996-yet_another_paper_about	Grammar	Grammar Sketch	computed
+stan1295-357	stan1295	Müller-1997-yet_another_paper_about	Grammar	Grammar Sketch	computed
+stan1295-358	stan1295	Müller-1999-deutsche_syntax_deklarativ_headdriven	Grammar	Reference Grammar	computed
+stan1295-359	stan1295	Müller-1999-parsing_of_an_hpsg	Grammar	Reference Grammar	computed
+stan1295-360	stan1295	Müller-2002-syntax_or_morphology_german	Grammar	Reference Grammar	computed
+stan1295-361	stan1295	Müller-2003-solving_the_bracketing_paradox	Grammar	Grammar Sketch	computed
+stan1295-362	stan1295	Müller-2004-das_worterbuch_der_deutschen	Lexicon	Dictionary	computed
+stan1295-363	stan1295	Müller-2015-german_a_grammatical_sketch	Grammar	Grammar Sketch	computed
+stan1295-364	stan1295	Müller-2016-german_clause_structure_an	Grammar	Grammar Sketch	computed
+stan1295-365	stan1295	Müller-2017-german_clause_structure_an	Grammar	Grammar Sketch	computed
+stan1295-366	stan1295	Müller-2017-redundancy_effects_in_discourse	Grammar	Grammar Sketch	computed
+stan1295-367	stan1295	Müller-2019-german_a_grammatical_sketch	Grammar	Grammar Sketch	annotated
+stan1295-368	stan1295	Müller-2021-german_clause_structure_an	Grammar	Grammar Sketch	computed
+stan1295-369	stan1295	Müller-2023-german_clause_structure_an	Grammar	Grammar Sketch	computed
+stan1295-370	stan1295	Neef-1998-a_case_study_in	Grammar	Grammar Sketch	computed
+stan1295-371	stan1295	Neef-2005-the_relation_of_vowel	Phonology		computed
+stan1295-372	stan1295	Nekvapil-2000-on_nonselfevident_relationships_between	Genealogy	Affiliation	computed
+stan1295-373	stan1295	Nerbonne-1986-a_phrasestructure_grammar_for	Grammar	Reference Grammar	computed
+stan1295-374	stan1295	Nerbonne-1994-german_in_headdriven_phrase	Grammar	Reference Grammar	computed
+stan1295-375	stan1295	Netter-1991-clause_union_phenomena_and	Grammar	Grammar Sketch	computed
+stan1295-376	stan1295	Neumann-1996-the_dative_and_the	Grammar	Reference Grammar	computed
+stan1295-377	stan1295	Neumann-2004-the_conventionalization_of_the	Grammar	Grammar Sketch	computed
+stan1295-378	stan1295	Nielsen-2015-the_vowel_systems_of	Phonology		computed
+stan1295-379	stan1295	Niemann-2015-effects_of_phrasal_position	Grammar	Grammar Sketch	computed
+stan1295-380	stan1295	Niemeier-2008-making_progress_simpler_applying	Grammar	Reference Grammar	computed
+stan1295-381	stan1295	Noehden-1800-german_grammar_adapted_to	Grammar	Reference Grammar	computed
+stan1295-382	stan1295	Noelliste-2017-the_phonology_of_sonorants	Phonology		computed
+stan1295-383	stan1295	O'Brien-2016-german_phonetics_and_phonology	Phonology		computed
+stan1295-384	stan1295	Olsen-1989-agreement_in_the_german	Grammar	Grammar Sketch	computed
+stan1295-385	stan1295	Osborne-2006-shared_material_and_grammar	Grammar	Reference Grammar	computed
+stan1295-386	stan1295	Otto-1864-german_grammar_combined_with	Grammar	Reference Grammar	computed
+stan1295-387	stan1295	Ozolin-1935-latviskivaciska_un_vaciskilatviska_vardnica	Lexicon	Dictionary	computed
+stan1295-388	stan1295	Palmer-1950-the_influence_of_english	Lexicon	Wordlist	computed
+stan1295-389	stan1295	Pam-1979-problems_in_the_description	Grammar	Reference Grammar	computed
+stan1295-390	stan1295	Pankau-2013-replacing_copies_the_syntax	Grammar	Reference Grammar	computed
+stan1295-391	stan1295	Pankau-2014-replacing_copies_the_syntax	Grammar	Reference Grammar	computed
+stan1295-392	stan1295	Pankau-2018-the_structure_of_approximative	Grammar	Grammar Sketch	computed
+stan1295-393	stan1295	Paraschkewow-2006-auf_der_spur_der	Phonology		computed
+stan1295-394	stan1295	Park-1981-the_development_of_syntax	Grammar	Reference Grammar	computed
+stan1295-395	stan1295	Pecht-2021-language_contact_in_a	Grammar	Grammar Sketch	annotated
+stan1295-396	stan1295	Penke-2004-regular_and_irregular_inflectional	Grammar	Grammar Sketch	computed
+stan1295-397	stan1295	Penner-1991-main_clause_phenomena_in	Grammar	Grammar Sketch	computed
+stan1295-398	stan1295	Penner-1995-issues_in_the_syntax	Grammar	Reference Grammar	computed
+stan1295-399	stan1295	Peters-2018-phonological_and_semantic_aspects	Phonology		computed
+stan1295-400	stan1295	Petrova-2009-information_structure_and_word	Grammar	Grammar Sketch	computed
+stan1295-401	stan1295	Petrova-2011-modeling_word_order_variation	Grammar	Grammar Sketch	computed
+stan1295-402	stan1295	Petrova-2018-discourse_prominence_and_the	Grammar	Grammar Sketch	computed
+stan1295-403	stan1295	Peyer-2010-the_multilingual_reader_advantages	Grammar	Grammar Sketch	computed
+stan1295-404	stan1295	Pfau-2007-on_the_syntax_of	Grammar	Reference Grammar	computed
+stan1295-405	stan1295	Pfau-2007-the_grammar_of_headshake	Grammar	Reference Grammar	computed
+stan1295-406	stan1295	Pfeffer-1984-textkorpora_1_grunddeutsch_texte	Text		computed
+stan1295-407	stan1295	Pfeifer-1993-etymologisches_worterbuch_des_deutschen	Lexicon	Dictionary	computed
+stan1295-408	stan1295	Pilch-1980-basel_german_a_challenge	Phonology		computed
+stan1295-409	stan1295	Pittner-2004-where_syntax_and_semantics	Grammar	Reference Grammar	computed
+stan1295-410	stan1295	Plank-2000-morphological_reactivation_and_phonological	Phonology		computed
+stan1295-411	stan1295	Plank-2003-morphological_reactivation_and_phonological	Phonology		computed
+stan1295-412	stan1295	Poeppel-1993-the_full_competence_hypothesis	Grammar	Grammar Sketch	computed
+stan1295-413	stan1295	Portner-2006-dependent_contexts_in_grammar	Grammar	Reference Grammar	computed
+stan1295-414	stan1295	Poschmann-2016-relative_clause_extraposition_and	Grammar	Grammar Sketch	computed
+stan1295-415	stan1295	Proost-2007-conceptual_structure_in_lexical	Grammar	Grammar Sketch	computed
+stan1295-416	stan1295	Pross-2019-what_about_lexical_semantics	Grammar	Reference Grammar	computed
+stan1295-417	stan1295	Rankin-2014-variational_learning_in_l2	Grammar	Reference Grammar	computed
+stan1295-418	stan1295	Rash-2019-chapter_6_metaphors_of	Grammar	Grammar Sketch	computed
+stan1295-419	stan1295	Rathert-2000-morphophonology_of_the_past	Phonology		computed
+stan1295-420	stan1295	Rathmann-2003-the_optionality_of_agreement	Grammar	Grammar Sketch	computed
+stan1295-421	stan1295	Rauch-2008-the_phonologyparaphonology_interface_and	Phonology		computed
+stan1295-422	stan1295	Reich-2008-from_discourse_to_odd	Grammar	Grammar Sketch	computed
+stan1295-423	stan1295	Reiffenstein-2004-althochdeutsche_grammatik_i_laut	Grammar	Reference Grammar	computed
+stan1295-424	stan1295	Reis-2005-on_the_syntax_of	Grammar	Reference Grammar	computed
+stan1295-425	stan1295	Render-1804-a_complete_analysis_or	Grammar	Reference Grammar	computed
+stan1295-426	stan1295	Resi-2011-the_position_of_relative	Genealogy	Affiliation	computed
+stan1295-427	stan1295	Richter-1998-complementizers_and_finite_verbs	Grammar	Grammar Sketch	computed
+stan1295-428	stan1295	Roehrs-2020-the_morphosyntax_of_phrasal	Grammar	Reference Grammar	computed
+stan1295-429	stan1295	Roesch-2009-texas_alsatian_henri_castros	Grammar	Grammar Sketch	annotated
+stan1295-430	stan1295	Roesch-2012-language_maintenance_and_language	Grammar	Grammar Sketch	annotated
+stan1295-431	stan1295	Romero-2017-german_discourse_particles_in	Grammar	Grammar Sketch	computed
+stan1295-432	stan1295	Ronneberger-Sibold-1998-phonological_simplification_vs_stylistic	Phonology		computed
+stan1295-433	stan1295	Ronneberger-Sibold-2012-blending_between_grammar_and	Grammar	Reference Grammar	computed
+stan1295-434	stan1295	Roturier-2006-an_investigation_into_the	Text		computed
+stan1295-435	stan1295	Rubba-1996-the_interaction_of_folk	Grammar	Reference Grammar	computed
+stan1295-436	stan1295	Russ-1978-historical_german_phonology_and	Grammar	Grammar Sketch	computed
+stan1295-437	stan1295	Russ-1982-studies_in_historical_german	Phonology		computed
+stan1295-438	stan1295	Russ-1994-the_german_language_today	Grammar	Grammar Sketch	computed
+stan1295-439	stan1295	Russell-1985-a_gpsgrammar_for_german	Grammar	Reference Grammar	computed
+stan1295-440	stan1295	Rust,_Jr.,_Friedrich-1969-nama_worterbuch_kronlein_redivivus	Lexicon	Dictionary	computed
+stan1295-441	stan1295	Röhr-2011-decoding_information_status_by	Genealogy	Affiliation	computed
+stan1295-442	stan1295	Salmons-1990-bilingual_discourse_marking_code	Grammar	Grammar Sketch	computed
+stan1295-443	stan1295	Salmons-1993-the_structure_of_the	Grammar	Grammar Sketch	computed
+stan1295-444	stan1295	Salzmann-2016-displaced_morphology_in_german	Grammar	Grammar Sketch	computed
+stan1295-445	stan1295	Salzmann-2017-reconstruction_and_resumption_in	Grammar	Reference Grammar	computed
+stan1295-446	stan1295	Salzmann-2019-displaced_morphology_in_german	Grammar	Grammar Sketch	computed
+stan1295-447	stan1295	Sanchez-Stockhammer-2011-the_meaningfull_vocabulary_of	Lexicon	Wordlist	computed
+stan1295-448	stan1295	Sauerland-1994-german_diathesis_and_verb	Grammar	Grammar Sketch	computed
+stan1295-449	stan1295	Savela-2014-weighted_vowel_prototypes_in	Phonology		computed
+stan1295-450	stan1295	Sayer-1944-pidgin_english_a_text	Text		computed
+stan1295-451	stan1295	Scheffler-2005-syntax_and_semantics_of	Grammar	Reference Grammar	computed
+stan1295-452	stan1295	Schelletter-2001-negation_as_a_crosslinguistic	Grammar	Grammar Sketch	computed
+stan1295-453	stan1295	Scherpenisse-1986-the_connection_between_base	Grammar	Grammar Sketch	computed
+stan1295-454	stan1295	Schiering-2009-from_documentation_to_grammatical	Grammar	Reference Grammar	computed
+stan1295-455	stan1295	Schiller-2003-grammatical_feature_selection_in	Grammar	Grammar Sketch	computed
+stan1295-456	stan1295	Schleef-2009-a_crosscultural_comparison_of	Grammar	Grammar Sketch	computed
+stan1295-457	stan1295	Schneider-2022-9_three_german_discourse	Grammar	Grammar Sketch	computed
+stan1295-458	stan1295	Schröer-1907-grieb_chr_frs_dictionary	Lexicon	Dictionary	computed
+stan1295-459	stan1295	Schubö-2020-phonetic_content_and_phonological	Grammar	Grammar Sketch	computed
+stan1295-460	stan1295	Schuhmacher-1986-verben_in_feldern_valenzworterbuch	Grammar	Reference Grammar	computed
+stan1295-461	stan1295	Schulte_im_Walde-2002-a_subcategorisation_lexicon_for	Lexicon	Dictionary	computed
+stan1295-462	stan1295	Schulte_im_Walde-2004-identification_quantitative_description_and	Grammar	Reference Grammar	computed
+stan1295-463	stan1295	Schumacher-1986-verben_in_feldern_valenzworterbuch	Grammar	Reference Grammar	computed
+stan1295-464	stan1295	Schumacher-2004-valbu__valenzworterbuch_deutscher	Lexicon	Dictionary	computed
+stan1295-465	stan1295	Schwabe-1842-the_englishmans_first_german	Grammar	Reference Grammar	computed
+stan1295-466	stan1295	Schwarz-2020-chapter_5_reduction_and	Phonology		computed
+stan1295-467	stan1295	Schäfer-2005-german_adverbial_adjectives_syntactic	Genealogy	Affiliation	computed
+stan1295-468	stan1295	Schäfer-2013-positions_and_interpretations_german	Grammar	Reference Grammar	computed
+stan1295-469	stan1295	Schäfer-2016-punctuation_and_syntactic_structure	Grammar	Grammar Sketch	computed
+stan1295-470	stan1295	Schönenberger-2001-embedded_vtoc_in_child	Grammar	Reference Grammar	computed
+stan1295-471	stan1295	Schönpflug-2000-wordfragment_completions_in_the	Lexicon	Dictionary	computed
+stan1295-472	stan1295	Scott-2014-the_genitive_phrase_in	Grammar	Grammar Sketch	computed
+stan1295-473	stan1295	Shannon-1992-toward_an_adequate_characterization	Grammar	Grammar Sketch	computed
+stan1295-474	stan1295	Shaw-2001-synchronic_comparative_phonology_of	Phonology		computed
+stan1295-475	stan1295	Shores-1971-a_descriptive_syntax_of	Grammar	Reference Grammar	computed
+stan1295-476	stan1295	Siebenhaar-2012-methodological_reflections_on_the	Phonology		computed
+stan1295-477	stan1295	Siebenhaar-2014-phonological_and_phonetic_considerations	Phonology		computed
+stan1295-478	stan1295	Siepmann-1897-a_public_school_german	Grammar	Reference Grammar	computed
+stan1295-479	stan1295	Sippel-2015-teacher_vs_peer_oral	Text		computed
+stan1295-480	stan1295	Smolka-2009-when_semantics_means_less	Grammar	Grammar Sketch	computed
+stan1295-481	stan1295	Smolka-2014-verstehen_understand_primes_stehen	Grammar	Grammar Sketch	computed
+stan1295-482	stan1295	Smolka-2019-when_morphological_structure_overrides	Grammar	Grammar Sketch	computed
+stan1295-483	stan1295	Snell-Hornby-1984-the_linguistic_structure_of	Grammar	Grammar Sketch	computed
+stan1295-484	stan1295	Soames-1891-an_introduction_to_phonetics	Grammar	Grammar Sketch	computed
+stan1295-485	stan1295	Sondrup-2004-aspects_of_german_romantic	Grammar	Grammar Sketch	computed
+stan1295-486	stan1295	Speyer-2010-filling_the_german_vorfeld	Grammar	Grammar Sketch	computed
+stan1295-487	stan1295	Speyer-2014-the_coding_of_discourse	Grammar	Grammar Sketch	computed
+stan1295-488	stan1295	Speyer-2022-discourse_relations_and_the	Grammar	Grammar Sketch	computed
+stan1295-489	stan1295	Späth-2008-semantic_contributions_of_the	Grammar	Grammar Sketch	computed
+stan1295-490	stan1295	Standwell-1973-on_german_segmental_phonemes	Phonology		computed
+stan1295-491	stan1295	Steensig-2005-notes_on_disaligning_yes	Grammar	Grammar Sketch	computed
+stan1295-492	stan1295	Stein-2013-a_usage_dictionary_englishgerman	Lexicon	Dictionary	computed
+stan1295-493	stan1295	Steinbach-2002-middle_voice_a_comparative	Grammar	Reference Grammar	computed
+stan1295-494	stan1295	Steinbauer-1969-concise_dictionary_of_new	Lexicon	Dictionary	computed
+stan1295-495	stan1295	Steiner-2001-translations_englishgerman_investigating_the	Text		computed
+stan1295-496	stan1295	Steiner-2004-3_metafunctional_profile_of	Grammar	Reference Grammar	computed
+stan1295-497	stan1295	Steiner-2022-variation_and_change_in	Grammar	Grammar Sketch	computed
+stan1295-498	stan1295	Steinitz-1969-adverbialsyntax	Grammar	Reference Grammar	computed
+stan1295-499	stan1295	Stern-1961-essential_german_grammar	Grammar	Reference Grammar	computed
+stan1295-500	stan1295	Sternefeld-2009-syntax_eine_morphologisch_motivierte	Grammar	Reference Grammar	computed
+stan1295-501	stan1295	Sternefeld-2015-syntax_eine_morphologisch_motivierte	Grammar	Reference Grammar	computed
+stan1295-502	stan1295	Steube-2006-the_influence_of_operators	Grammar	Grammar Sketch	computed
+stan1295-503	stan1295	Stevenson-1997-the_germanspeaking_world_a	Grammar	Grammar Sketch	computed
+stan1295-504	stan1295	Stibbard-2000-is_discourse_intonation_applicable	Grammar	Grammar Sketch	computed
+stan1295-505	stan1295	Stielau-1980-nataler_deutsch_eine_dokumentation	Grammar	Grammar Sketch	annotated
+stan1295-506	stan1295	Stolterfoht-2004-focus_structure_and_the	Grammar	Grammar Sketch	computed
+stan1295-507	stan1295	Stopp-1957-a_manual_of_modern	Grammar	Reference Grammar	computed
+stan1295-508	stan1295	Strauss-1856-a_grammar_of_the	Grammar	Reference Grammar	computed
+stan1295-509	stan1295	Strauss-1982-lexicalist_phonology_of_english	Phonology		computed
+stan1295-510	stan1295	Streadbeck-1974-phrase_structure_rules_for	Grammar	Grammar Sketch	computed
+stan1295-511	stan1295	Strecker-1997-grammatik_der_deutschen_sprache	Grammar	Grammar Sketch	computed
+stan1295-512	stan1295	Struckmeier-2017-against_information_structure_heads	Grammar	Grammar Sketch	computed
+stan1295-513	stan1295	Störzer-2018-is_german_discourseconfigurational_experimental	Grammar	Grammar Sketch	computed
+stan1295-514	stan1295	Suchsland-1993-the_structure_of_german	Grammar	Grammar Sketch	computed
+stan1295-515	stan1295	Sudhoff-2010-focus_particles_in_german	Grammar	Reference Grammar	computed
+stan1295-516	stan1295	Szagun-2006-development_of_vocabulary_and	Grammar	Reference Grammar	computed
+stan1295-517	stan1295	Szagun-2007-the_acquisition_of_gender	Phonology		computed
+stan1295-518	stan1295	Szczepaniak-2010-jespersens_cycle_in_german	Phonology		computed
+stan1295-519	stan1295	Szczepaniak-2014-vowel_and_consonant_epentheses	Phonology		computed
+stan1295-520	stan1295	Talibov-2007-buduchskij_jazyk	Grammar	Reference Grammar	computed
+stan1295-521	stan1295	Tawfig-1921-turkceden_almancaya_lugat_kitabi	Lexicon	Dictionary	computed
+stan1295-522	stan1295	Terborg-1993-elaboration_of_the_modal	Lexicon	Dictionary	computed
+stan1295-523	stan1295	Thiele-1991-contrastive_aspects_of_a	Text		computed
+stan1295-524	stan1295	Thiersch-1978-topics_in_german_syntax	Grammar	Reference Grammar	computed
+stan1295-525	stan1295	Tracy-1986-the_acquisition_of_case	Grammar	Grammar Sketch	computed
+stan1295-526	stan1295	Trommer-2021-the_subsegmental_structure_of	Grammar	Grammar Sketch	computed
+stan1295-527	stan1295	Trotzke-2017-german_grammar_and_mirativity	Grammar	Reference Grammar	computed
+stan1295-528	stan1295	Trotzke-2020-german_discourse_particles_in	Grammar	Grammar Sketch	computed
+stan1295-529	stan1295	Truckenbrodt-2005-a_short_report_on	Grammar	Grammar Sketch	computed
+stan1295-530	stan1295	Truckenbrodt-2009-comments_on_the_syntax	Grammar	Reference Grammar	computed
+stan1295-531	stan1295	Truckenbrodt-2016-some_distinctions_in_the	Grammar	Grammar Sketch	computed
+stan1295-532	stan1295	Uhmann-2001-some_arguments_for_the	Grammar	Reference Grammar	computed
+stan1295-533	stan1295	Uszkoreit-1987-word_order_and_constituent	Grammar	Grammar Sketch	computed
+stan1295-534	stan1295	Vainikka-2011-the_acquisition_of_german	Grammar	Reference Grammar	computed
+stan1295-535	stan1295	Valentin-1978-the_simplification_of_the	Phonology		computed
+stan1295-536	stan1295	Valin-1980-on_the_distribution_of	Grammar	Reference Grammar	computed
+stan1295-537	stan1295	Vancoppenolle-2011-a_german_grammar_for	Grammar	Reference Grammar	computed
+stan1295-538	stan1295	Velde-1992-subjectobject_and_coordinate_asymmetries	Grammar	Grammar Sketch	computed
+stan1295-539	stan1295	Vennemann-1968-german_phonology	Phonology		computed
+stan1295-540	stan1295	Vogel-1995-on_the_absence_of	Genealogy	Affiliation	computed
+stan1295-541	stan1295	Vogel-2006-auf_alles_gefasst_sein	Grammar	Reference Grammar	computed
+stan1295-542	stan1295	Wahid-1974-chemical_technology_dictionary_english	Lexicon	Dictionary	computed
+stan1295-543	stan1295	Wahid-1978-automotive_engineering_dictionary_englishfrendchgermanarabic	Lexicon	Dictionary	computed
+stan1295-544	stan1295	Wakisaka-1989-text_construction_in_german	Text		computed
+stan1295-545	stan1295	Wangler-1972-physiologische_phonetik_eine_einfuhrung	Phonology		computed
+stan1295-546	stan1295	Warneck-1977-tobabatakdeutsches_worterbuch	Lexicon	Dictionary	computed
+stan1295-547	stan1295	Wegener-1994-variation_in_the_acquisition	Grammar	Grammar Sketch	computed
+stan1295-548	stan1295	Weilbacher-2011-texas_german_discourse_pragmatics	Grammar	Grammar Sketch	computed
+stan1295-549	stan1295	Weinert-2004-relative_clauses_in_spoken	Grammar	Grammar Sketch	computed
+stan1295-550	stan1295	Weinert-2012-complement_clauses_in_spoken	Grammar	Reference Grammar	computed
+stan1295-551	stan1295	Weiss-1974-relationship_of_vowel_length	Phonology		computed
+stan1295-552	stan1295	Weisse-1872-a_complete_practical_grammar	Grammar	Reference Grammar	computed
+stan1295-553	stan1295	Weissenborn-1994-constraining_the_childs_grammar	Grammar	Reference Grammar	computed
+stan1295-554	stan1295	Weiß-2008-the_possessor_that_appears	Grammar	Grammar Sketch	computed
+stan1295-555	stan1295	Weiß-2018-the_wackernagel_position_and	Genealogy	Affiliation	computed
+stan1295-556	stan1295	Welke-2002-deutsche_syntax_funktional_perspektiviertheit	Grammar	Reference Grammar	computed
+stan1295-557	stan1295	Wendeborn-1849-wendeborns_german_grammar	Grammar	Reference Grammar	computed
+stan1295-558	stan1295	Wertheim-1841-a_concise_german_grammar	Grammar	Reference Grammar	computed
+stan1295-559	stan1295	Wessels-2010-7_dictionary_of_business	Lexicon	Dictionary	computed
+stan1295-560	stan1295	Wessels-2010-8_dictionary_of_bank	Lexicon	Dictionary	computed
+stan1295-561	stan1295	West-1989-lexical_innovation_in_dasypodius	Lexicon	Dictionary	computed
+stan1295-562	stan1295	Whitney-1870-a_compendious_german_grammar	Grammar	Reference Grammar	computed
+stan1295-563	stan1295	Wienholz-2021-phonological_priming_in_german	Phonology		computed
+stan1295-564	stan1295	Wiese-1994-phonological_vs_morphological_rules	Phonology		computed
+stan1295-565	stan1295	Wiese-1996-phonological_versus_morphological_rules	Phonology		computed
+stan1295-566	stan1295	Wiese-1996-the_phonology_of_german	Phonology		computed
+stan1295-567	stan1295	Wiese-2000-the_phonology_of_german	Phonology		computed
+stan1295-568	stan1295	Wiese-2009-the_grammar_and_typology	Grammar	Reference Grammar	computed
+stan1295-569	stan1295	Wiesemann-1970-problems_in_the_analysis	Phonology		computed
+stan1295-570	stan1295	Wilhelm-2005-the_kung_bushmen_translated	Text		computed
+stan1295-571	stan1295	Wilson-1966-some_aspects_of_lockyer	Grammar	Grammar Sketch	annotated
+stan1295-572	stan1295	Wiltschko-2013-descriptive_relative_clauses_in	Grammar	Reference Grammar	computed
+stan1295-573	stan1295	Winkler-2009-the_acquisition_of_syntactic	Grammar	Grammar Sketch	computed
+stan1295-574	stan1295	Winter-2011-the_nature_of_incomplete	Phonology		computed
+stan1295-575	stan1295	Wittek-2002-german_childrens_productivity_with	Grammar	Grammar Sketch	computed
+stan1295-576	stan1295	Worman-1868-a_complete_grammar_of	Grammar	Reference Grammar	computed
+stan1295-577	stan1295	Wright-1907-historical_german_grammar_vol	Grammar	Reference Grammar	computed
+stan1295-578	stan1295	Yager-2015-new_structural_patterns_in	Grammar	Reference Grammar	computed
+stan1295-579	stan1295	Ziegler-2007-putting_standard_german_to	Grammar	Grammar Sketch	computed
+stan1295-580	stan1295	Zifonun-1997-grammatik_der_deutschen_sprache	Grammar	Reference Grammar	annotated
+stan1295-581	stan1295	Zubin-1979-discourse_function_of_morphology	Grammar	Grammar Sketch	computed
+stan1295-582	stan1295	Zubin-1984-affect_classification_in_the	Genealogy	Affiliation	computed
+stan1295-583	stan1295	van_Ommen-2020-languagespecific_prosodic_acquisition_a	Grammar	Grammar Sketch	computed
+stan1295-584	stan1295	van_Trijp-2012-not_as_awful_as	Grammar	Reference Grammar	computed
+stan1295-585	stan1295	von_Stechow-1981-a_modular_approach_to	Grammar	Reference Grammar	computed
+stan1295-586	stan1295	von_Stechow-1998-german_participles_ii_in	Grammar	Grammar Sketch	computed
+stan1295-587	stan1295	Özgürel-1965-almancaturkce_yeni_lugat_neues	Lexicon	Dictionary	computed
+stan1295-588	stan1295	Čulo-2013-constructionsandframes_analysis_of_translations	Grammar	Reference Grammar	computed

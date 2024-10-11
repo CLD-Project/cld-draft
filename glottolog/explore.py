@@ -44,7 +44,11 @@ def author_string(author, unify_authors, preprocess_authors):
     return out
 
 
-with open("preprocessing.json") as f:
+def project_path(*paths):
+    return Path(__file__).parent.joinpath(*paths)
+
+
+with open(project_path("preprocessing.json")) as f:
     prep = json.load(f)
     unify_authors = prep["authors"]
     preprocess_authors = prep["author_string"]
@@ -56,13 +60,13 @@ glottocodes = g_.languoids_by_code()
 
 print("[i] loaded Glottolog data")
 
-if not Path("glottolog-5.0.bib").exists():
-    with zipfile.ZipFile("glottolog-5.0.bib.zip") as zf:
+if not project_path("glottolog-5.0.bib").exists():
+    with zipfile.ZipFile(project_path("glottolog-5.0.bib.zip")) as zf:
         with zf.open("glottolog-5.0.bib") as f:
             lines = [row.decode("utf-8") for row in f]
     print("[i] loaded bibliography from zip-file")
 else:
-    with open("glottolog-5.0.bib") as f:
+    with open(project_path("glottolog-5.0.bib")) as f:
         lines = [row for row in f]
     print("[i] loaded bibliography from BibTeX-file")
 
@@ -98,15 +102,52 @@ for gcode, sources in progressbar(bib_by_variety.items(), desc="parsing glottolo
             "sources": len(sources),
             }
 
+# basic statistics
+all_sources, all_sources_annotated, all_sources_with_tag = set(), set(), set()
+sources_with_tag_and_bit = set()
+for k, vals in bib_by_variety.items():
+    for v in vals:
+        all_sources.add(v)
+        if bib_by_source[v].get("hhtype"):
+            all_sources_with_tag.add(v)
+        if not 'computerized' in bib_by_source[v]['lgcode']:
+            all_sources_annotated.add(v)
 
+table =[
+        ["Key", "Value"],
+        ["Sources", len(bib_by_source)],
+        ["Sources with Language", len([s for s in bib_by_source.values() if
+                                   s.get("lgcode")])],
+        ["Sources with Language (Manually Assigned)", len([s for s in
+                                               bib_by_source.values() if
+                                               s.get("lgcode") and not
+                                               "computerized" in
+                                               s["lgcode"]])],
+        ["Sources with Tag", len([s for s in bib_by_source.values() if
+                              s.get('hhtype')])],
+        ["Sources with Tag (Manually Tagged)", len([s for s in bib_by_source.values() if
+                                          s.get('hhtype') and not
+                                          'computerized' in s.get('hhtype',
+                                                                  '')])],
+        ["Sources assigned to L1 Language", len(all_sources)],
+        ["Sources assigned to L1 Language (Manually Assigned)",
+         len(all_sources_annotated)],
+        ["Sources assigned to L1 Language with Tag",
+         len(all_sources.intersection(all_sources_with_tag))],
+        ["Sources assigned to L1 Language (Manually Assigned) with Tag", 
+         len(all_sources_annotated.intersection(all_sources_with_tag))],
+        ]
+with open(project_path("sources.md"), "w") as f:
+    f.write("# Statistics on Glottolog Bibliography\n\n")
+    f.write(tabulate(table, tablefmt="pipe", headers="firstrow"))
 
 # write to file
-with open('glottolog.json', "w") as f:
+with open(project_path('glottolog.json'), "w") as f:
     json.dump({"varieties": bib_by_variety, "sources": bib_by_source,
               "languages": languages}, f)
-with zipfile.ZipFile("glottolog.json.zip", mode="w",
+with zipfile.ZipFile(project_path("glottolog.json.zip"), mode="w",
                      compression=zipfile.ZIP_DEFLATED) as zf:
-    zf.write("glottolog.json")
+    zf.write(project_path("glottolog.json"))
     
 print("[i] retrieved codes for {0} language varieties".format(len(bib_by_variety)))
 
@@ -156,7 +197,7 @@ by_area = {
         "Papunesia": [[], []],
         }
 
-with open("map-data-annotated.tsv", "w") as f:
+with open(project_path().parent.joinpath("maps", "map-data-annotated.tsv"), "w") as f:
     f.write("Glottocode\tSources\tLatitude\tLongitude\tFamily\tMacroarea\n")
     for k, v in progressbar(annotated.items(), desc="write map data (annotated)"):
         f.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\n".format(
@@ -169,7 +210,7 @@ with open("map-data-annotated.tsv", "w") as f:
         annotated_resources += [len(v)]
         by_area[glottocodes[k].macroareas[0].name][0] += [len(v)]
 
-with open("map-data-computed.tsv", "w") as f:
+with open(project_path().parent.joinpath("maps", "map-data-computed.tsv"), "w") as f:
     f.write("Glottocode\tSources\tLatitude\tLongitude\tFamily\tMacroarea\n")
     for k, v in progressbar(computed.items(), desc="write map data (computed)"):
         f.write("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\n".format(
@@ -204,8 +245,6 @@ result = tabulate(table, floatfmt=[".2f"] , tablefmt="pipe", headers="firstrow")
 print("[i] table of average number of resources per variety")
 print(result)
 
-
-
 # make a list of authors that is "cleaned"
 selection_annotated, selection_computed = {}, {}
 for key, valueset in tracker_annotated.items():
@@ -215,7 +254,10 @@ for key, valueset in tracker_computed.items():
     for value in valueset:
         selection_computed[value] = key
 
-with open("statistics.md", "w") as f:
+selected_sources = {k: v for k, v in selection_annotated.items()}
+selected_sources.update(selection_computed)
+
+with open(project_path("statistics.md"), "w") as f:
     f.write("# Sources Per Variety\n\n")
     f.write(result)
     f.write("\n")
@@ -269,7 +311,7 @@ for name, books in author_computed.items():
     all_authors[name][1] = books
 
 
-with open("authors.tsv", "w") as f:
+with open(project_path("authors.tsv"), "w") as f:
     f.write("Family_Name\tName\tResources_Annotated\tSources_Annotated\tResources_Computed\tSources_Computed\n")
     for name, books in sorted(all_authors.items(), key=lambda x: len(set(x[1][0])),
                               reverse=True):
@@ -379,14 +421,14 @@ for key, vals in resources.items():
             " ".join(vals["sources"])
             ]]
 
-with open("resources.tsv", "w") as f:
+with open(project_path("resources.tsv"), "w") as f:
     f.write("\t".join([
         "ID", "Creators", "Creator_Variants", "Title", "Title_Variants",
         "Year", "Sources"]) + "\n")
     for row in resource_table:
         f.write("\t".join(row) + "\n")
 
-with open("references.tsv", "w") as f:
+with open(project_path("references.tsv"), "w") as f:
     f.write("\t".join([
         "ID", "Language_ID", "Reference_ID", "DomainOfKnowledge", "BasicInformationType", "Status"]) + "\n")
     current_language = ""
@@ -400,14 +442,8 @@ with open("references.tsv", "w") as f:
         key = current_language + "-" + str(idx)
         f.write(key + "\t" + "\t".join(row) + "\n")
 
-
-
-# reference table must now be created for a particular glottocode
-
-
-
 # write macroarea to file
-with open("languages.md", "w") as f:
+with open(project_path("languages.md"), "w") as f:
     f.write("# Languages by Macro-Area\n\n")
     for macroarea in ["Eurasia", "North America", "South America", "Australia",
                       "Africa", "Papunesia"]:
@@ -451,11 +487,10 @@ with open("languages.md", "w") as f:
         table = [["Language Family", "Varieties"]]
         for family, varieties in sorted(by_fam.items(), key=lambda x: x[1],
                                         reverse=True):
-            table += [[family, varieties]]
+            table += [[family if family else "Isolates", varieties]]
         table += [["Total", sum(by_fam.values())]]
         f.write(tabulate(table, tablefmt='pipe', headers='firstrow'))
         f.write("\n\n\n")
-        print(tabulate(table))
 
 
 input("stop here")
