@@ -1,0 +1,12 @@
+ID	Language_ID	Reference_ID	DomainOfKnowledge	BasicInformationType	Status
+phom1236-1	phom1236	Bano-2008-a_descriptive_study	Grammar	Reference Grammar	annotated
+phom1236-2	phom1236	Bano-2017-the_phom_language	Grammar	Reference Grammar	annotated
+phom1236-3	phom1236	Burling-1998-phom_phonology_and	Lexicon	Wordlist	annotated
+phom1236-4	phom1236	Burling-1998-phom_phonology_and	Phonology		annotated
+phom1236-5	phom1236	Burling-1998-phom_phonology_and	Phonology		computed
+phom1236-6	phom1236	French-1983-northern_naga_a	Phonology		annotated
+phom1236-7	phom1236	Grierson-1903-tibetoburman_family_specimens	Lexicon	Wordlist	annotated
+phom1236-8	phom1236	Kumar-1973-hindi_phom_english	Lexicon	Dictionary	annotated
+phom1236-9	phom1236	Kumar-1973-hindiphomenglish_dictionary	Lexicon	Dictionary	computed
+phom1236-10	phom1236	Marrison-1967-the_classification_of	Lexicon	Wordlist	annotated
+phom1236-11	phom1236	Singh-2012-phonological_system_in	Phonology		annotated
