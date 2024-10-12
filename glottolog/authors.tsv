@@ -1,51 +1,50 @@
 Family_Name	Name	Resources_Annotated	Sources_Annotated	Resources_Computed	Sources_Computed
-ISO 639	ISO 639-3 Registration Authority	1003	1003	0	0
-Blench	Roger	158	160	26	27
-Anonymous	Unknown Author	96	119	254	256
-Ray	Sidney H.	80	86	4	4
+Blench	Roger	154	160	25	27
+Anonymous	Unknown Author	96	119	243	256
 Donohue	Mark	57	57	9	9
 Prost	André	57	60	11	11
+Ray	Sidney H.	57	86	4	4
 Suzuki	Hiroyuki	56	56	3	3
 Heine	Bernd	55	56	29	32
-Jungraithmayr	Herrmann	54	54	39	40
-Heath	Jeffrey	50	50	42	44
-Rivet	Paul	49	51	8	9
+Jungraithmayr	Herrmann	54	54	38	40
+Rivet	Paul	47	51	8	9
 Collins	James T.	44	44	2	2
-Blench	Roger M.	44	44	28	30
 Evans	Nicholas	43	43	29	31
+Blench	Roger M.	43	44	25	30
 Kumar	Braj Bihari	41	41	27	27
-Hulstaert	Gustaaf	41	41	12	12
 Borjian	Habib	40	41	0	0
 Comrie	Bernard	39	40	37	37
 Bradley	David	39	39	20	20
-Mangulu	André Motingea	37	41	7	7
+Heath	Jeffrey	37	50	38	44
 Westermann	Diedrich	37	38	36	36
 Blust	Robert	36	36	12	12
-Boas	Franz	36	36	21	21
+Boas	Franz	36	36	20	21
 Boyeldieu	Pascal	36	36	21	21
-Capell	Arthur	36	36	15	15
+Capell	Arthur	36	36	14	15
 Dai	Qingxia	36	36	4	4
 Sun	Hongkai	36	36	12	12
-Lynch	John	35	36	5	40
 Codrington	Robert	35	35	0	0
 Crowley	Terry	35	35	7	40
 Wurm	Stephen A.	35	35	2	2
 Leslau	Wolf	35	35	47	48
 Santandrea	Stefano	35	35	2	2
+Lynch	John	34	36	5	40
 Ross	Malcolm	33	33	4	38
-Anonymous	{	33	33	0	0
 Dhakal	Dubi Nanda	32	32	0	0
 Grierson	George A.	32	36	1	1
 Kleinewillinghöfer	Ulrich	31	31	5	5
 Headland	Thomas N.	31	31	10	10
 Nimuendajú	Curt	31	31	7	7
-Morgenstierne	Georg	30	30	10	10
+Mangulu	André Motingea	30	41	7	7
+Morgenstierne	Georg	30	30	8	10
 Blažek	Václav	30	30	4	4
 Sapir	Edward	30	31	28	30
 Koch-Grünberg	Theodor	30	30	4	6
+Hulstaert	Gustaaf	30	41	12	12
 Bostoen	Koen	29	29	8	8
 Bender	Lionel M.	29	29	1	1
 Nishida	Tatsuo	29	29	7	8
+Anonymous	{	27	33	0	0
 Sidwell	Paul	27	27	7	7
 Shintani	Tadahiko L. A.	27	27	1	1
 Franklin	Karl J.	26	26	30	33
@@ -65,26 +64,25 @@ Jastrow	Otto	23	23	4	4
 Tryon	Darrell T.	23	24	7	7
 Métraux	Alfred	23	23	7	8
 Schmidt	Max	23	23	0	0
-Kroeber	Alfred L.	23	23	0	0
 Cerrón-Palomino	Rodolfo	23	23	7	7
 Voorhoeve	C. L.	23	24	2	2
-Hanke	Wanda	23	23	2	2
 Aikhenvald	Alexandra Y.	22	22	18	19
 Bowern	Claire	22	23	6	6
 Tourneux	Henry	22	22	7	8
-Tucker	Archibald N.	22	22	4	4
+Kroeber	Alfred L.	22	23	0	0
+Tucker	Archibald N.	22	22	2	4
 Vossen	Rainer	22	22	15	19
+Hanke	Wanda	22	23	2	2
 Sharma	D. D.	22	22	3	3
 Adam	Lucien	21	21	6	6
 Andersen	Torben	21	21	19	19
-Matras	Yaron	21	21	12	12
 Li	Jinfang	21	21	0	0
 Reid	Lawrence A.	21	22	7	7
 Keegan	John M.	20	20	2	2
+Matras	Yaron	20	21	12	12
 Blake	Barry J.	20	20	11	13
 François	Alexandre	20	21	2	2
 Doerfer	Gerhard	20	20	6	6
-Mathews	R. H.	20	20	0	0
 Ulrich	Rosemary	20	20	2	2
 Brinton	Daniel G.	19	19	1	1
 Laycock	Donald C.	19	19	5	5
@@ -92,17 +90,16 @@ Cerulli	Enrico	19	19	0	0
 Curr	Edward Micklethwaite	19	19	1	1
 Schapper	Antoinette	19	19	10	11
 Drabbe	Peter	19	19	2	2
+Mathews	R. H.	19	20	0	0
 Gatschet	Albert S.	19	19	0	0
 Lukas	Johannes	19	19	15	15
 Gifford	E. W.	19	20	0	0
 Hieda	Osamu	19	19	4	4
 Huziwara	Keisuke	19	19	0	0
 Ulrich	Matthew	19	19	2	2
-Austin	Peter K.	18	18	13	13
 Schebesta	Paul	18	18	0	0
 Morey	Stephen	18	18	6	6
 Swanton	John R.	18	18	4	4
-Schadeberg	Thilo C.	18	20	14	15
 Ramirez	Henri	18	19	2	3
 Kroeber	A. L.	18	18	2	2
 Loukotka	Čestmír	18	18	3	3
@@ -111,7 +108,6 @@ Seidel	August	18	18	15	15
 Taylor	Gerald	18	18	5	5
 Abbi	Anvita	17	17	4	4
 Ehret	Christopher	17	17	2	2
-Harvey	Mark	17	17	17	17
 Wise	Mary Ruth	17	17	16	16
 Jacques	Guillaume	17	17	27	28
 Siegel	Jeff	17	17	5	5
@@ -122,30 +118,31 @@ Goddard	Ives	17	17	10	10
 Owens	Jonathan	17	17	5	5
 Driem	George van	17	17	3	3
 Hull	Geoffrey	17	17	1	1
+Schadeberg	Thilo C.	17	20	14	15
 Sanjoko	Yohanis	17	17	0	0
 Klamer	Marian	17	17	5	5
 Gerhardt	Ludwig	17	17	7	7
 Steinhauer	Hein	17	17	5	5
 Kießling	Roland	17	17	0	0
 Nishi	Yoshio	17	17	0	0
+ISO 639	ISO 639-3 Registration Authority	17	1003	0	0
 Sellato	Bernard	17	17	1	1
 Connell	Bruce	16	17	6	6
 Behnstedt	Peter	16	16	0	0
 Stokhof	W. A. L.	16	28	6	6
+Harvey	Mark	16	17	16	17
 Arnaud	Expedito	16	16	2	2
 Bahuchet	Serge	16	17	9	11
 Austin	Peter	16	16	10	10
-Hercus	Luise A.	16	16	1	1
 Holton	Gary	16	16	11	13
 Bakker	Peter	16	16	5	5
 Savà	Graziano	16	17	2	2
 Wichmann	Søren	16	16	4	4
-Ciucci	Luca	16	16	1	1
 Bhattacharya	Sudhibhushan	16	16	2	2
 Caprile	Jean-Pierre	16	16	12	13
 Burling	Robbins	16	16	9	9
 Thornell	Christina	16	16	9	9
-Storch	Anne	16	16	8	9
+Storch	Anne	16	16	7	9
 Costello	Nancy A.	16	17	6	6
 Dimmendaal	Gerrit J.	16	16	1	1
 Janhunen	Juha	16	16	2	2
@@ -156,7 +153,6 @@ Traill	Anthony	16	16	18	19
 Newman	Paul	16	16	14	14
 Shimizu	Kiyoshi	16	16	3	3
 Takács	Gábor	16	16	2	2
-Yarshater	Ehsan	16	16	1	1
 Baskakov	Nikolaj A.	15	15	1	1
 Tsuchida	Shigeru	15	15	2	2
 Beier	Christine	15	15	2	2
@@ -164,7 +160,7 @@ Voort	Hein van der	15	15	4	4
 Shaul	David Leedom	15	15	2	2
 Lobel	Jason William	15	16	0	0
 Vydrin	Valentin	15	15	4	6
-Creissels	Denis	15	15	24	26
+Ciucci	Luca	15	16	1	1
 Kastenholz	Raimund	15	15	3	4
 Chirkova	Katia	15	15	1	1
 Ouyang	Jueya	15	15	3	3
@@ -177,16 +173,18 @@ Lafone Quevedo	Samuel A.	15	15	0	0
 Schmidt	Wilhelm	15	15	0	0
 Schuchardt	Hugo	15	17	2	2
 Struck	Bernhard	15	15	7	7
-Marlett	Stephen A.	14	14	37	37
+Yarshater	Ehsan	15	16	1	1
+Marlett	Stephen A.	14	14	36	37
 Caron	Bernard	14	14	17	17
 Swadesh	Morris	14	14	11	11
+Hercus	Luise A.	14	16	1	1
 Mosonyi	Esteban Emilio	14	14	3	4
 Mühlhäusler	Peter	14	14	13	13
 Nichols	Johanna	14	14	12	13
 Boretzky	Norbert	14	14	8	9
 Saxena	Anju	14	18	2	2
 Bril	Isabelle	14	14	5	5
-Brye	Edward	14	14	12	14
+Brye	Edward	14	14	10	14
 Buddruss	Georg	14	14	2	2
 Rottland	Franz	14	14	9	9
 Rigsby	Bruce	14	14	2	2
@@ -205,25 +203,23 @@ König	Christa	14	14	6	7
 Jacquot	André	14	14	11	11
 Rensch	Calvin R.	14	14	7	9
 Ačaṙyan	Hrač‘ya Hakobi	13	13	0	0
-Adelaar	Willem F. H.	13	13	1	1
 Leger	Rudolf	13	13	10	10
 Adriani	N.	13	14	0	0
 Grimes	Joseph E.	13	13	20	21
 Sasse	Hans-Jürgen	13	13	4	4
 Anderson	Gregory D. S.	13	13	8	9
-Anonby	Stan	13	13	0	0
 Hombert	Jean-Marie	13	13	7	8
 Paul	Ludwig	13	13	1	1
 Baldus	Herbert	13	13	2	2
 Opler	Morris E.	13	13	0	0
 Chinnery	E. W. P.	13	13	0	0
 Fleming	Harold C.	13	13	4	4
-Shafer	Robert	13	13	5	5
+Shafer	Robert	13	13	4	5
 Rischel	Jørgen	13	13	5	6
+Creissels	Denis	13	15	24	26
 Black	Paul	13	13	2	2
 Sun	Jackson T.-S.	13	13	9	10
 Wavrin	Robert de	13	13	0	0
-Motingea Mangulu	André	13	13	16	16
 Munro	Pamela	13	13	15	15
 Wiesemann	Ursula	13	13	13	13
 Levinsohn	Stephen H.	13	13	42	46
@@ -241,7 +237,6 @@ Nagaraja	K. S.	13	13	4	4
 Nikolaeva	Irina	13	13	5	5
 Taylor	Douglas	13	13	12	12
 Holmer	Nils M.	13	13	7	7
-Tupper	Ian	13	13	1	1
 Hyslop	Gwendolyn	13	13	2	2
 Khan	Geoffrey	13	16	1	1
 Kossmann	Maarten G.	13	13	3	3
@@ -253,9 +248,11 @@ Nicolaï	Robert	13	13	2	2
 Rilly	Claude	13	13	3	3
 Samarin	William J.	13	13	2	2
 Wilbert	Johannes	13	13	6	6
+Adelaar	Willem F. H.	12	13	1	1
 Kawi	Djantera	12	12	0	0
-Hayward	Richard J.	12	12	15	15
+Anonby	Stan	12	13	0	0
 Austen	Leo	12	17	0	0
+Austin	Peter K.	12	18	13	13
 Daniels	Don	12	12	0	0
 Bickel	Balthasar	12	13	11	12
 Burenhult	Niclas	12	12	1	1
@@ -282,19 +279,16 @@ Dutton	Tom	12	12	0	0
 Thurgood	Graham	12	12	6	6
 Lazard	Gilbert	12	13	2	2
 Regmi	Dan Raj	12	12	0	0
-Grace	George W.	12	12	0	0
 Laughren	Mary	12	12	8	8
 Grottanelli	Vinigi L.	12	12	1	1
 Hoijer	Harry	12	12	9	9
 Hollenbach	Barbara E.	12	12	15	15
 Mosel	Ulrike	12	12	7	8
 Huntingford	G. W. B.	12	12	0	0
-Stevenson	Roland C.	12	12	3	3
 Shintani	Tadahiko	12	12	3	4
 Orr	Carolyn	12	12	1	1
 Kingsada	Thongphet	12	12	1	1
 Li	Yunbing	12	12	0	0
-MacGregor	William	12	12	2	2
 Mathews	Robert Hamilton	12	13	8	8
 Nagano	Yasuhiko	12	12	1	1
 Seki	Lucy	12	12	7	7
@@ -308,6 +302,7 @@ Appleyard	David L.	11	11	17	17
 Philippson	Gérard	11	11	6	6
 Arnold	Werner	11	11	0	0
 Cloarec-Heiss	France	11	11	3	3
+Hayward	Richard J.	11	12	15	15
 Höltker	Georg	11	11	0	0
 Boone	Douglas W.	11	11	6	6
 Naden	Tony	11	11	0	0
@@ -320,6 +315,7 @@ Dunn	Michael	11	11	0	0
 Koul	Omkar N.	11	12	7	7
 Landaburu	Jon	11	11	5	5
 Stirtz	Timothy M.	11	11	4	4
+Motingea Mangulu	André	11	13	16	16
 Sands	Bonny	11	11	4	4
 Bouda	Karl	11	11	1	1
 Nordlinger	Rachel	11	11	16	17
@@ -328,14 +324,13 @@ Bulakh	Maria	11	11	0	0
 Cabral	Ana Suelly Arruda Câmara	11	11	1	1
 Capo	Hounkpati B. Christophe	11	11	3	3
 Weitlaner	Roberto J.	11	11	1	1
-Healey	Alan	11	11	14	15
 Rueck	Michael J.	11	11	3	3
 Clark	Ross	11	11	2	2
 Cohen	Marcel	11	11	7	7
 Jakobi	Angelika	11	11	4	5
 Hair	P. E. H.	11	11	0	0
 Durasid	Durdje	11	11	0	0
-Payne	Doris L.	11	11	30	33
+Payne	Doris L.	11	11	29	33
 Lee	Richard B.	11	11	5	5
 Yigezu	Moges	11	11	8	8
 Vaux	Bert	11	12	8	8
@@ -343,7 +338,6 @@ Dorais	Louis-Jacques	11	11	1	1
 Dryer	Matthew S.	11	11	10	10
 Dutton	Tom E.	11	11	2	2
 Elderkin	Edward Derek	11	11	2	2
-Foley	William A.	11	11	1	1
 Pasch	Helma	11	11	4	5
 Sagart	Laurent	11	11	2	2
 Hale	Kenneth L.	11	12	17	17
@@ -352,6 +346,7 @@ Melchert	Craig H.	11	11	1	1
 Hofmann	Inge	11	11	0	0
 Marchese	Lynell	11	11	16	16
 Ingham	Bruce	11	11	4	4
+Stevenson	Roland C.	11	12	3	3
 Schmidt	Ruth Laila	11	11	0	0
 Khanina	Olesya	11	11	0	0
 Kropp Dakubu	Mary Esther	11	11	20	20
@@ -373,7 +368,7 @@ Wilbert	J.	11	11	0	0
 Wirz	Paul	11	11	0	0
 Mu'azu	Mohammed Aminu	10	10	0	0
 Muniru	John	10	18	0	0
-Palayer	Pierre	10	10	7	9
+Palayer	Pierre	10	10	6	9
 Muysken	Pieter	10	10	7	7
 Kim	Amy	10	10	1	1
 Olson	Kenneth S.	10	10	5	6
@@ -389,7 +384,7 @@ Bertinetto	Pier Marco	10	10	4	4
 Kluge	Angela	10	16	6	6
 Pacchiarotti	Sara	10	10	0	0
 Boutin	Michael E.	10	10	4	4
-Nougayrol	Pierre	10	10	6	8
+Nougayrol	Pierre	10	10	5	8
 Gravina	Richard	10	10	7	7
 Moñino	Yves	10	10	8	8
 Brenzinger	Matthias	10	10	3	3
@@ -400,6 +395,7 @@ Rodrigues	Aryon Dall'Igna	10	10	3	3
 Yang	Cathryn	10	10	1	1
 Derbyshire	Desmond C.	10	10	13	13
 Quesada Pacheco	Miguel Ángel	10	10	2	2
+Healey	Alan	10	11	14	15
 Clairis	Christos	10	10	7	8
 Key	Harold	10	10	4	4
 Luo	Meizhen	10	10	1	1
@@ -413,6 +409,7 @@ Mouchet	Jean	10	12	0	0
 Merlan	Francesca	10	10	4	4
 Meeuwis	Michael	10	10	3	3
 Jonker	J. C. G.	10	10	1	1
+Foley	William A.	10	11	1	1
 Ghatage	A.M.	10	10	0	0
 Goddard	Pliny Earle	10	10	1	1
 Krauss	Michael E.	10	10	18	18
@@ -424,12 +421,11 @@ Svantesson	Jan-Olof	10	10	3	5
 Michailovsky	Boyd	10	10	17	17
 Jenny	Mathias	10	10	0	0
 Wu	Zili	10	10	3	3
-Kagaya	Ryohei	10	11	12	12
+Kagaya	Ryohei	10	11	11	12
 Yost	James A.	10	10	1	1
 Kosaka	Ryuichi	10	10	0	0
 Ziervogel	Dirk	10	10	17	20
 Marshall	Lorna	10	10	0	0
-Winkelmann	Kerstin	10	10	5	6
 Mukarovsky	Hans G.	10	10	2	2
 Zima	Petr	10	10	8	8
 Constenla Umaña	Adolfo	10	10	11	11
@@ -445,27 +441,26 @@ Vajda	Edward J.	10	10	3	3
 Watters	David E.	10	10	12	12
 Malherbe	Michel	9	9	1	1
 Wedekind	Charlotte	9	11	15	15
-Wedekind	Klaus	9	10	47	49
+Wedekind	Klaus	9	10	44	49
 Hon	Luther	9	15	0	0
 Arifin	Siti Salamah	9	9	0	0
 Adelaar	Alexander	9	9	1	1
 Prentice	David J.	9	9	0	0
 Stappers	Leo	9	9	11	11
-Agency	Central Intelligence	9	9	0	0
 Kim	Seung	9	9	0	0
 Potter	Margaret	9	9	6	6
 de Almeida	António	9	9	0	0
 Conrad	Robert J.	9	9	6	7
-Simpson	Jane	9	9	9	9
+Simpson	Jane	9	9	8	9
 Muthalib	Abdul	9	9	0	0
 Osada	Toshiki	9	9	0	0
 Merrifield	William R.	9	9	12	13
 Meakins	Felicity	9	9	6	6
-Pickett	Velma B.	9	9	15	17
+Pickett	Velma B.	9	9	14	17
 Maddieson	Ian	9	9	12	13
 Gawne	Lauren	9	9	2	2
 Kaufman	Terrence	9	9	8	8
-Hale	Austin	9	9	18	19
+Hale	Austin	9	9	17	19
 Edwards	Owen	9	9	0	0
 Li	Rong	9	9	0	0
 Zorc	R. David Paul	9	9	5	5
@@ -474,7 +469,6 @@ Beavon	Keith H.	9	9	8	9
 Meira	Sérgio	9	9	6	7
 Bean	Lowell John	9	9	0	0
 Beeler	Madison S.	9	9	0	0
-Haiman	John	9	9	3	3
 Pereira	Christophe	9	9	1	1
 Bhat	D. N. S.	9	9	2	2
 Peterson	David A.	9	9	1	1
@@ -491,7 +485,6 @@ Ozanne-Rivierre	Françoise	9	9	5	5
 Brixhe	Claude	9	9	1	1
 Broderick	George	9	10	3	3
 Bryan	Margaret A.	9	9	0	0
-SIL	Summer Institute of Linguistics	9	9	11	11
 Guthrie	Malcolm	9	9	26	27
 Centre	Wangka Maya Pilbara Aboriginal Language	9	9	0	0
 Zeitoun	Elizabeth	9	9	6	6
@@ -523,11 +516,9 @@ Loeweke	Eunice	9	10	4	4
 May	Jean	9	10	4	4
 Luo	Yongxian	9	9	0	0
 Hickey	Raymond	9	9	7	7
-Honti	László	9	9	1	1
 LaPolla	Randy J.	9	9	7	7
 Iribaram	Siti Masitha	9	9	0	0
 Roberts	James	9	9	0	0
-Torday	Emil	9	10	4	4
 Kaji	Shigeki	9	9	8	8
 Welmers	William E.	9	10	3	3
 Kibe	Nobuko	9	9	0	0
@@ -542,6 +533,7 @@ Man	Edward H.	9	9	1	1
 McKaughan	Howard P.	9	9	10	11
 Mayers	Marvin K.	9	9	5	5
 McGregor	William	9	9	18	19
+Winkelmann	Kerstin	9	10	4	6
 Mixco	Mauricio J.	9	9	2	2
 Moreno	Martino Mario	9	9	1	1
 Nikulin	Andrey	9	9	0	0
@@ -550,13 +542,12 @@ Peckham	Lloyd	9	9	1	1
 Peeke	M. Catherine	9	9	2	2
 Queixalós	Francisco	9	9	2	2
 Reichel-Dolmatoff	Gerardo	9	9	7	7
-Reinisch	Leo	9	9	10	10
+Reinisch	Leo	9	9	9	10
 Rubin	Aaron D.	9	9	1	1
 Sakiyama	Osamu	9	9	1	1
 Sanders	Joy	9	9	2	2
 Shashi	S. S.	9	9	0	0
 Stilo	Donald L.	9	9	0	0
-Strong	W. M.	9	9	1	1
 Wangmo	Sonam	9	9	0	0
 Susnik	Branislava	9	9	2	2
 Tereščenko	Natal'ja M.	9	9	0	0
@@ -592,6 +583,7 @@ Baskaran	S. Ganesh	8	8	0	0
 Batic	Gian Claudio	8	8	0	0
 Woidich	Manfred	8	8	1	1
 Bender	M. Lionel	8	8	3	3
+Haiman	John	8	9	3	3
 Burrow	Thomas	8	8	1	1
 Harrison	Sheldon P.	8	8	4	4
 Smith	Alexander D.	8	8	1	1
@@ -605,12 +597,12 @@ Kogan	Leonid	8	8	0	0
 Estrada Fernández	Zarina	8	8	2	2
 Callaghan	Catherine A.	8	8	0	0
 Camargo	Eliane	8	8	7	7
+SIL	Summer Institute of Linguistics	8	9	11	11
 Tersis	Nicole	8	8	2	2
 Castrén	Matthias Alexander	8	8	2	2
 Soriente	Antonia	8	8	0	0
 Chadwick	Neil	8	8	4	4
 Chafe	Wallace L.	8	8	5	5
-Chamoreau	Claudine	8	8	3	3
 Yan	Qixiang	8	8	0	0
 Schultz	Harald	8	9	1	1
 Oguri	Hiroko	8	8	0	0
@@ -620,7 +612,6 @@ Meyer	Ronny	8	8	4	5
 Slocum	Marianna C.	8	8	8	8
 Payne	David L.	8	9	7	7
 Huang	Bufan	8	8	1	1
-Dalby	David	8	8	11	11
 Jordan	Linda	8	8	0	0
 Miller	Wick R.	8	8	4	4
 Davis	Irvine	8	8	3	3
@@ -635,21 +626,23 @@ Ehrenreich	Paul	8	11	5	5
 Estermann	Carlos	8	8	3	4
 Palmer	Bill	8	8	5	5
 Wilts	Ommo	8	8	2	2
-Radin	Paul	8	8	5	5
+Radin	Paul	8	8	4	5
 de la Grasserie	Raoul	8	8	1	1
 Georg	Stefan	8	9	3	3
 Volodin	A. P.	8	8	2	2
 Qu	Aitang	8	8	0	0
 Goodenough	W. H.	8	9	0	0
-Massam	Diane	8	8	11	13
+Massam	Diane	8	8	10	13
 Gudschinsky	Sarah C.	8	8	1	1
 Gusain	Lakhan	8	8	0	0
 Robinson	Laura C.	8	8	2	2
 Teferra	Anbessa	8	8	7	7
+Honti	László	8	9	1	1
 Hsiu	Andrew	8	8	0	0
 Hurlbut	Hope M.	8	8	1	1
 Innes	Gordon	8	8	5	5
 Jarring	Gunnar	8	8	1	1
+Torday	Emil	8	10	4	4
 Kähler	Hans	8	8	1	1
 Purba	Theodorus T.	8	8	0	0
 Starostin	George	8	8	0	0
@@ -681,7 +674,7 @@ Rumsey	Alan	8	8	5	5
 Migliazza	Ernesto C.	8	8	2	2
 Mihas	Elena	8	8	2	2
 Mitani	Yasuyuki	8	8	0	0
-Müller	Friedrich	8	9	33	33
+Müller	Friedrich	8	9	26	33
 Needham	Rodney	8	8	4	4
 Nothofer	Bernd	8	8	0	0
 Oates	Lynette F.	8	8	2	2
@@ -708,7 +701,6 @@ Waltz	Nathan E.	8	8	7	7
 Wang	Feng	8	8	2	2
 Werner	Alice	8	8	4	4
 Wilkendorf	Patricia	8	8	4	4
-Zorc	David P.	8	8	0	0
 Abaev	Vasilij I.	7	7	0	0
 Fédry	Jacques	7	7	4	4
 Sim	Ronald J.	7	7	6	6
@@ -750,7 +742,7 @@ O'Hagan	Zachary	7	7	1	1
 Bateman	Janet	7	7	0	0
 Batibo	Herman M.	7	7	11	11
 Benedict	Paul K.	7	7	18	18
-Pike	Kenneth L.	7	7	30	33
+Pike	Kenneth L.	7	7	29	33
 Kerr	Harland B.	7	7	8	8
 Kruspe	Nicole	7	7	1	1
 Becker-Donner	Etta	7	7	1	1
@@ -761,7 +753,6 @@ Noonan	Michael	7	7	12	12
 Birket-Smith	Kaj	7	7	0	0
 Peterson	Mary M.	7	7	2	2
 Noss	Philip A.	7	7	5	5
-Bleek	Dorothea F.	7	8	1	1
 Douyon	Denis	7	7	1	1
 Garrett	Andrew	7	7	4	4
 Blust	Robert A.	7	7	0	0
@@ -774,7 +765,7 @@ Seignobos	Christian	7	7	0	0
 Hill	Jane H.	7	7	7	7
 Levinson	Stephen C.	7	7	7	7
 Brown	Herbert A.	7	7	2	2
-Tucker	Archibald Norman	7	7	13	14
+Tucker	Archibald Norman	7	7	12	14
 Buck	P. H.	7	7	0	0
 Turin	Mark	7	7	4	5
 McConvell	Patrick	7	7	12	12
@@ -783,6 +774,7 @@ Carrington	John F.	7	7	8	8
 MacKenzie	Bonnie	7	9	1	1
 Castro	Andy	7	7	0	0
 Caughley	Ross C.	7	7	3	3
+Chamoreau	Claudine	7	8	3	3
 Martin	Samuel E.	7	7	6	6
 Chen	Qiguang	7	7	0	0
 Chen	Kang	7	7	1	1
@@ -799,11 +791,11 @@ Coppens	Walter	7	7	0	0
 Langdon	Margaret	7	7	7	7
 Craig	Colette G.	7	7	6	6
 Crass	Joachim	7	7	5	8
-Dayley	Jon P.	7	7	2	2
 Gerdel	Florence L.	7	7	3	3
 Thomas	David	7	7	3	3
 Curr	Edward	7	7	0	0
 Huber	Magnus	7	7	5	5
+Dalby	David	7	8	11	11
 Usup	Hunggu Tadjuddin	7	7	0	0
 Danielsen	Swintha	7	7	2	2
 Dasgupta	Dipankar	7	7	0	0
@@ -865,7 +857,6 @@ Honigmann	J. J.	7	7	0	0
 Hooley	Bruce A.	7	7	5	6
 Ke	Chao	7	7	0	0
 Ikeda	Takumi	7	7	2	2
-Lebold	Randy	7	7	0	0
 Jacobsen, Jr., William H.	?	7	7	0	0
 Li	Daqin	7	7	0	0
 Kensinger	Kenneth M.	7	7	11	11
@@ -884,8 +875,7 @@ Sammallahti	Pekka	7	7	1	1
 Kouwenberg	Silvia	7	7	8	8
 Lacroix	Pierre-Francis	7	7	1	1
 Lagercrantz	Eliel	7	7	0	0
-Leer	Jeff	7	7	96	99
-León	Nicolás	7	7	0	0
+Leer	Jeff	7	7	95	99
 Zhang	Junru	7	7	1	1
 de Wavrin	Robert	7	7	0	0
 Lovestrand	Joseph	7	7	0	0
@@ -921,7 +911,7 @@ Ratanakul	Suriya	7	7	2	2
 Rude	Noel	7	7	4	4
 Verstraete	Jean-Christophe	7	7	8	8
 Samarin	William John	7	7	7	7
-Valkama	Kari	7	8	3	4
+Valkama	Kari	7	8	2	4
 Schmitt	Rüdiger	7	7	1	1
 Trudgill	Peter	7	7	6	6
 Schoolcraft	Henry R.	7	7	0	0
@@ -929,6 +919,7 @@ Zerries	Otto	7	7	1	1
 Seidenfaden	Erik	7	7	0	0
 Shaw	R. Daniel	7	7	1	1
 Souag	Lameen	7	7	1	1
+Strong	W. M.	7	9	1	1
 Sulejmanov	N. D.	7	7	0	0
 Tenišev	È. R.	7	7	0	0
 Taguchi	Yoshihisa	7	7	0	0
@@ -940,7 +931,7 @@ Weigand	Gustav	7	7	0	0
 Weinreich	Matthias	7	7	0	0
 Wilson	W. A. A.	7	7	2	2
 Zyhlarz	Ernst	7	7	2	2
-Stevick	Earl W.	6	6	9	10
+Stevick	Earl W.	6	6	8	10
 Bodt	Timotheus A.	6	6	1	1
 d'Abbadie	Antoine	6	8	0	0
 Karakoç	Birsel	6	6	2	2
@@ -999,7 +990,7 @@ O'Connor	Loretta	6	6	0	0
 Avrorin	Valentin A.	6	6	3	3
 Kari	Ethelbert E.	6	6	7	7
 Krauss	Michael	6	6	9	9
-Zorc	R. David	6	6	29	29
+Zorc	R. David	6	6	7	29
 Johnston	Harry H.	6	6	0	0
 Dwyer	David James	6	6	0	0
 Baker	Philip	6	6	10	10
@@ -1025,7 +1016,6 @@ Kaland	Constantijn C.L.	6	6	0	0
 Becher	Hans	6	6	1	1
 Beck	David	6	6	6	6
 Fischer	Hans	6	6	0	0
-Paṭela	Paramānanda	6	6	0	0
 Sohn	Ho-Min	6	6	4	4
 Salas	Adalberto	6	6	7	7
 Busenitz	Robert L.	6	6	3	3
@@ -1038,7 +1028,7 @@ Bikbulatov	N. V.	6	6	0	0
 Moodie	Jonathan	6	6	0	0
 Bishop	Nancy M.	6	6	3	3
 Björklund	Stig	6	6	0	0
-Bulkaam	Michael	6	6	0	0
+Bleek	Dorothea F.	6	8	1	1
 Blevins	Juliette	6	6	14	14
 Blühberger	Jutta	6	9	0	0
 Blumentritt	Ferdinand	6	6	0	0
@@ -1052,13 +1042,13 @@ Igla	Birgit	6	6	1	1
 Moser	Edward	6	6	1	1
 Broadwell	George Aaron	6	6	4	4
 Brown	Nathan	6	6	0	0
-Brugnatelli	Vermondo	6	6	5	5
+Brugnatelli	Vermondo	6	6	4	5
 van Bulck	Gaston [Vaast]	6	6	0	0
 Scott	Graham	6	6	6	6
 Wnuk	Ewelina	6	6	0	0
 Mahecha Rubio	Dany	6	6	0	0
 Callender	Charles	6	6	0	0
-Camp	Elizabeth L.	6	6	3	5
+Camp	Elizabeth L.	6	6	2	5
 Liccardi	Millicent R.	6	6	5	7
 Echeverri	Juan Alvaro	6	6	4	4
 Good	Jeff	6	6	5	6
@@ -1083,8 +1073,8 @@ Cook	Eung-Do	6	6	9	9
 Zariquiey	Roberto	6	6	2	2
 Corriente	Federico	6	6	3	3
 Foster	S.	6	6	0	0
-de Créqui-Montfort	Georges	6	7	0	0
 Ward	Ida Caroline	6	6	6	6
+Dayley	Jon P.	6	7	2	2
 Rankin	Robert L.	6	6	5	5
 Fu	Ailan	6	6	1	1
 Liu	Juhuang	6	6	0	0
@@ -1123,7 +1113,7 @@ Morev	Lev N.	6	6	1	1
 Kropp Dakubu	Mary E.	6	6	2	2
 Forker	Diana	6	6	11	11
 Fortier	Jana	6	6	0	0
-Fortune	George	6	6	9	9
+Fortune	George	6	6	8	9
 Fox	J.J.	6	6	0	0
 Zent	Stanford	6	6	3	3
 Freudenthal	Axel Olof	6	6	0	0
@@ -1149,7 +1139,7 @@ Grjunberg	Aleksandr L.	6	6	3	3
 Grube	Wilhelm	6	6	0	0
 Guillaume	Antoine	6	6	4	4
 Naumann	Christfried	6	6	1	1
-Hagège	Claude	6	6	6	6
+Hagège	Claude	6	6	5	6
 Liljegren	Henrik	6	6	2	2
 Sutton	Peter	6	6	2	2
 Hamp	Eric P.	6	6	2	2
@@ -1157,10 +1147,10 @@ Sikki	Muhammad	6	6	0	0
 Harrington	John P.	6	6	0	0
 Haruna	Andrew	6	6	4	4
 Hayasi	Tooru	6	6	2	2
-Healey	Phyllis M.	6	6	7	8
-Poppe	Nicholas	6	6	16	16
+Healey	Phyllis M.	6	6	6	8
+Poppe	Nicholas	6	6	15	16
 Hellwig	Birgit	6	6	8	8
-Walton	James W.	6	7	8	9
+Walton	James W.	6	7	7	9
 Hérault	Georges	6	6	2	2
 Hesse	Ronald	6	7	0	0
 Hintze	Fritz	6	6	2	2
@@ -1168,7 +1158,6 @@ Seiler	Hansjakob	6	6	4	4
 Hirayama	Teruo	6	6	0	0
 Hockings	Paul	6	6	0	0
 Hodgson	Brian Houghton	6	7	4	4
-Hodgson	Brian H.	6	6	0	0
 Kaneda	Akihiro	6	6	0	0
 Odden	David	6	6	11	11
 Holz	Christoph	6	6	0	0
@@ -1182,6 +1171,7 @@ Hu	Zengyi	6	6	2	2
 Hudson	Grover	6	6	7	7
 Hutereau	Armand	6	6	1	1
 Ichikawa	Mitsuo	6	6	1	1
+Lebold	Randy	6	7	0	0
 Inagaki	Kazuya	6	6	0	0
 Jacobs	John	6	6	2	2
 Perekhvalskaya	Elena	6	6	5	5
@@ -1200,7 +1190,6 @@ Shluinsky	Andrey	6	6	1	1
 Ross	Malcolm D.	6	6	1	1
 King	John Wayne	6	6	1	1
 Kinkade	M. Dale	6	6	2	2
-Kraft	Charles H.	6	6	8	8
 Klumpp	Deloris A.	6	6	2	2
 Koentjaraningrat	{	6	6	0	0
 Köhler	Oswin Reinhold Albin	6	6	4	5
@@ -1216,6 +1205,7 @@ Lecoq	Pierre	6	6	0	0
 Lévi-Strauss	Claude	6	6	1	1
 Lévi-Strauss	C.	6	6	0	0
 Lichtenberk	Frantisek	6	6	5	5
+MacGregor	William	6	12	2	2
 Macuch	Rudolf	6	6	1	1
 Majumdar	D. N.	6	6	0	0
 Manoharan	S.	6	6	0	0
@@ -1227,13 +1217,12 @@ Steward	J. H.	6	6	0	0
 Migeod	F. W. H.	6	6	1	1
 Miller	Carolyn P.	6	6	8	8
 Street	Chester S.	6	6	3	4
-Moody	David C.	6	6	5	5
+Moody	David C.	6	6	4	5
 Mreta	Abel Yamwaka	6	6	2	2
 Mukarovsky	Hans Guenter	6	6	4	4
 Mushin	Ilana	6	6	2	2
 Myreeva	Anna N.	6	6	1	1
 Nugteren	Hans	6	6	2	2
-Ortiz	Sergio Elías	6	6	8	9
 Osgood	C.	6	6	0	0
 Winkler	Eberhard	6	6	0	0
 Petterson	Robert	6	6	2	2
@@ -1400,6 +1389,7 @@ Beaumont	Clive H.	5	5	0	0
 Bechhaus-Gerst	Marianne	5	5	4	4
 Diki-Kidiri	Marcel	5	5	8	8
 Brainard	Sherri	5	5	5	5
+Paṭela	Paramānanda	5	6	0	0
 Laidig	Wyn D.	5	5	3	3
 Collins	Chris	5	5	4	4
 Doornbos	Paul	5	5	3	3
@@ -1409,8 +1399,6 @@ Benton	Richard A.	5	5	2	2
 Benzing	Johannes	5	5	2	2
 Berger	Paul	5	5	1	1
 Bernatzik	Hugo Adolf	5	5	0	0
-Berry	Keith	5	5	2	2
-Berry	Christine	5	5	1	1
 Berta	Árpád	5	5	1	1
 Beyer	Klaus	5	5	4	4
 Bhaskararao	Peri	5	5	4	5
@@ -1420,6 +1408,7 @@ Biggs	Bruce	5	5	4	4
 Billington	Rosey	5	5	1	1
 MacKenzie	Marguerite	5	5	3	3
 Reid	Julie	5	5	1	1
+Bulkaam	Michael	5	6	0	0
 Rießler	Michael	5	5	0	0
 Boglár	Luiz	5	5	0	0
 Bogoras	Waldemar	5	5	0	0
@@ -1451,11 +1440,9 @@ Gray	Rachel	5	5	0	0
 Bulmer	John	5	5	0	0
 Bulut	Christiane	5	5	0	0
 Burgman	Albert	5	5	9	9
-Burman	B. K. Roy	5	5	0	0
 Klumpp	James W.	5	5	1	1
 Burrows	E. G.	5	5	0	0
 Buschmann	Johann C. E.	5	5	0	0
-Buse	Jasper E.	5	5	0	0
 Gair	James W.	5	5	7	7
 Espinosa	Alejandra Gámez	5	5	0	0
 Calloc'h	J.	5	5	1	1
@@ -1477,7 +1464,6 @@ Celedón	Rafael	5	6	2	2
 Chafe	Wallace	5	5	3	4
 Chagnon	Napoleon A.	5	5	0	0
 Chaker	Salem	5	5	8	11
-Chalmers	James	5	6	0	0
 Chamberlain	Alexander F.	5	5	0	0
 Chaoke	D. O.	5	5	0	0
 Chappell	Hilary	5	5	14	15
@@ -1502,6 +1488,7 @@ Spencer	Juliann	5	6	0	0
 N'Guessan	Jérémie Kouadio	5	5	3	3
 Sambou	Pierre	5	6	1	1
 Hayden	B.	5	5	0	0
+de Créqui-Montfort	Georges	5	7	0	0
 Morse	Nancy L.	5	5	6	6
 Crooke	W.	5	5	0	0
 Naden	Anthony Joshua	5	5	10	10
@@ -1514,7 +1501,7 @@ Quigley	Susan R.	5	5	1	1
 Granadillo	Tania	5	5	0	0
 Jacquesson	François	5	5	1	1
 Dede	Keith	5	5	0	0
-DeLancey	Scott	5	5	13	13
+DeLancey	Scott	5	5	12	13
 Delplanque	Alain	5	5	5	5
 Lee	R. B.	5	5	0	0
 Wali	Kashi	5	5	6	6
@@ -1564,7 +1551,7 @@ Ferrario	Benigno	5	5	1	1
 Ferreira	Helder Perri	5	5	1	1
 Fleming	Harold	5	5	1	1
 Popovich	Frances B.	5	5	2	2
-Ford	Kevin	5	5	2	2
+Ford	Kevin	5	5	1	2
 Forde	Daryll	5	5	0	0
 Forde	C. D.	5	5	0	0
 Fort	Marron C.	5	5	1	1
@@ -1593,7 +1580,7 @@ Sims	Nathaniel	5	5	0	0
 Rose	Sharon	5	5	4	5
 Gil	David	5	5	11	12
 Ibriszimow	Dymitr	5	5	1	1
-Givón	Talmy	5	5	14	14
+Givón	Talmy	5	5	13	14
 Pittman	Richard S.	5	5	14	14
 Glover	Jessie R.	5	5	5	6
 Goddard	Jean	5	5	3	3
@@ -1601,6 +1588,7 @@ Goddard	Cliff	5	5	17	17
 Gomez-Imbert	Elsa	5	5	2	2
 Stenzel	Kristine	5	5	1	1
 Muntzel	Martha C.	5	5	2	2
+Grace	George W.	5	12	0	0
 Gray	Hazel	5	5	0	0
 Gray	Andrew	5	5	2	2
 Green	Ian	5	5	2	2
@@ -1638,11 +1626,13 @@ Hillelson	S.	5	5	0	0
 Himes	Ronald S.	5	5	0	0
 Wolff	John U.	5	5	4	4
 Hocart	A.M.	5	5	0	0
+Hodgson	Brian H.	5	6	0	0
 Hoffmann	Carl	5	5	2	2
 Littmann	Enno	5	5	1	1
 Höftmann	Hildegard	5	5	8	8
-Mackridge	Peter	5	5	6	6
+Mackridge	Peter	5	5	5	6
 Holzknecht	Susanne	5	5	2	2
+Tupper	Ian	5	13	1	1
 Hsiu	Andrew C.	5	5	0	0
 Xu	Shixuan	5	5	0	0
 Hua	Kan	5	5	0	0
@@ -1659,7 +1649,6 @@ Jacq	Pascale	5	5	3	3
 Lahaussois	Aimée	5	5	2	2
 Korn	Agnes	5	5	1	1
 Rice	Keren	5	5	18	18
-Jenner	Philip N.	5	5	3	3
 Jochelson	Waldemar	5	5	7	7
 Thomas	Alan R.	5	5	2	2
 Waterhouse	J. H. L.	5	5	0	0
@@ -1686,9 +1675,7 @@ Kobayashi	Masato	5	5	0	0
 Stroomer	Harry J.	5	5	1	1
 Stein	Peter	5	5	4	4
 Krause	Wolfgang	5	5	0	0
-Kriens	Ron	5	5	1	1
 Susanto	Yunita	5	5	0	0
-Krishan	Shree	5	5	0	0
 Kruyt	Albert C.	5	5	0	0
 Kulick	Don	5	5	0	0
 Kullavanijaya	Pranee	5	5	1	1
@@ -1701,6 +1688,7 @@ Larson	Gordon F.	5	5	0	0
 Pensalfini	Rob	5	5	4	4
 Law	Howard W.	5	5	5	5
 Leach	E. R.	5	5	0	0
+León	Nicolás	5	7	0	0
 Zheng	Yiqing	5	5	1	1
 Li	Daoyong	5	5	0	0
 Wang	Fushi	5	5	3	3
@@ -1711,7 +1699,6 @@ Liu	Yuanchao	5	5	0	0
 Löffler	Lorenz G.	5	5	1	1
 Rahmann	Rudolf	5	5	0	0
 Maceda	Marcelino N.	5	5	0	0
-Lorimer	D. L. R.	5	5	2	2
 McLendon	Sally	5	5	1	1
 Luffin	Xavier	5	5	2	2
 Lyons	A. P.	5	6	0	0
@@ -1725,7 +1712,7 @@ Mannheim	Bruce	5	5	3	3
 Shnukal	Anna	5	5	2	2
 Mason	J. Alden	5	5	0	0
 Mason	J. A.	5	5	0	0
-Matteson	Esther	5	5	8	10
+Matteson	Esther	5	5	6	10
 Taylor	Allan	5	5	0	0
 Maxia	Mauro	5	5	0	0
 Maxmutova	L. T.	5	5	0	0
@@ -1753,7 +1740,6 @@ Narumov	B. P.	5	5	0	0
 Nawata	Tetsuo	5	5	0	0
 Neukom	Lukas	5	5	8	8
 Ngonyani	Deogratias S.	5	5	3	3
-Nicolaisen	Johannes	5	5	0	0
 Niederer	Barbara	5	5	0	0
 Niggli	Idda	5	5	1	1
 Nimmo	H. A.	5	5	0	0
@@ -1765,6 +1751,7 @@ Okrand	Marc	5	5	0	0
 Olkkonen	Soini	5	5	2	2
 Oltrogge	David F.	5	5	0	0
 Opgenort	Jean R.	5	5	0	0
+Ortiz	Sergio Elías	5	6	6	9
 Stendal	Chadwick M.	5	5	0	0
 Otsuka	Kosei	5	5	0	0
 Parker	Steve	5	5	3	3
@@ -1787,7 +1774,6 @@ Quirós Rodríguez	Juan Santiago	5	5	0	0
 Rogers	Chris	5	5	1	1
 Rohlfs	Gerhard	5	5	2	2
 Roscoe	John	5	5	4	4
-Rossini	Carlo Conti	5	5	0	0
 Rupp	James E.	5	5	1	2
 Saeed	John Ibrahim	5	5	4	4
 Sampaio	Theodoro	5	5	0	0
@@ -1796,10 +1782,8 @@ Savina	F. M.	5	5	0	0
 Schlie	Perry	5	5	0	0
 Schuller	Rudolf	5	5	2	2
 Seligman	C. G.	5	5	0	0
-Sharma	Suhnu Ram	5	5	1	1
 Shorto	H. L.	5	5	0	0
 Siegl	Florian	5	5	2	2
-Suantak	Khawlsonkim	5	5	0	0
 Smith	Terrence	5	5	0	0
 Stumme	Hans	5	5	2	2
 Sreedhar	Mangadan Veetil	5	5	0	0
@@ -1904,7 +1888,7 @@ Althur	Simin	4	4	0	0
 Marlo	Michael R.	4	4	2	2
 Alvar	Manuel	4	4	4	4
 Alvarez	José	4	4	2	2
-Engel	Ralph	4	4	2	2
+Engel	Ralph	4	4	1	2
 Sugono	Dendy	4	9	0	0
 Sélézilo	Apollinaire	4	4	0	0
 Ames	D. W.	4	4	0	0
@@ -1925,7 +1909,7 @@ Yousif	Bal Douwash	4	4	0	0
 Blang	Abrahama Kidir	4	4	0	0
 Anur	Abdalmajid Juma	4	4	0	0
 Aplonova	Ekaterina	4	4	0	0
-Applegate	Joseph R.	4	4	4	4
+Applegate	Joseph R.	4	4	3	4
 Arakin	V. D.	4	4	0	0
 Ardila	Olga	4	4	3	3
 Ardoteli	Nodar	4	4	0	0
@@ -2027,6 +2011,8 @@ Bernabé	Jean	4	4	2	2
 Berndt	Ronald M.	4	4	0	0
 Berndt	R. M.	4	4	0	0
 Bernot	Denise	4	4	4	4
+Berry	Keith	4	5	2	2
+Berry	Christine	4	5	1	1
 Róna-Tas	András	4	4	0	0
 Gerlach	Linda	4	4	0	0
 Duitsman	John	4	4	3	4
@@ -2064,7 +2050,6 @@ Boeschoten	Hendrik	4	4	1	1
 Bogoraz	V. G.	4	4	0	0
 Chumakina	Marina	4	4	5	9
 Corbett	Greville G.	4	4	8	10
-Bonifacy	A.	4	4	0	0
 Bontkes	Willem	4	4	0	0
 Bradley	David P.	4	4	2	2
 Maes	J.	4	4	0	0
@@ -2098,6 +2083,7 @@ Joseph	U. V.	4	4	0	0
 Burns	Donald H.	4	4	5	7
 Hohulin	E. Lou	4	4	2	2
 Burquest	Donald A.	4	4	8	9
+Buse	Jasper E.	4	5	0	0
 Butler	Inez M.	4	4	1	1
 Quakenbush	J. Stephen	4	4	3	3
 Kröger	Oliver	4	4	0	0
@@ -2120,7 +2106,7 @@ Carter	John	4	5	0	0
 Carter	Katie	4	5	0	0
 Grummitt	John	4	4	0	0
 Paris	Brian	4	4	0	0
-Carter	Hazel	4	4	16	17
+Carter	Hazel	4	4	15	17
 Castellví	Marcelino de	4	4	5	5
 Obregón Muñoz	Hugo	4	4	2	3
 de Castro Alves	Flávia	4	4	0	0
@@ -2129,6 +2115,7 @@ Labrada	Jorge Emilio Rosés	4	4	0	0
 Kansakar	Tej R.	4	4	1	1
 Chalise	Krishna Prasad	4	4	0	0
 Paudel	Krishna	4	4	1	1
+Chalmers	James	4	6	0	0
 Chamberlain	Basil Hall	4	4	0	0
 Jerono	Prisca	4	4	0	0
 Chen	Xiaojin	4	4	0	0
@@ -2156,10 +2143,8 @@ Davies	John	4	4	1	1
 Condominas	Georges	4	4	1	1
 Constantino	Ernesto	4	4	1	1
 Conzemius	Eduard	4	4	4	4
-Cook	Dorothy M.	4	4	4	5
+Cook	Dorothy M.	4	4	3	5
 Coombs	David M.	4	4	2	2
-Keilah	Marie	4	4	0	0
-Evans	Beth	4	4	0	0
 Trail	Ronald L.	4	4	2	3
 Cooper	J. M.	4	4	0	0
 Cooper	John M.	4	4	0	0
@@ -2273,7 +2258,7 @@ Pozdniakov	Konstantin	4	4	2	2
 Feyer	Ursula	4	4	0	0
 Keesing	Roger M.	4	4	2	2
 Finlayson	Rosalie	4	4	2	2
-Fisch	Rudolf	4	4	2	2
+Fisch	Rudolf	4	4	1	2
 Fischer	Rafael	4	4	0	0
 Fleisch	Axel	4	4	5	5
 Turpeinen	Sinikka	4	5	1	1
@@ -2363,10 +2348,9 @@ Hansen	Kenneth C.	4	4	4	4
 Hansson	Inga-Lill	4	4	8	9
 Ouattara	Aminata	4	4	2	2
 Maibaum	Anita	4	4	4	4
-Harris	P. G.	4	5	0	0
 Harris	John W.	4	4	1	1
-Harrison	Roy	4	4	2	2
-Harrison	Margaret	4	4	2	2
+Harrison	Roy	4	4	1	2
+Harrison	Margaret	4	4	1	2
 Hashimoto	Mantaro	4	4	0	0
 Hasrah	Mohd Tarmizi	4	4	0	0
 Tropper	Josef	4	4	1	1
@@ -2433,6 +2417,7 @@ Janšansin	Jusup	4	4	0	0
 Valenzuela	Pilar	4	4	0	0
 Jaspan	M. A.	4	4	0	0
 Jedrej	M. C.	4	4	0	0
+Jenner	Philip N.	4	5	3	3
 Pacquement	Jean	4	4	0	0
 Jensen	Adolf	4	4	0	0
 Jiang	Di	4	4	0	0
@@ -2449,7 +2434,6 @@ Jukes	Anthony	4	4	0	0
 Seelwische	José	4	4	2	2
 Junod	Henri-Alexandre	4	4	7	7
 Mathai	Eldose K.	4	4	0	0
-Ka	Fary Silate	4	4	0	0
 Kaberry	P. M.	4	4	0	0
 Kahigi	Kulikoyela Kanalwanda	4	4	6	6
 Usman	Moses	4	4	0	0
@@ -2473,6 +2457,7 @@ Kimball	Geoffrey	4	4	4	4
 Kimoto	Yukinori	4	4	0	0
 King	Victor T.	4	4	0	0
 Kirch	P. V.	4	4	0	0
+Kraft	Charles H.	4	6	8	8
 Klaproth	H. Julius	4	4	0	0
 Klingler	Thomas A.	4	4	3	3
 Koch	Harold	4	4	3	3
@@ -2486,6 +2471,7 @@ Satre	Scott	4	4	3	3
 Phillips	Richard L.	4	4	4	4
 Kra	Kouakou Appoh Enoc	4	4	0	0
 Krause	Fritz	4	4	0	0
+Kriens	Ron	4	5	1	1
 Rumaropen	Benny	4	5	0	0
 Krippes	Karl A.	4	4	2	2
 Kronenberg	Andreas	4	4	0	0
@@ -2497,7 +2483,7 @@ Künnap	Ago	4	4	0	0
 Kurdoev	Kanat K.	4	4	1	1
 Zhou	Decai	4	4	0	0
 Sands	Bonny [Eva]	4	4	2	2
-Lafkioui	Mena	4	4	3	3
+Lafkioui	Mena	4	4	2	3
 Lagae	C.R.	4	4	1	1
 McClellan	Catharine	4	4	1	1
 Pampus	Karl-Heinz	4	4	1	1
@@ -2507,7 +2493,6 @@ Lang	Jürgen	4	4	3	3
 Larochette	Joseph	4	4	1	1
 Larsen	Thomas W.	4	4	0	0
 Larson	Thomas John	4	4	5	5
-Sola	Donald F.	4	4	1	1
 Takubo	Yukinori	4	4	3	3
 Laughlin	Robert M.	4	4	0	0
 Lawes	William George	4	4	0	0
@@ -2540,6 +2525,7 @@ Lockwood	W. B.	4	4	1	1
 Mokgokong	Pothinus C.	4	4	3	3
 Long	Violeta	4	4	0	0
 Williams	Ann F.	4	4	0	0
+Lorimer	D. L. R.	4	5	2	2
 Mitchell	Alice	4	4	0	0
 McKaughan	Howard	4	4	3	3
 Lowie	T. H.	4	4	0	0
@@ -2559,7 +2545,6 @@ Thalmann	Peter	4	4	0	0
 Orden	María Emilia	4	4	0	0
 Temple	Richard C.	4	5	1	1
 Man	E. H.	4	4	0	0
-Yamaguchi	Masao	4	4	0	0
 Mandala	Halus	4	4	0	0
 Mansen	Richard A.	4	4	4	4
 Manson	Ken	4	4	1	1
@@ -2574,7 +2559,7 @@ Maslova	Elena	4	4	2	2
 Mason	Francis	4	4	0	0
 Massamba	David Phineas Bhukanda	4	4	9	9
 Matasović	Ranko	4	4	1	1
-Mathew	John	4	4	2	2
+Mathew	John	4	4	1	2
 Matsumura	Takashi	4	4	2	2
 Matthes	Benjamin F.	4	4	0	0
 Yip	Virginia	4	4	3	3
@@ -2582,7 +2567,6 @@ Mattina	Anthony	4	4	4	4
 Seguin	Lawrence Marc	4	4	6	6
 Mbuagbaw	Tanyi Eyong	4	4	2	2
 McCulloch	Merran	4	4	1	1
-McKelson	Kevin	4	4	2	2
 Megu	Arak	4	4	0	0
 Meillet	Antoine	4	4	7	7
 Meinhof	Carl [Friedrich] [Michael]	4	5	12	12
@@ -2600,7 +2584,7 @@ Roulon-Doko	Paulette	4	4	6	7
 Montag	Richard	4	4	0	0
 Moore	Bruce R.	4	4	3	3
 García Ramos	Crescencio	4	4	0	0
-Young	Robert W.	4	4	5	5
+Young	Robert W.	4	4	4	5
 Corbera Mori	Angel	4	4	0	0
 Moriguchi	Tsunekazu	4	4	2	2
 Morris	Brian	4	4	0	0
@@ -2623,6 +2607,7 @@ Ndi	Francis Wepngong	4	4	0	0
 Needham	Jack F.	4	4	0	0
 Newman	Stanley	4	4	0	0
 Newman	Stanley S.	4	4	0	0
+Nicolaisen	Johannes	4	5	0	0
 Nicole	Jacques	4	4	3	3
 Nishio	Tetsuo	4	4	0	0
 Nissim	Gabriel M.	4	4	2	2
@@ -2669,7 +2654,7 @@ Perlin	Ross Adam	4	4	0	0
 Perumalsamy	P.	4	4	0	0
 Pessoa	Katia Nepomuceno	4	4	1	1
 Pfizmaier	August	4	4	1	1
-Pinnow	Heinz-Jürgen	4	4	18	19
+Pinnow	Heinz-Jürgen	4	4	17	19
 Pokrovskaja	Ljudmila A.	4	4	2	2
 Powdermaker	H.	4	4	0	0
 Powlison	Paul	4	4	2	2
@@ -2700,7 +2685,6 @@ Thakur	Gopal	4	5	0	0
 Thakur	Indresh	4	6	0	0
 Reinhard	Johan	4	4	0	0
 Reker	Siemon J. H.	4	4	0	0
-Relandus	Hadrianus	4	4	0	0
 Rensch	Karl H.	4	4	1	1
 Salvi	Giampaolo	4	4	2	2
 Sakel	Jeanette	4	4	5	6
@@ -2715,6 +2699,7 @@ de Rop	Albert Jozef	4	4	0	0
 von Rosenberg	Carl Benjamin Hermann	4	4	0	0
 von Rosenberg	Hermann	4	4	0	0
 Walker	Alan T.	4	4	0	0
+Rossini	Carlo Conti	4	5	0	0
 Rouse	Irving	4	4	0	0
 Roy	Sarat Chandra	4	4	1	2
 Rutherford	D.	4	4	0	0
@@ -2747,12 +2732,14 @@ Seeger	Ulrich	4	4	0	0
 Seetzen	Ulrich Jasper	4	4	0	0
 Segert	Stanislav	4	4	3	3
 Sercombe	Peter	4	4	2	2
+Sharma	Suhnu Ram	4	5	1	1
 Sharpe	Margaret	4	4	3	4
 Sharpe	Margaret C.	4	4	8	8
 Sillitoe	Paul	4	4	0	0
 Silva	M. W. Sugathapala de	4	4	0	0
 Simmons	Richard VanNess	4	4	0	0
 Simon	I. M.	4	4	0	0
+Suantak	Khawlsonkim	4	5	0	0
 Singh	Jag Deva	4	4	0	0
 Skorik	Pavel Ya.	4	4	0	0
 Smith	Richard D.	4	4	7	10
@@ -2820,7 +2807,7 @@ Wang	Chengyou	4	4	0	0
 Watkins	Justin	4	4	1	1
 Watuseke	F. S.	4	4	0	0
 Wega	Simeu Abraham	4	4	0	0
-Weimer	Harry	4	4	3	3
+Weimer	Harry	4	4	2	3
 Welch	Betty	4	4	7	12
 Wessén	Elias	4	4	2	2
 Westphal	Ernst Oswald Johannes	4	4	9	9
@@ -2843,6 +2830,7 @@ Young	Robert A.	4	4	2	3
 Young	M. W.	4	4	0	0
 Zariquiey Biondi	Roberto	4	4	0	0
 Z'graggen	Johannes A.	4	7	0	0
+Zorc	David P.	4	8	0	0
 Aaley	Uday Raj	3	3	0	0
 Aasen	Ivar	3	3	0	0
 Paul	Daniel	3	3	1	1
@@ -3050,7 +3038,6 @@ Bahl	Kali Charan	3	3	0	0
 Dahlan	Saidat	3	3	1	1
 Bahri	Hardev	3	3	0	0
 Mahmoudveysi	Parvin	3	3	0	0
-Bailey	Beryl	3	3	0	0
 Keller	Charles	3	3	3	3
 Baird	Louise	3	3	3	3
 Baishya	Ajit K.	3	3	0	0
@@ -3097,7 +3084,6 @@ Swadesh	Mauricio	3	3	0	0
 Coupez	André	3	3	15	15
 Coupez	A.	3	3	2	2
 Hess	Thom	3	4	1	1
-Bates	Daisy	3	7	0	0
 Baucom	Kenneth L.	3	3	2	2
 Bauer	Robert S.	3	3	4	4
 Bauer	Christian	3	3	1	1
@@ -3133,7 +3119,7 @@ Belshaw	C. S.	3	3	0	0
 Bochnak	Ryan	3	3	0	0
 Benaissa	Taik	3	3	2	2
 Triulzi	Alessandro	3	3	3	4
-Watahomigie	Lucille J.	3	4	3	3
+Watahomigie	Lucille J.	3	4	2	3
 Yamamoto	Akira Y.	3	3	3	3
 Bendor-Samuel	John T.	3	3	6	6
 Benincà	Paola	3	3	4	4
@@ -3213,7 +3199,6 @@ Blecke	Bärbel	3	3	0	0
 Grebe	Karl	3	3	2	2
 Kato	Barau	3	3	1	1
 Longtau	Selbut R.	3	3	2	2
-Nengel	John Garah	3	3	0	0
 Bloch	M.	3	3	0	0
 Bloemhoff	Henk	3	3	0	0
 Bloemhoff	Hendrik	3	3	0	0
@@ -3234,6 +3219,7 @@ Bollaert	Flore	3	3	0	0
 Person	Ingrid	3	3	0	0
 Hoddinott	W. G.	3	4	0	0
 Bombay	Elaine	3	3	3	3
+Bonifacy	A.	3	4	0	0
 Lauriault	Erwin	3	3	0	0
 Boopathy	S.	3	3	0	0
 Borah	Ashim	3	3	0	0
@@ -3281,7 +3267,7 @@ Kushnick	G.	3	3	0	0
 Brown	Robert	3	3	1	1
 Browne	Gerald M.	3	3	2	2
 Bloemhoff-de Bruijn	Philomène	3	3	0	0
-Siebert	Ralph	3	3	25	30
+Siebert	Ralph	3	3	24	30
 Bryant	Alfred Thomas	3	3	5	5
 Mbongué	Joseph	3	3	3	3
 Deepadung	Sujaritlak	3	3	0	0
@@ -3376,7 +3362,6 @@ Parker	Gary	3	3	1	1
 Chávez	Heinrich Albert Helberg	3	3	0	0
 Chebanne	Andy M.	3	3	8	8
 Chelliah	Shobhana L.	3	3	3	4
-Yang	Liujin	3	3	0	0
 Chen	Xiangmu	3	3	0	0
 Chen	Zongzhen	3	3	1	1
 Chen	Yi-Ting	3	3	0	0
@@ -3429,6 +3414,8 @@ Coolsma	Sierk	3	3	0	0
 Weber	Robert L.	3	3	1	1
 Coon	C. S.	3	3	0	0
 Cooper	Mary	3	3	0	0
+Keilah	Marie	3	4	0	0
+Evans	Beth	3	4	0	0
 Cooper	Gregory R.	3	3	0	0
 Cooper	Russell E.	3	3	0	0
 Cooper	James	3	3	0	0
@@ -3563,7 +3550,7 @@ Doniyorova	Saodat	3	3	0	0
 Donner	Kai	3	3	1	1
 Joki	Aulis J.	3	3	3	3
 Sawaki	Yusuf	3	3	0	0
-Dooley	Robert A.	3	3	12	12
+Dooley	Robert A.	3	3	10	12
 Dornan	Samuel Shaw	3	3	2	2
 Dorsey	G. A.	3	3	0	0
 Dorsey	James Owen	3	3	3	3
@@ -3609,7 +3596,6 @@ Efere	Emmanuel Efereala	3	3	2	2
 Egboh	E. O.	3	3	0	0
 Egbokhare	Oisaghaede Francis	3	3	2	2
 Thompson	M. Terry	3	3	4	6
-Egidi	Vincenzo M.	3	3	0	0
 Ehrhart	Sabine	3	3	1	1
 Rivierre	Jean Claude	3	3	1	1
 Eibl-Eibesfeldt	Irenäus	3	3	1	1
@@ -3625,7 +3611,6 @@ Ekpe	Mfon Brownson	3	3	0	0
 Pukui	Mary Kawena	3	3	3	3
 Elimelech	Baruch	3	4	4	4
 Ellen	R.F.	3	3	0	0
-Ellen	G. J.	3	4	0	0
 Elliott	Raymond	3	5	1	1
 Elmslie	Walter Angus	3	3	2	2
 Laakso	Johanna	3	3	1	1
@@ -3774,7 +3759,6 @@ Gonzales Castaño	Geny	3	3	0	0
 Gonzalez	Andrew	3	3	0	0
 Schneider	Cindy	3	3	1	1
 Sarmah	Priyankoo	3	3	0	0
-Gordon	J. D.	3	3	0	0
 Schneider	D. M.	3	3	0	0
 Gould	R. A.	3	3	0	0
 Ramos	Teresita V.	3	3	0	0
@@ -3786,7 +3770,7 @@ Grace	George William	3	3	0	0
 Gracheva	G. N.	3	3	0	0
 Graham	David Crockett	3	3	0	0
 Hoogenraad	Robert	3	3	3	3
-Reid	Nicholas	3	3	7	7
+Reid	Nicholas	3	3	6	7
 Quirk	Randolph	3	3	1	1
 Gregerson	Marilyn B.	3	3	1	1
 Hartzler	Margaret	3	3	3	3
@@ -3857,7 +3841,8 @@ Hardin	Barbara	3	3	0	0
 Hari	Anna Maria	3	3	2	2
 Harley	Matthew	3	3	0	0
 Harner	Michael	3	3	0	0
-Harries	Lyndon [Pritchard]	3	3	15	15
+Harries	Lyndon [Pritchard]	3	3	13	15
+Harris	P. G.	3	5	0	0
 Isaac	Kendall	3	3	1	1
 Showalter	Stuart D.	3	3	0	0
 Harrison	Carl H.	3	3	2	2
@@ -3886,7 +3871,6 @@ Hé	Yànchéng	3	3	0	0
 He	Wei	3	3	0	0
 Head	June	3	3	5	5
 Headland	Paul	3	3	6	7
-Leeding	Velma J.	3	4	4	5
 Larsson	Lars-Gunnar	3	3	0	0
 Voßen	Rainer	3	3	1	1
 Henderson	James	3	3	3	3
@@ -3916,7 +3900,7 @@ Hinnebusch	Thomas Joseph	3	3	1	1
 Hinton	Leanne	3	3	4	4
 Nakamoto	Masachie	3	3	0	0
 Hoberman	Robert D.	3	3	3	4
-Hochegger	Herrmann	3	3	22	22
+Hochegger	Herrmann	3	3	11	22
 Kapp	Dieter B.	3	3	1	1
 Pilot-Raichoor	Christiane	3	3	0	0
 Hodson	Thomas Callan	3	3	0	0
@@ -3925,8 +3909,8 @@ Hoffman	W. J.	3	3	0	0
 Hollenbach	Bruce E.	3	3	2	2
 Hollis	A. C.	3	4	0	0
 Holmes	John H.	3	3	0	0
-Holton	David	3	3	4	4
-Philippaki-Warburton	Irene	3	3	12	12
+Holton	David	3	3	3	4
+Philippaki-Warburton	Irene	3	3	11	12
 Sicoli	Mark A.	3	3	1	1
 Holzknecht	Suzanne	3	3	0	0
 Hoogervorst	Tom G.	3	3	0	0
@@ -4013,12 +3997,13 @@ Jong	Rudolf de	3	4	1	1
 Jörgensen	Tams	3	3	0	0
 Josephs	Lewis S.	3	3	0	0
 Jouannet	Francis	3	3	9	9
-Jourdan	Christine	3	3	3	3
+Jourdan	Christine	3	3	2	3
 Judachin	Konstantin K.	3	3	0	0
 Judy	Robert A.	3	3	1	1
 Jung	Ingrid	3	3	0	0
 Koppers	Wilhelm	3	3	0	0
 Jusayú	Miguel Angel	3	3	6	8
+Ka	Fary Silate	3	4	0	0
 Kaare	Bwire	3	3	0	0
 Nkiko	Munya Rugero	3	3	3	3
 Kaboy	Tuton	3	3	0	0
@@ -4079,7 +4064,7 @@ Kimenyi	Alexandre	3	3	4	4
 King	Alan R.	3	3	1	1
 King	Copland	3	3	0	0
 King	Gareth	3	3	2	2
-Kinnaird	William J.	3	3	2	2
+Kinnaird	William J.	3	3	1	2
 Kinnaird	William	3	3	1	1
 Kirchhoff	Paul	3	3	2	2
 Kiryu	Kazuyuki	3	3	0	0
@@ -4096,7 +4081,6 @@ Kohl-Larsen	Ludwig	3	3	0	0
 Kohlberger	Martin	3	3	0	0
 Kohn	Allison	3	3	0	0
 Kamanda Kola	Roger	3	3	1	1
-Kolaga	Withen	3	3	0	0
 Vertenten	Petrus	3	3	0	0
 Kondakov	Alexander	3	3	0	0
 Kononov	Andrej N.	3	3	0	0
@@ -4113,7 +4097,7 @@ Krapf	J. L.	3	3	0	0
 Kratz	Corinne A.	3	3	0	0
 Krause	Gottlob Adolf	3	3	3	3
 Krauße	Daniel	3	3	0	0
-Vries	Peter Jan de	3	3	0	0
+Krishan	Shree	3	5	0	0
 Kristensen	Ole-Bjørn	3	3	0	0
 Nomland	G. A.	3	3	0	0
 Waterman	T. T.	3	3	0	0
@@ -4146,6 +4130,7 @@ Langub	Jayl	3	3	0	0
 Ɫaribyan	Ararat Sahaki	3	3	0	0
 Lar'kin	V. G.	3	3	0	0
 Pym	Noreen	3	3	3	3
+Sola	Donald F.	3	4	1	1
 Taguchi	Yushin	3	3	1	1
 Laufer	Carl	3	3	0	0
 Lawton	Ralph	3	3	0	0
@@ -4171,7 +4156,7 @@ Levy	Richard	3	3	0	0
 Lewis	Jerome	3	3	0	0
 Lex	Gloria	3	3	0	0
 Qiu	Efeng	3	3	0	0
-Thompson	Sandra A.	3	3	14	15
+Thompson	Sandra A.	3	3	13	15
 Li	Fang Kuei	3	3	0	0
 Li	Shulan	3	3	0	0
 Wang	Qingfeng	3	3	0	0
@@ -4199,7 +4184,6 @@ Lorentz	Friedrich	3	3	0	0
 Lorenzino	Gerardo A.	3	4	3	3
 Lorimer	D.L.R.	3	3	0	0
 Lotven	Samson	3	3	0	0
-Loukotka	Chestmir	3	3	0	0
 Lowis	C. C.	3	4	0	0
 Lozano	Elena	3	3	2	2
 Luce	Gordon H.	3	3	9	9
@@ -4233,6 +4217,7 @@ Malov	Sergej E.	3	3	1	1
 Mamet	Ingo	3	3	1	1
 Manabe	Kazue	3	3	0	0
 Manabe	Takashi	3	3	0	0
+Yamaguchi	Masao	3	4	0	0
 Mandal	Debabrata	3	3	0	0
 Roset	Caroline	3	3	0	0
 Sukamto	{	3	3	0	0
@@ -4257,7 +4242,7 @@ Matzinger	Joachim	3	3	0	0
 Maugham	Reginald Charles Fulke	3	3	0	0
 Mavoungou	Paul Achille	3	3	6	6
 Maxwell	Michael B.	3	3	3	3
-Walton	Janice P.	3	3	4	4
+Walton	Janice P.	3	3	3	4
 Mayer	P.	3	3	0	0
 Mayfield	Roy	3	3	1	1
 Mbodj	Chérif	3	3	1	1
@@ -4312,7 +4297,6 @@ Mirikitani	Leatrice T.	3	3	0	0
 Mitchell	William E.	3	3	0	0
 Mkrtč‘yan	Nerses Alek‘sani	3	3	0	0
 Moag	Rodney	3	3	0	0
-Moéhama	Elisée	3	7	0	0
 Mohammadou	Eldridge	3	3	1	1
 Mohan	Peggy	3	3	0	0
 Mohan	Hari	3	3	0	0
@@ -4364,7 +4348,6 @@ Romanova	Agnija V.	3	3	0	0
 Mzamane	Godfred Isaac Malunga	3	3	0	0
 Nagaoka	T.	3	3	0	0
 Nagore Lain	Francho	3	3	0	0
-Nahhas	Ramzi W.	3	3	0	0
 Nakanishi	Hiroki	3	3	0	0
 Nakayama	Toshihide	3	3	0	0
 Nakkeerar	R.	3	3	0	0
@@ -4395,7 +4378,7 @@ Nogueira	Rodrigo de Sá	3	3	1	1
 Nöldeke	Theodor	3	3	1	1
 Novelli	Bruno	3	3	1	1
 Obenga	Théophile	3	3	1	1
-Oberg	Kalervo	3	3	3	3
+Oberg	Kalervo	3	3	2	3
 Oberlies	Thomas	3	3	2	2
 Wilson	J.	3	3	0	0
 Obst	Erich	3	3	0	0
@@ -4531,6 +4514,7 @@ Reinhard	Pierre	3	3	8	8
 Reinoso Galindo	Andrés E.	3	3	4	4
 Reintges	C. H.	3	3	0	0
 Rekhung	Winlang	3	3	0	0
+Relandus	Hadrianus	3	4	0	0
 Rémusat	Abel	3	3	0	0
 Rendón	Juan José	3	3	0	0
 Rennison	John R.	3	3	3	3
@@ -4655,10 +4639,8 @@ Silverstein	Michael	3	3	3	3
 Simchenko	Ju. B.	3	3	0	0
 Simons	Linda	3	3	1	1
 Sims	Aaron B.	3	3	0	0
-Singh	Chungkham Yasawanta	3	3	0	0
 Sinha	Kali Prasad	3	3	0	0
 Sjogren	A. J.	3	3	0	0
-Skjærvø	Prods Oktor	3	3	0	0
 Skjærvø	Prods O.	3	3	0	0
 Skrzypek	Emilia E.	3	3	0	0
 Skvortsov	M. I.	3	3	0	0
@@ -4993,6 +4975,7 @@ Afanas'eva	K. V.	2	2	0	0
 Afanas'eva	E. N.	2	2	0	0
 Agard	Frederick B.	2	2	1	1
 Ağbaht	Mahmut	2	2	0	0
+Agency	Central Intelligence	2	9	0	0
 Aginsky	Ethel G.	2	2	0	0
 Agius	Dionisius A.	2	2	0	0
 Aglarov	Mamaykhan A.	2	2	0	0
@@ -5038,7 +5021,6 @@ Yusuf	Husni	2	2	0	0
 Gomes	Matias	2	2	0	0
 Kenstowicz	Michael J.	2	2	4	5
 Akbaev	X. M.	2	2	0	0
-Akbar	Oskar M.	2	2	0	0
 Åkerberg	Bengt	2	2	0	0
 Akimichi	Tomoya	2	2	0	0
 Bennett	William	2	2	2	2
@@ -5389,6 +5371,7 @@ Bailey	R. C.	2	2	0	0
 Bailey	Garrick A.	2	2	0	0
 Young	Gloria A.	2	2	0	0
 Bailey	Thomas Grahame	2	2	3	3
+Bailey	Beryl	2	3	0	0
 Bailey	Harold Walter	2	2	0	0
 Bailleul	Charles	2	2	2	2
 Baird	Ian G.	2	2	0	0
@@ -5487,6 +5470,7 @@ Basumatary	Chibiram	2	2	0	0
 Batchelor	J.	2	2	0	0
 Hilbert	Vi	2	2	0	0
 Bates	Daisy M.	2	2	1	1
+Bates	Daisy	2	7	0	0
 Batmanov	I. A.	2	2	0	0
 Batouka	Niaz	2	2	0	0
 Baudin	L.	2	2	0	0
@@ -5619,7 +5603,6 @@ Berkaï	Abdelaziz	2	2	0	0
 Berlin	Brent	2	2	4	4
 Berlin	Overton Brent	2	2	0	0
 Berman	Ruth A.	2	2	3	3
-Bernard	J.	2	2	0	0
 Berndt	Catherine H.	2	2	0	0
 Bernus	Edmond	2	2	0	0
 Cabodevila	Miguel Ángel	2	2	0	0
@@ -5628,7 +5611,7 @@ Dorsey	Beverley	2	2	0	0
 Bertaut	Maurice	2	2	0	0
 Bertet	Denis	2	2	0	0
 Berthe	Louis	2	2	1	1
-Berthelette	John	2	5	5	18
+Berthelette	John	2	5	4	18
 Berthelette	Carol	2	3	1	1
 Bertho	Jacques	2	2	3	3
 Berthold	Falko	2	2	0	0
@@ -5661,12 +5644,11 @@ Chase	Nichumeno	2	2	0	0
 Bhat	Roop Krishen	2	2	1	1
 Bhat	Shabir Ahmed	2	2	0	0
 Bhattacharjee	Tarun Kumar	2	2	0	0
-Dimock	Edward C.	2	2	3	3
-Bhattacharji	Somdev	2	2	2	2
+Dimock	Edward C.	2	2	2	3
+Bhattacharji	Somdev	2	2	1	2
 Bhattacharya	Pramod Chandra	2	2	2	3
 Bhattacharyya	Pushpa Renu	2	2	0	0
 Dutta	Barshapriya	2	2	0	0
-Bhoḷa	Latā	2	2	0	0
 Mahāpātra	Khageśvara	2	2	0	0
 Biagui	Noël Bernard	2	2	0	0
 Bialek	Joanna	2	2	0	0
@@ -5738,6 +5720,7 @@ Bleek	Wilhelm Heinrich Immanuel	2	2	4	4
 Lloyd	Lucy Catherine	2	2	0	0
 Bleek	Dorothea Frances	2	2	2	2
 Ndamsai	Anthony	2	2	0	0
+Nengel	John Garah	2	3	0	0
 Bley	Bernhard	2	2	0	0
 Blin-Lagarde	Pierrette	2	2	0	0
 Bloch	Oscar	2	2	0	0
@@ -5908,7 +5891,7 @@ Brosig	Benjamin	2	2	0	0
 Broß	Michael	2	2	0	0
 Brothers	The Christian	2	2	0	0
 Brotto	Enrico	2	2	0	0
-Lefebvre	Claire	2	2	24	26
+Lefebvre	Claire	2	2	23	26
 Brow	James	2	2	0	0
 Brown	Dunstan	2	2	4	7
 Crawford	Judith G.	2	2	0	0
@@ -6123,6 +6106,7 @@ Chatterji	Sunti Kumar	2	2	0	0
 Cheesman	L. E.	2	2	0	0
 Chelo	Lotsima	2	2	0	0
 Chen	Yiya	2	2	1	1
+Yang	Liujin	2	3	0	0
 Hé	Bù	2	2	0	0
 Chén	Naixiong	2	2	0	0
 Hiroyuki	Akitani	2	2	0	0
@@ -6139,7 +6123,6 @@ Chen	Hui	2	2	0	0
 Chen	Teresa M.	2	2	0	0
 Chenal	Aimé	2	2	0	0
 Tung	T'ung-ho	2	2	0	0
-Cheng	Teresa M.	2	2	0	0
 Chernetsov	V. N.	2	2	0	0
 Vanderkooi	Mark	2	2	1	1
 Cheucle	Marion	2	2	0	0
@@ -6413,7 +6396,6 @@ Feuilleteau de Bruyn	W. K. H.	2	2	0	0
 Cunha de Oliveira	Christiane	2	2	0	0
 Dorigo de Carvalho	Carmen Teresa	2	2	0	0
 de Josselin de Jong	Jan Petrus Benjamin	2	2	0	0
-Priego Montfort de Mostaghimi	Maria Eugenia	2	2	0	0
 Josselin de Jong	Jan Petrus Benjamin	2	2	0	0
 Ishy de Magalhães	Priscila Hanako	2	2	0	0
 De Cleene	N.	2	2	0	0
@@ -6657,6 +6639,7 @@ Egede	Paul	2	2	0	0
 Egesdal	Steven M.	2	2	2	3
 Thompson	Terry M.	2	2	0	0
 Eggertsson	Sveinn	2	2	0	0
+Egidi	Vincenzo M.	2	3	0	0
 Ehrenfels	U. R.	2	2	0	0
 Ehrman	Madeline Elizabeth	2	2	2	2
 Schiefenhövel	Wulf	2	2	0	0
@@ -6685,11 +6668,12 @@ Leroy	Jacqueline	2	2	2	2
 Toporov	V. N.	2	2	0	0
 Wang	Peter	2	2	0	0
 Ellen	R. F.	2	2	0	0
+Ellen	G. J.	2	4	0	0
 Elliott	George	2	2	0	0
 Elliott	Eric	2	2	0	0
 Sauvel	Katherine Siva	2	2	0	0
 Elliott	William Allan	2	2	0	0
-Ellis	S. James	2	2	2	2
+Ellis	S. James	2	2	1	2
 Ellis	C. Douglas	2	2	2	2
 Ellis	Florence Hawley	2	2	0	0
 Elmendorf	W. W.	2	2	0	0
@@ -7022,7 +7006,6 @@ Gatschet	Albert	2	2	0	0
 Meyer	Julien	2	2	2	2
 Gauthier	J.-G.	2	2	0	0
 Gautier	E. F.	2	2	0	0
-Gaved	Tim	2	2	1	1
 Gblem-Poidi	Massanvi Honorine	2	2	0	0
 Gblem-Poidi	Honorine Massanvi Massanvi	2	2	0	0
 Geary	Elaine	2	2	4	4
@@ -7117,6 +7100,7 @@ Hay	Jennifer	2	2	2	2
 Gordon	Elizabeth	2	2	0	0
 Kilgour	Heather J.	2	2	0	0
 Gordon	Matthew	2	2	4	4
+Gordon	J. D.	2	3	0	0
 Gordon	Lynn	2	2	2	2
 Gorenflo	L. J.	2	2	0	0
 Gorgoniev	Yu. A.	2	2	0	0
@@ -7260,7 +7244,7 @@ Hallaire	Antoinette	2	2	0	0
 Hallanger	Frederick S.	2	2	0	0
 Hallberg	Calinda E.	2	2	1	2
 Halme	Riikka	2	2	1	1
-Ham	Patricia	2	2	3	3
+Ham	Patricia	2	2	2	3
 Koopman	Linda	2	2	0	0
 Hamel	Patricia J.	2	2	0	0
 Kamioka	Koji	2	2	1	1
@@ -7351,7 +7335,7 @@ Hattori	Takesi	2	2	0	0
 Hattori	Shirô	2	2	0	0
 Sharp	R. L.	2	2	0	0
 Hauck	H. M.	2	2	0	0
-Haudricourt	André-Georges	2	2	16	16
+Haudricourt	André-Georges	2	2	15	16
 Haug	Martin	2	2	0	0
 Haulussy	Ny. A.	2	2	0	0
 Hau'ofa	E.	2	2	0	0
@@ -7377,7 +7361,7 @@ He	Jiashan	2	2	1	1
 He	Tianzhen	2	2	0	0
 He	Rufen	2	2	0	0
 Zeng	Siqi	2	2	0	0
-Hughes	Earl J.	2	4	5	6
+Leeding	Velma J.	2	4	4	5
 Steinkraus	Walter	2	2	2	2
 Heath	Teresa	2	2	4	5
 Heath	Daniel P.	2	2	0	0
@@ -7601,7 +7585,6 @@ Huttar	Mary L.	2	2	1	1
 Hutton	John Henry	2	2	3	3
 Huxley	Francis	2	2	0	0
 Huy	Phạm	2	2	0	0
-Hyman	L. M.	2	2	0	0
 Hyndman	David	2	2	0	0
 Hynum	David	2	2	0	0
 Tshering	Karma	2	2	1	1
@@ -7658,7 +7641,6 @@ Levin	M. G.	2	2	0	0
 Ivens	W.G.	2	2	0	0
 Iwara	Alexander U.	2	2	6	6
 Iwasa	Kazue	2	2	0	0
-Izard-Heritier	F.	2	2	0	0
 Izikowitz	Karl Gustav	2	2	0	0
 Izquierdo	Enrique Nieto	2	2	0	0
 Izre'el	Shlomo	2	2	0	0
@@ -7709,7 +7691,6 @@ Jenewari	Charles E.W.	2	2	1	1
 Jeng	Heng-hsing	2	2	0	0
 Jenison	D. Scott	2	2	0	0
 Jenks	Peter	2	2	1	1
-Jenks	A. E.	2	2	0	0
 Sak-Humphry	Chhany	2	2	0	0
 McCormick	Patrick	2	2	0	0
 Hnin Tun	San San	2	2	0	0
@@ -7804,7 +7785,7 @@ Tamaela	J.	2	2	0	0
 Kakeyī	Herdewêl	2	2	0	0
 Kakoty	Deepmoni	2	2	0	0
 Kaksin	Andrej D.	2	2	0	0
-Kakumasu	James Y.	2	2	4	5
+Kakumasu	James Y.	2	2	3	5
 Kakumasu	Kiyoko	2	2	2	2
 Nanang	{}	2	2	0	0
 Kalashev	A.	2	2	0	0
@@ -8000,6 +7981,7 @@ White	Geoffrey M.	2	2	2	3
 Kokko	S. Ali Karmal	2	2	0	0
 Kol	Deng Gideon	2	2	0	0
 Matuek	John Majok	2	2	0	0
+Kolaga	Withen	2	3	0	0
 Kolesnikova	V. D.	2	2	1	1
 van de Kolk	Joseph	2	2	0	0
 Kölver	Ulrike	2	2	6	8
@@ -8053,6 +8035,7 @@ Kremer	Ludger	2	2	0	0
 Kretschmar	Monika	2	2	3	3
 Krieg	Linda	2	2	0	0
 Menanti	Jacqualine	2	2	0	0
+Vries	Peter Jan de	2	3	0	0
 Sohn	Myo-Sook	2	2	0	0
 Krifka	Manfred	2	2	3	3
 Krisólogo B.	Pedro Juan	2	2	0	0
@@ -8163,7 +8146,7 @@ Larsen	Marlys	2	2	1	1
 Larsen	Iver A.	2	2	1	1
 Larson	Mildred O.	2	2	0	0
 Lasimbang	Rita	2	2	1	1
-Laskowske	Thomas V.	2	2	3	3
+Laskowske	Thomas V.	2	2	2	3
 Laskowske	Kathryn B.	2	2	2	2
 Last	Marco	2	2	3	3
 Lucassen	Deborah	2	2	2	2
@@ -8351,6 +8334,7 @@ Lothers	Laura	2	2	1	1
 Lothers	Michael	2	2	0	0
 Loubelo	Fidèle	2	2	0	0
 Loukotka	Chestmír	2	2	0	0
+Loukotka	Chestmir	2	3	0	0
 Lounsbury	Floyd Glenn	2	2	0	0
 Louw	Jacobus Abraham	2	2	10	12
 Love	J. R. B.	2	2	2	2
@@ -8457,9 +8441,6 @@ Mamadou	Alphonse	2	2	1	1
 Mamet	M.	2	2	1	1
 Mamiya	Kensaku	2	2	0	0
 Temple	R. C.	2	2	0	0
-Manda	Marthen L.	2	2	0	0
-Nakashima	Hirotaka	2	2	0	0
-Mangado	Celestino	2	2	0	0
 Manger	Leif O.	2	2	0	0
 Mangion	Paul	2	2	0	0
 Mangulu	M.	2	2	1	1
@@ -8558,6 +8539,7 @@ McGinn	Richard	2	2	2	2
 Stokes	Bronwyn	2	2	1	1
 McIntosh	John B.	2	2	2	2
 McIntosh	Justin	2	2	0	0
+McKelson	Kevin	2	4	2	2
 McKennan	R. A.	2	2	0	0
 McKennan	Robert A.	2	2	0	0
 McKern	W. C.	2	2	0	0
@@ -8675,6 +8657,7 @@ Mitterutzner	J. C.	2	2	0	0
 Mitzka	Walther	2	2	0	0
 Modigliani	Edio	2	2	0	0
 Modrow	Ruth	2	2	0	0
+Moéhama	Elisée	2	7	0	0
 Mofu	Suriel Semuel	2	2	0	0
 Moges	Yigezu	2	2	7	7
 Yusof	Rohani Mohd.	2	2	0	0
@@ -8723,8 +8706,6 @@ Morgan	David J.	2	2	1	1
 Morosi	Giuseppe	2	2	0	0
 Morottaja	Petter	2	2	0	0
 Toivonen	Ida	2	2	1	1
-Stubbs	J. M.	2	2	0	0
-Morrison	C. G. T.	2	2	0	0
 Salser	Neva	2	2	2	2
 Salser	J. K.	2	2	2	2
 Morse	Robert H.	2	2	0	0
@@ -8798,6 +8779,7 @@ Nagasaki	Iku	2	2	1	1
 Sambieni	Coffi	2	2	0	0
 Nagila	Kedar B.	2	2	0	0
 Nagy	Naomi	2	2	4	4
+Nahhas	Ramzi W.	2	3	0	0
 Nahon	Peter	2	2	0	0
 Naidu	J. M.	2	2	0	0
 Naik	T. B.	2	2	0	0
@@ -8942,7 +8924,6 @@ Oja	Banu	2	2	0	0
 Okimasis	Jean L.	2	2	0	0
 Okonye	Godman	2	2	0	0
 Oladimeji	Olaide A.	2	2	0	0
-Oldenborgh	Johannes van	2	2	0	0
 Olderogge	Dmitry A.	2	2	0	0
 Oldfield	Augustus Frederick	2	2	0	0
 de Oliveira	Adélia Engrácia	2	2	0	0
@@ -9291,7 +9272,6 @@ Ritt-Benmimoun	Veronika	2	2	1	1
 Rival	Laura M.	2	2	0	0
 Rivas	Roxani	2	2	0	0
 Wolfenden	Elmer P.	2	2	0	0
-Rizbi	B. R.	2	2	0	0
 Robbek	V. A.	2	2	1	1
 Robbins	Frank E.	2	2	1	1
 Schneider	David M.	2	2	0	0
@@ -9317,7 +9297,6 @@ Rohra	Satish Kumar	2	2	0	0
 Maroto Rojas	Espíritu Santo	2	2	0	0
 Rojas Berscia	Luis Miguel	2	2	0	0
 Rojas	Mariano Jacobo	2	2	0	0
-Rojas Curieux	Tulio Enrique	2	2	0	0
 Casilimas Rojas	Clara Ines	2	2	0	0
 Becerra Roldán	Braulio	2	2	0	0
 Romaškevič	A. A.	2	2	0	0
@@ -9559,7 +9538,6 @@ de la Cerda Silva	Roberto	2	2	0	0
 da Silva	Talita Rodrigues	2	2	0	0
 da Silva	Manuel Maria Alves	2	2	0	0
 Silverwood-Cope	Peter	2	2	0	0
-Silvester	Hans W.	2	2	0	0
 Simango	Silvester Ron	2	2	1	1
 Bengala Simão	Teresa Susana	2	2	0	0
 Simmons	Donald C.	2	2	0	0
@@ -9575,6 +9553,7 @@ Singh	Ch. Yashwanta	2	2	0	0
 Singh	Hidam Brojen	2	2	0	0
 Singh	Sher	2	2	0	0
 Singh	Bahadur	2	2	0	0
+Singh	Chungkham Yasawanta	2	3	0	0
 Singh	Ram Adhar	2	2	0	0
 Singha	Kh. Diren	2	2	0	0
 Singleton	Hubert Daniel	2	2	0	0
@@ -9586,6 +9565,7 @@ Sjoberg	Andrée F.	2	2	1	1
 Sjögren	Andreas Johan	2	2	0	0
 Walker	Alastair	2	2	0	0
 Sjöstedt	Gösta	2	2	0	0
+Skjærvø	Prods Oktor	2	3	0	0
 Skjærvo	Prods Oktor	2	2	0	0
 Skottsberg	Carl	2	2	0	0
 Skrefsrud	L. O.	2	2	0	0
@@ -9848,7 +9828,6 @@ Timmers	Jan	2	2	0	0
 Tindale	Norman B.	2	2	4	4
 Tiote	Brahima	2	2	0	0
 Tisserant	Charles	2	2	1	1
-Titherington	G. W.	2	2	0	0
 Titrud	Kermit	2	2	1	1
 Turvey	Basil Henry Capes	2	2	0	0
 Toffin	Gérard	2	2	0	0
@@ -9925,7 +9904,6 @@ Urquhart	A. N.	2	2	0	0
 Urua	Eno-Abasi E.	2	2	1	1
 Coronas Urzúa	Gabriela	2	2	0	0
 Usman	Sanna	2	2	0	0
-Uwano	Zendō	2	2	0	0
 Uzar	Henning	2	2	0	0
 Vaillant	Jean-Alexandre	2	2	0	0
 Vaillant	Adrien Alp	2	2	0	0
@@ -10197,7 +10175,6 @@ Estadistica	Sociedad Mexicana de Geografia y	2	2	0	0
 Yabu	Shiro	2	2	0	0
 Yalman	N.	2	2	0	0
 Yamada	Yoichi	2	2	0	0
-Yang	Wenping	2	2	0	0
 Yanson	Rudolf A.	2	2	0	0
 Yar-Shater	Ehsan	2	2	0	0
 Yatsuka	Haruna	2	2	0	0
@@ -10215,7 +10192,6 @@ yuan	{Zhongguo kexue	2	2	0	0
 Yue-Hashimoto	Anne O.	2	2	0	0
 Yusop	Mohd. Sharifudin	2	2	0	0
 yanshi	Beijing daxue Zhongguo yuyan wenxuexi yuyan xuejiao	2	2	0	0
-Zacot	François-Robert	2	2	0	0
 Zahn	Heinrich	2	2	0	0
 Zajkov	Petr Mefodievič	2	2	0	0
 Žamcarano	C. Ž.	2	2	0	0
@@ -10412,7 +10388,7 @@ Abeba	Sirak	1	1	0	0
 Abebe	Gebre-Tsadik	1	1	2	2
 Sim	Margaret	1	1	2	2
 Abebe	Lemessa	1	1	0	0
-Abebe	Alemayehu	1	1	4	4
+Abebe	Alemayehu	1	1	3	4
 Abegha	M. L.	1	1	0	0
 Abeghian	Artasches	1	1	0	0
 Abel	Hans	1	1	0	0
@@ -10944,6 +10920,7 @@ Akanbi	Timothy Adeyemi	1	1	0	0
 Akangbe	Moriike Oluwatoyin	1	1	0	0
 Akawe Akayokoti	F.	1	1	0	0
 Akbaev	Sakman X.	1	1	0	0
+Akbar	Oskar M.	1	2	0	0
 Åkerblom	Bror	1	1	0	0
 Akere	Funso	1	1	2	3
 Akerejola	Ernest Somimola	1	1	0	0
@@ -13429,7 +13406,7 @@ Baums	Stefan	1	1	0	0
 Baur	Arthur	1	1	0	0
 Bausch	Karl-Heinz	1	1	0	0
 Bausi	Alessandro	1	1	0	0
-Bautista	Andreliz	1	1	2	2
+Bautista	Andreliz	1	1	1	2
 Bavol	Tristan Andrew	1	1	0	0
 Bawa	Wayan	1	1	0	0
 Bawa	B. A.	1	1	0	0
@@ -13942,6 +13919,7 @@ Bernaisch	Tobias	1	1	0	0
 Bernard-Muñoz	Carmen	1	1	0	0
 Bernard	Yves	1	1	0	0
 White-Kaba	Mary	1	1	1	1
+Bernard	J.	1	2	0	0
 Bernard	J. B.	1	1	0	0
 Bernard	Taitumu	1	1	0	0
 Bernard	Harvey R.	1	1	0	0
@@ -14131,6 +14109,7 @@ Bhayro	Siam	1	1	0	0
 Bherūmalu	Mahircand Ād̤vāṇī	1	1	0	0
 Bhide	Vasudha V.	1	1	0	0
 Bhide	Ganesh Hari	1	1	0	0
+Bhoḷa	Latā	1	2	0	0
 Bhora	Hira Singh	1	1	0	0
 Bhrama	Mihir Kumar	1	1	0	0
 Bhujel	Bishnu	1	1	0	0
@@ -15251,7 +15230,7 @@ Brody	Mary Jill	1	1	1	1
 van de Broek	A. J. P.	1	1	0	0
 van den Broek	Arnoldus Johannus Petrus	1	1	0	0
 Broekhuijse	Johan Therodorus	1	1	0	0
-Broekhuis	Hans	1	1	12	14
+Broekhuis	Hans	1	1	10	14
 Broekhuysen	Johan	1	1	0	0
 Brohm	J.	1	1	0	0
 Brokensha	David	1	1	0	0
@@ -15625,6 +15604,7 @@ Phom	L. Amon	1	1	0	0
 Wancho	M.	1	1	1	1
 Burling	R.	1	1	2	2
 Burmamu	Benjamin	1	1	0	0
+Burman	B. K. Roy	1	5	0	0
 Burmeister	Carlos V.	1	1	0	0
 Burnama	Yulius	1	1	0	0
 Copet-Rougier	Elisabeth	1	1	0	0
@@ -16298,8 +16278,8 @@ Catholique	Bertha	1	1	0	0
 Drygeese	Dennis	1	1	0	0
 Cathoud	Arnaldo	1	1	0	0
 Catrileo	María	1	1	5	5
-Romano	Santiago	1	1	2	2
-Cattunar	Hermán	1	1	2	2
+Romano	Santiago	1	1	1	2
+Cattunar	Hermán	1	1	1	2
 Cau	Quan	1	1	0	0
 Martin	Aubert	1	1	0	0
 Denooz	Laurence	1	1	0	0
@@ -16680,6 +16660,7 @@ Cheng	Tsai-fa	1	1	0	0
 Yan	Margaret M.	1	1	0	0
 Cheng	Lisa Lai-Shen	1	1	6	6
 Cheng	Fang	1	1	1	1
+Cheng	Teresa M.	1	2	0	0
 Cheng	Yi-Yang	1	1	0	0
 Chéng	Mò	1	1	0	0
 Chengappa	B. S.	1	1	0	0
@@ -16874,7 +16855,7 @@ Chuenchom	Am-on	1	1	0	0
 Chuensukon	Naruemon	1	1	1	1
 Zhu	Yongzhong	1	1	0	0
 Chuluu	Üjiyedijn	1	2	0	0
-Chumbow	Beban Sammy	1	1	4	4
+Chumbow	Beban Sammy	1	1	3	4
 Madjirade	Yaphete	1	1	0	0
 Chung	Kyung-Ja	1	1	1	1
 Chung	Chul-Hwa	1	1	2	2
@@ -18165,6 +18146,7 @@ Braulino de Carvalho	João	1	1	0	0
 Lestrange	Monique de Gessain	1	1	0	0
 Fernández de Molina Ortés	Elena	1	1	0	0
 Llorente Maldonado de Guevara	A.	1	1	0	0
+Priego Montfort de Mostaghimi	Maria Eugenia	1	2	0	0
 Up de Graff	F. W.	1	1	0	0
 Capistrano de Abreu	João	1	1	0	0
 Torero Fernández de Cordoba	Alfredo	1	1	0	0
@@ -18709,7 +18691,7 @@ Ding	Chunshou	1	1	0	0
 Ding	Choo Ming	1	1	0	0
 Dingatoloum	Jean-Pierre	1	1	2	2
 Dingeldein	Heinrich J.	1	1	0	0
-Dingemanse	Mark	1	1	5	5
+Dingemanse	Mark	1	1	4	5
 Dinh	Do	1	1	0	0
 Dinh	Moc	1	1	0	0
 Dinkelacker	Ernst	1	1	0	0
@@ -21281,6 +21263,7 @@ Gauthiot	Robert	1	1	0	0
 Gautier	Jean-Marie	1	1	0	0
 Gautier	E.-F.	1	1	0	0
 Gautier	Michel	1	1	0	0
+Gaved	Tim	1	2	1	1
 Stammers	Jon	1	1	1	1
 Gaved	Timothy	1	1	0	0
 Gawaṙac‘i	H. M. H.	1	1	0	0
@@ -21799,7 +21782,7 @@ Good	Elaine Marie	1	1	0	0
 Good	A. I.	1	1	0	0
 Good	John B.	1	1	0	0
 Good	Jeff Craig	1	1	0	0
-Good	Claude	1	1	3	4
+Good	Claude	1	1	2	4
 Goodale	Jane	1	1	0	0
 Goodall	W.	1	1	0	0
 Goodchild	Samantha	1	1	0	0
@@ -23133,6 +23116,7 @@ Headley	Robert K.	1	1	1	1
 Heagney	J. Fraser	1	1	0	0
 Heal	Sarah	1	1	0	0
 Heald	Suzette	1	1	1	1
+Hughes	Earl J.	1	4	5	6
 Judge	Anne	1	1	2	2
 Healey	F.G.	1	1	0	0
 Healey	John F.	1	1	0	0
@@ -24170,6 +24154,7 @@ Magaji	Daniel J.	1	1	1	1
 Voeltz	Erhard Friedrich Karl	1	1	2	2
 Tchokokam	G.	1	1	0	0
 Udoh	Imelda	1	1	0	0
+Hyman	L. M.	1	2	0	0
 Hymes	Dell	1	1	5	5
 Hymes	Dell Hathaway	1	1	0	0
 Hymes	Virginia	1	1	0	0
@@ -24474,6 +24459,7 @@ Iyoko	B. A.	1	1	0	0
 Rasekh-Mahand	Mohammad	1	1	1	1
 IzadiFar	Raheleh	1	1	0	0
 Izaguirre	Bernardino	1	1	0	0
+Izard-Heritier	F.	1	2	0	0
 Izard.	M.	1	1	0	0
 Izard	M.	1	1	0	0
 Izikowitz	K. G.	1	1	0	0
@@ -24697,6 +24683,7 @@ Jenkins	Rebecca Sue	1	1	0	0
 Jenkins	Joyce	1	1	0	0
 Jenkins	Mark	1	1	0	0
 Jenkins	Robert M.	1	1	0	0
+Jenks	A. E.	1	2	0	0
 Jenks	Albert Ernest	1	1	0	0
 Jenner	Henry	1	1	0	0
 Jenness, D. & Ballantyne, A.	?	1	1	0	0
@@ -24847,7 +24834,7 @@ Johnson	Robert Erik	1	1	0	0
 Johnson	Gabriel Kwawovi	1	1	1	1
 Johnson	Jean B.	1	1	0	0
 Johnson	Edward	1	1	0	0
-Johnson	Frederick	1	1	6	8
+Johnson	Frederick	1	1	5	8
 Johnson	Adam	1	1	0	0
 Johnson	Bruce C.	1	1	0	0
 Johnson	Rodney C.	1	1	0	0
@@ -26035,7 +26022,7 @@ Klineberg	O.	1	1	0	0
 Klingenheben	August	1	1	1	1
 Klingenschmitt	Gert	1	1	0	0
 Klinger	J.	1	1	0	0
-Neumann-Holzschuh	Ingrid	1	1	3	3
+Neumann-Holzschuh	Ingrid	1	1	2	3
 Klinken	Catharina Lumien van	1	1	0	0
 Klinkhamer	K.	1	1	0	0
 Klintberg	Mathias	1	1	0	0
@@ -28423,6 +28410,8 @@ Manap	Christovorus	1	1	0	0
 Manaster-Ramer	Alexis	1	1	3	3
 Mancarella	Giovan Battista	1	1	0	0
 Manconi	Dorica	1	1	0	0
+Manda	Marthen L.	1	2	0	0
+Nakashima	Hirotaka	1	2	0	0
 Manda	Imoh Philip	1	1	0	0
 Sanyal	Suparna	1	1	0	0
 Mandal	A. B.	1	1	0	0
@@ -28445,6 +28434,7 @@ Manesane Bogyonokoli	Brigitte	1	1	0	0
 Manfredi	Victor B.	1	1	2	2
 Mang	Kim En	1	1	0	0
 Manga	Blaise	1	1	0	0
+Mangado	Celestino	1	2	0	0
 Maloughou Mangama	Maryse Edith	1	1	0	0
 Mangat	Alice Wamjiku	1	1	1	1
 Manger	O.	1	1	0	0
@@ -29950,6 +29940,8 @@ Morris	M.	1	1	0	0
 Morris	Cliff	1	1	0	0
 Morris	B.	1	1	0	0
 Morris	Jonathan	1	1	3	3
+Stubbs	J. M.	1	2	0	0
+Morrison	C. G. T.	1	2	0	0
 Wyndham	C. H.	1	1	0	0
 Morrison	J. F.	1	1	0	0
 Morrison	William McCutchan	1	1	2	2
@@ -31400,6 +31392,7 @@ Olaosebikan	Ifeoluwa Eunice	1	1	0	0
 Olawsky	Knut J.	1	1	6	6
 Olaya	Norma P.	1	1	0	0
 Olbrechts	Frans M.	1	1	0	0
+Oldenborgh	Johannes van	1	2	0	0
 Oldendorp	Christian Georg Andreas	1	1	1	1
 Oldrey	T. B. N.	1	1	0	0
 Ole-Kotikash	Leonard	1	1	3	3
@@ -32292,7 +32285,7 @@ Pessoa	Maria do Socorro	1	1	1	1
 Petchabūnburi	Phra	1	1	0	0
 Peter	Prince.	1	1	0	0
 Peter Bremicker	Ursula	1	1	0	0
-Peter	Katherine	1	1	21	21
+Peter	Katherine	1	1	20	21
 Petermann	Heinrich Julius	1	1	0	0
 Petermann	A.	1	1	0	0
 Petermann	H.	1	1	0	0
@@ -33680,6 +33673,7 @@ Rivola	Francisco	1	1	0	0
 Rizakhanova	M.S.	1	1	0	0
 Rizal	José	1	1	0	0
 Rizaxanova	M. Š	1	1	0	0
+Rizbi	B. R.	1	2	0	0
 Rizk	Sherin	1	1	0	0
 Rizvi	Baqar Raza	1	1	0	0
 Rizvi	S. N. H.	1	1	0	0
@@ -33817,6 +33811,7 @@ Ross Montejo	Antonio	1	1	0	0
 Delgado Rojas	Patricia	1	1	0	0
 Rojas	Esaú Zumaeta	1	1	0	0
 García Rojas	Blanca Rosa	1	1	0	0
+Rojas Curieux	Tulio Enrique	1	2	0	0
 Rojas	Elena	1	1	0	0
 Rojas López	Gerardo Crisanto	1	1	0	0
 González Rojas	Aldo	1	1	0	0
@@ -34127,7 +34122,7 @@ Rustamī	Muḥammad	1	1	0	0
 Rüstämov	R. Ä.	1	1	0	0
 Rusu	Valeriu	1	1	0	0
 Rutberg	Hulda	1	1	0	0
-Rutgers	Roland	1	1	3	3
+Rutgers	Roland	1	1	2	3
 Rutinigirwa	Kahinyuza	1	1	0	0
 Rutt	R.	1	1	0	0
 Rutten	L.	1	1	0	0
@@ -34652,7 +34647,7 @@ Schaffel	Elizana	1	1	0	0
 Schagerström	August	1	1	0	0
 Schalk	R. F.	1	1	0	0
 Schanely	Leon	1	1	2	2
-Schanen	François	1	1	11	11
+Schanen	François	1	1	10	11
 Schapiro	K.	1	1	0	0
 Schärer	Hans	1	1	1	1
 Vormann	Franz P.	1	1	0	0
@@ -35369,6 +35364,7 @@ Wicks	Clara	1	1	0	0
 Silverman	Martin G.	1	1	0	0
 Silverman	Eric Kline	1	1	0	0
 Silverstein	Raymond Orson	1	1	0	0
+Silvester	Hans W.	1	2	0	0
 Silzer	Peter James	1	1	0	0
 Silzer	Sheryl	1	2	2	2
 Sim	I. McH.	1	1	0	0
@@ -35891,7 +35887,7 @@ Spencer	Robert F.	1	1	0	0
 Spencer	Paul	1	1	2	2
 Spencer	Julius	1	1	2	2
 Spencer	L. E.	1	1	0	0
-Spencer	Harold	1	1	2	2
+Spencer	Harold	1	1	1	2
 Spencer	Charles	1	1	0	0
 Spencer	Robert Francis	1	1	0	0
 Spencer	P.	1	1	0	0
@@ -36594,7 +36590,7 @@ Taube	Erika	1	1	0	0
 Tauern	Odo D.	1	1	0	0
 Taufik	{	1	1	0	0
 Taufiq	Muhamad	1	1	0	0
-Tauli	Valter	1	1	4	4
+Tauli	Valter	1	1	3	4
 Tauran	Cundraad U.	1	1	0	0
 de Tauste	Francisco	1	1	0	0
 Tavakkoli	M. M.	1	1	0	0
@@ -36970,6 +36966,7 @@ Tiss	Frank	1	1	0	0
 Tisserant	C.	1	1	0	0
 Tita	Fritz	1	1	0	0
 Titcomb	M.	1	1	0	0
+Titherington	G. W.	1	2	0	0
 Titih	Béatrice	1	1	0	0
 Titov	Evgenij G.	1	1	1	1
 Tivārī	U. N.	1	1	0	0
@@ -37532,6 +37529,7 @@ Uspenskij	P.	1	1	0	0
 Ussel	A.	1	1	0	0
 de Uterga	Esteban	1	1	0	0
 Uwaezuoke	I.C.	1	1	0	0
+Uwano	Zendō	1	2	0	0
 Uyo	Lah Jau	1	1	0	0
 Uzoigwe	Godfrey N.	1	1	0	0
 Kirch, P. V. & O'Day, S. J.	?	1	1	0	0
@@ -38395,7 +38393,7 @@ Werner	Oswald	1	1	0	0
 Werning	Daniel A.	1	1	0	0
 Wertheman	A.	1	1	0	0
 Werther	W.	1	1	0	0
-Wescott	Roger W.	1	1	3	3
+Wescott	Roger W.	1	1	2	3
 Weslij	L. F.	1	1	0	0
 Wessels	Kanauhea Janion	1	1	0	0
 Wessmann	R.	1	1	1	1
@@ -38972,6 +38970,7 @@ Yang	M. C.	1	1	0	0
 Yang	Yingxin	1	1	0	0
 Yang	Paul Fu-Mien	1	1	0	0
 Yang	Yonglong	1	1	0	0
+Yang	Wenping	1	2	0	0
 Yang	Yiqi	1	1	0	0
 Yang	Guangming	1	1	0	0
 Yang	Shihong	1	1	0	0
@@ -39151,6 +39150,7 @@ Zabrocki	Ludwik	1	1	0	0
 Zach	Kristine	1	1	0	0
 Zachrisson	Inger	1	1	2	2
 Zack	Elisabeth	1	1	0	0
+Zacot	François-Robert	1	2	0	0
 Zadok	Ran	1	1	0	0
 Zadykhina	K. L.	1	1	0	0
 Zafrani	Haim	1	1	1	1
@@ -39482,7 +39482,7 @@ Blignières	de	0	0	1	1
 Demoyencourt		0	0	1	1
 (de Sixt)	Ducrot	0	0	1	1
 ainé	Le Clerc	0	0	1	1
-Boaz	Darius	0	0	3	3
+Boaz	Darius	0	0	2	3
 ____	Susan Garland	0	0	1	1
 Bokoi	Ebe	0	0	1	1
 Gilina	Malulu	0	0	1	1
@@ -39555,7 +39555,7 @@ Nouah	Jeanne	0	0	1	1
 Gwodog	Joachim	0	0	1	1
 Harguindéguy	R.	0	0	1	1
 Harman	F. J. N.	0	0	2	2
-Hartshorne	Kenneth B.	0	0	6	6
+Hartshorne	Kenneth B.	0	0	3	6
 Henriksen	Carol	0	0	1	1
 {van~der~Auwera	Iohan	0	0	1	1
 Herrera	Heraclio	0	0	1	1
@@ -39625,7 +39625,7 @@ Chiripua Q.	Arturo	0	0	1	1
 Queffelec	Ambroise	0	0	3	3
 Rauke	Hataia	0	0	1	1
 Spielman	R.S.	0	0	1	1
-Staudacher	Peter	0	0	2	2
+Staudacher	Peter	0	0	1	2
 dorf	Günther Grewen	0	0	1	1
 Sternefeld	Wolfgang	0	0	5	5
 Steinkraus	LaVonne	0	0	1	1
@@ -39797,7 +39797,7 @@ Essono	Jean-Jacques	0	0	2	2
 Abega	P.	0	0	1	1
 Abegha	M.L.	0	0	1	1
 Blench	R (new version).	0	0	1	1
-Abeillé	Anne	0	0	13	16
+Abeillé	Anne	0	0	12	16
 Bonami	Olivier	0	0	10	11
 Godard	Danièle	0	0	7	10
 Tseng	Jesse	0	0	3	5
@@ -39870,7 +39870,7 @@ Aboubakar	Aziza Mohamed	0	0	1	1
 Beattie	Geoffrey	0	0	2	2
 Aboudan	Rima	0	0	1	1
 Aboyade	'Bimpe	0	0	1	1
-Bayer	Josef	0	0	10	12
+Bayer	Josef	0	0	9	12
 Davis	Garry W.	0	0	1	1
 Iverson	Gregory K.	0	0	4	4
 Giusti	Giuliana	0	0	6	8
@@ -40322,7 +40322,7 @@ Agbedor	Paul	0	0	1	1
 Agbetsoamedo	Yvonne Ami Dzigbodi	0	0	1	1
 Litvinov	Viktor P.	0	0	1	1
 Agbodjo	Kofi H.	0	0	1	1
-Kozelka	Paul Robert	0	0	3	3
+Kozelka	Paul Robert	0	0	2	3
 Agbovi	Yao Ete	0	0	1	1
 Agdebor	Paul	0	0	1	1
 Ágel	Vilmos	0	0	1	1
@@ -40751,7 +40751,7 @@ Sichalieva	Sabrina	0	0	1	1
 Alekseev	Mixail Egorovič	0	0	1	1
 Alem	Eshetu	0	0	1	1
 Alemayehu	Haile	0	0	1	1
-Alemayehu	Abebe	0	0	6	6
+Alemayehu	Abebe	0	0	5	6
 de Alencar	Leonel Figueiredo	0	0	2	2
 Alende	Régine K. T.	0	0	1	1
 Aléong	Stanley	0	0	1	1
@@ -40786,7 +40786,7 @@ Franco	Irene	0	0	3	3
 Gallego	Ángel J	0	0	2	2
 Fanselow	Gisbert	0	0	11	12
 Hankamer	Jorge	0	0	2	2
-McFadden	Thomas	0	0	7	7
+McFadden	Thomas	0	0	6	7
 Yatsushiro	Kazuko	0	0	6	6
 Geçkin	Vasfiye	0	0	1	1
 Harmati-Pap	Veronika	0	0	1	1
@@ -41692,7 +41692,7 @@ Thomas	Kenny	0	0	1	1
 Mishler	Craig (editor)	0	0	1	1
 Arnold	Irene (transcriber)	0	0	1	1
 Holton	Gary. (transcriber)	0	0	2	2
-Arnold	Irene	0	0	3	3
+Arnold	Irene	0	0	2	3
 Thoman	Richard	0	0	2	2
 Arnold	Irene (speaker)	0	0	1	1
 Arnold	Jennifer	0	0	3	3
@@ -41871,8 +41871,8 @@ Aston	Guy	0	0	1	1
 Burnard	Lou	0	0	1	1
 Aston	W. G.	0	0	1	1
 Astrain	Antonio	0	0	1	1
-Astruc	Lluïsa	0	0	3	3
-Vanrell	Maria del Mar	0	0	12	15
+Astruc	Lluïsa	0	0	2	3
+Vanrell	Maria del Mar	0	0	11	15
 Prieto	Pilar	0	0	24	26
 Ata	Kento	0	0	2	2
 Atayan	Vahram	0	0	1	1
@@ -42028,7 +42028,7 @@ Post	Brechtje	0	0	4	5
 Avanzi	Mathieu	0	0	3	3
 Buthke	Carolin	0	0	1	1
 Di Cristo	Albert	0	0	2	2
-Jun	Sun-Ah	0	0	19	21
+Jun	Sun-Ah	0	0	18	21
 Martin	Philippe	0	0	3	4
 Sichel-Bazin	Rafeu	0	0	1	1
 Lacheret-Dujour	Anne	0	0	1	1
@@ -42218,7 +42218,7 @@ Azzopardi-Alexan­der	Marie	0	0	2	2
 B-	Pedro J. Krisólogo	0	0	1	1
 D.	Lino Ramiro Pabon	0	0	1	1
 B.	Alonso Maffla	0	0	1	1
-G.	Mba	0	0	6	6
+G.	Mba	0	0	4	6
 B.	Chiatoh	0	0	1	1
 Klockmann	Heidi	0	0	3	3
 B#322;aszczak	Joanna	0	0	1	1
@@ -43279,16 +43279,16 @@ Beckman	Mary E.	0	0	5	5
 Edwards	Jan	0	0	1	1
 Munson	Benjamin	0	0	2	2
 Embick	David	0	0	7	8
-Beckman	Jill N.	0	0	6	6
+Beckman	Jill N.	0	0	5	6
 Harrington	Jonathan	0	0	6	6
-Beckman	Mary	0	0	5	5
+Beckman	Mary	0	0	4	5
 Helgason	Pétur	0	0	1	1
 McMurray	Bob	0	0	2	2
 Ringen	Catherine	0	0	4	5
 Leben	William	0	0	3	3
 Kingston	John	0	0	1	1
 Jun	Sun–Ah	0	0	1	1
-Pierrehumbert	Janet	0	0	3	3
+Pierrehumbert	Janet	0	0	2	3
 Beckman	James Wallace	0	0	1	1
 Beckmann	Susanne	0	0	1	1
 Frilling	Sabine	0	0	1	1
@@ -43468,7 +43468,7 @@ Belletti	Adriana	0	0	9	11
 Bennati	Elisa	0	0	2	2
 Chesi	Cristiano	0	0	2	2
 Ferrari	Ida	0	0	1	1
-Rizzi	Luigi	0	0	13	15
+Rizzi	Luigi	0	0	12	15
 Blochowiak	Joanna	0	0	2	2
 Grisot	Cristina	0	0	2	2
 Durrleman	Stephanie	0	0	2	3
@@ -43622,8 +43622,8 @@ Rich	Stephanie	0	0	1	1
 Rysling	Amanda	0	0	2	2
 Handel	Nicholas Van	0	0	1	1
 Cavallaro	Maya Wax	0	0	1	1
-Bennett	John	0	0	2	2
-Tsoeu	Nthuseng	0	0	2	2
+Bennett	John	0	0	1	2
+Tsoeu	Nthuseng	0	0	1	2
 Buthelezi	Thabisile	0	0	1	1
 Bennett	G.	0	0	1	1
 Colson	Audrey	0	0	1	1
@@ -44028,7 +44028,7 @@ Bhasukararao	Peri	0	0	2	2
 Sigurðsson	Halldór Ármann	0	0	3	4
 Venkata Subbarao	Karumuri	0	0	1	1
 Subbarao	Karumuri Venkata	0	0	4	4
-Bhaskararao	P.	0	0	4	4
+Bhaskararao	P.	0	0	3	4
 Raina	S. N.	0	0	1	1
 Bhat	D.N.S.	0	0	1	1
 Montrul	Silvina	0	0	7	8
@@ -44376,7 +44376,7 @@ Clark	David	0	0	1	1
 Committee	Ogba Language	0	0	1	1
 Daniel	G.	0	0	1	1
 Priest	Perry	0	0	2	2
-Sika	Levi	0	0	3	3
+Sika	Levi	0	0	2	3
 Blenck	Roger	0	0	1	1
 Blencowe	George	0	0	1	1
 Blerk	N. van	0	0	1	1
@@ -44842,7 +44842,7 @@ Jones	Bob Morris	0	0	1	1
 Borsley	R.D.	0	0	1	1
 VanPatten	Bill	0	0	2	2
 Borst	Stefanie	0	0	1	1
-Young	Philip D.	0	0	7	7
+Young	Philip D.	0	0	5	7
 Bort	John R.	0	0	3	3
 Hegarty	Michael	0	0	1	1
 Gundel	Jeanette K.	0	0	1	1
@@ -44881,7 +44881,7 @@ van Craenenbroeck	Jeroen	0	0	8	9
 Pots	Cora	0	0	1	1
 Temmerman	Tanja	0	0	4	4
 Bošković	Zeljko	0	0	1	1
-Lasnik	Howard	0	0	11	12
+Lasnik	Howard	0	0	10	12
 Grobbelaar	Peter	0	0	1	1
 Bosman	Daniel Brink	0	0	1	1
 Bosman	D. B.	0	0	1	1
@@ -46183,7 +46183,7 @@ Christopher Rogers	Naomi Palosaari	0	0	1	1
 Campbell	Rikki	0	0	1	1
 Campbell	Amy	0	0	1	1
 Campbell	M.J.	0	0	1	1
-Campbell	Barbara	0	0	5	5
+Campbell	Barbara	0	0	4	5
 Campbell	Richard	0	0	1	1
 Campbell	Russell N.	0	0	2	2
 Campbell	Duncan M.	0	0	1	1
@@ -46374,8 +46374,8 @@ Pyatt	Elizabeth	0	0	1	2
 Guilfoyle	Eithne	0	0	4	5
 Ann Dooley	Sheila	0	0	2	2
 Dooley	Sheila Ann	0	0	3	3
-Halle	Morris	0	0	10	11
-Marantz	Alec	0	0	8	9
+Halle	Morris	0	0	9	11
+Marantz	Alec	0	0	7	9
 Carnie	Andrew Hay	0	0	1	1
 Carnochan	J.	0	0	1	1
 Caro	Gregorio Orbe	0	0	1	1
@@ -47023,7 +47023,7 @@ Chiang	Wen-yu	0	0	1	1
 Chiang	Chien-Lung	0	0	1	1
 Snowling	Margaret J.	0	0	1	1
 Hulme	Charles	0	0	1	1
-Mba	Gabriel	0	0	9	9
+Mba	Gabriel	0	0	8	9
 Chiatoh	Blasius Agha-ah	0	0	3	3
 Chanda Chibila	Musamba	0	0	3	3
 Chidester	David	0	0	1	1
@@ -47721,7 +47721,7 @@ Cook	Dorothy	0	0	2	2
 Essien	Udo [Ekanem]	0	0	3	3
 [Muller de Young	Carolyn]	0	0	1	1
 Kari	James (annotator)	0	0	2	2
-Krauss	Michael E	0	0	42	42
+Krauss	Michael E	0	0	41	42
 Cook	Cecil E.	0	0	1	1
 Upton	Graham	0	0	1	1
 Cook	Ian	0	0	1	1
@@ -48519,7 +48519,7 @@ Skribnik	E. K.	0	0	1	1
 Darzhaeva	N. B.	0	0	1	1
 Darzi	Ali	0	0	1	1
 Das	Rakal	0	0	1	1
-Das	Sarat Chandra	0	0	6	6
+Das	Sarat Chandra	0	0	5	6
 Das	Shyamal	0	0	1	1
 Dascal	Marcelo	0	0	1	1
 Sharma	S.R.	0	0	1	1
@@ -48866,7 +48866,7 @@ Delgaty	Alfa	0	0	1	1
 Delicado Cantero	Manuel	0	0	1	1
 Deligiaouri	Anastasia	0	0	1	1
 Delisle	Helga H.	0	0	1	1
-Delius	Siegfried	0	0	4	5
+Delius	Siegfried	0	0	3	5
 Eldmedlaoui	Mohamed	0	0	1	1
 Dell	Gary S.	0	0	1	1
 Gordon	Jean K.	0	0	1	1
@@ -49547,9 +49547,9 @@ Douglas	Mary Tew	0	0	1	1
 Douglas	Wilfrid Henry	0	0	1	1
 Douglass	Celia M.	0	0	2	2
 Supple	Julia	0	0	3	3
-Sano	Mohamed Lamine	0	0	2	2
-Doumbouya	Mamadou	0	0	2	2
-Toure	Ibrahima Kalil	0	0	2	2
+Sano	Mohamed Lamine	0	0	1	2
+Doumbouya	Mamadou	0	0	1	2
+Toure	Ibrahima Kalil	0	0	1	2
 Vandall	Peter	0	0	1	1
 Douquette	Joe	0	0	1	1
 Douyon	Allaye	0	0	1	1
@@ -49772,7 +49772,7 @@ Rigsby	Bruce J	0	0	10	10
 Dunn	Jonathan	0	0	1	1
 Dunne	Michele Durocher	0	0	1	1
 Dunning	A.R.	0	0	1	1
-Igwe	G. Egemba	0	0	6	6
+Igwe	G. Egemba	0	0	5	6
 Duperray	Bernard	0	0	1	1
 Dupire	Marguerite	0	0	1	1
 DuPonceau	Peter	0	0	1	1
@@ -51449,8 +51449,8 @@ Noblett	Geoff	0	0	1	1
 Rosenberg	Scott	0	0	1	1
 Weisfelder	Richard	0	0	1	1
 Frisbie-Fulton	Michelle	0	0	1	1
-Machicao y Priemer	Antonio	0	0	4	4
-Fritz-Huechante	Paola	0	0	3	3
+Machicao y Priemer	Antonio	0	0	3	4
+Fritz-Huechante	Paola	0	0	2	3
 Richter	Frank	0	0	5	5
 Rott	Julian A.	0	0	1	1
 Olsen	Birgit	0	0	1	1
@@ -51578,7 +51578,7 @@ Fyndanis	Valantis	0	0	2	2
 Terzi	Arhonto	0	0	4	4
 Themistocleous	Charalambos	0	0	1	1
 Fyodorova	N. G.	0	0	1	1
-Idiata	D. F.	0	0	3	5
+Idiata	D. F.	0	0	2	5
 G.	Placido Luciano	0	0	1	1
 Muzenga	Kamba	0	0	1	1
 G.	J.	0	0	1	1
@@ -51687,7 +51687,7 @@ Gouskova	Maria	0	0	1	1
 Gallardo	Andrés	0	0	2	2
 Martin	Roger	0	0	2	2
 Gallego	Angel	0	0	1	1
-Uriagereka	Juan	0	0	6	6
+Uriagereka	Juan	0	0	5	6
 Yoshida	Masaya	0	0	1	1
 Gallego	Ángel	0	0	1	1
 Gallego	Saturnino	0	0	2	2
@@ -52591,7 +52591,7 @@ Grebe	Winifred	0	0	1	1
 Green	Thomas	0	0	1	1
 Purle	Cookie	0	0	1	1
 Heffernan	Margaret	0	0	1	1
-Green	Margret Mackeson	0	0	7	7
+Green	Margret Mackeson	0	0	6	7
 Kupferberg	Irit	0	0	1	1
 Green	David	0	0	1	1
 Szajkowski	Janet	0	0	2	2
@@ -53069,7 +53069,7 @@ Haidinger	P.Felix	0	0	1	1
 Haig	Geoffrey L.J.	0	0	1	1
 Haile	Alfred J.	0	0	1	1
 Tagart	Edward Samuel B.	0	0	1	1
-Haile	Alemayehu	0	0	5	5
+Haile	Alemayehu	0	0	4	5
 Haile	Yesus Bala	0	0	1	1
 Hailemariam	Salem	0	0	1	1
 Berhanu Hailu	Dereje Sisay	0	0	2	2
@@ -53398,7 +53398,7 @@ Harrikari	Heli	0	0	1	1
 Reubold	Ulrich	0	0	1	1
 Rathcke	Tamara	0	0	3	3
 Yatchmeneff	Ivan Alekseevich	0	0	2	2
-Harris	Zellig Sabbetai	0	0	4	4
+Harris	Zellig Sabbetai	0	0	3	4
 Harris	Christen	0	0	1	1
 Harris	James W.	0	0	2	2
 Harris	Marvin	0	0	1	1
@@ -53755,7 +53755,7 @@ Henriksen	Lynne A.	0	0	1	1
 Henriksen	L.	0	0	1	1
 Obando	Pedro Vicente	0	0	1	1
 Obando O.	Pedro V.	0	0	1	1
-Henriksen	Fr.A.W.	0	0	3	3
+Henriksen	Fr.A.W.	0	0	2	3
 Henry	Chief	0	0	1	1
 Krekel	Cathy	0	0	1	1
 Henry	David C	0	0	1	1
@@ -54144,7 +54144,7 @@ Hogman	C. A.	0	0	1	1
 Hohaus	Vera	0	0	1	1
 Kubus	Okan	0	0	3	3
 Hohenberger	Johannes	0	0	3	3
-Hohenstein	Christiane	0	0	2	2
+Hohenstein	Christiane	0	0	1	2
 Schmitz	Michaela	0	0	2	3
 Ischebeck	Anja	0	0	1	2
 Knauf	Selene	0	0	1	1
@@ -54171,7 +54171,7 @@ Gonçález Holguín	Diego	0	0	1	1
 Hölker	Klaus	0	0	1	1
 Holl	Alfred	0	0	1	1
 Holland	Killian	0	0	1	1
-Hollander	Linda	0	0	2	2
+Hollander	Linda	0	0	1	2
 Holleman	J.F.	0	0	4	4
 Hollenbach	Barbara E	0	0	1	1
 Ramirez Santiago	Manuel Camilo	0	0	1	1
@@ -54761,7 +54761,7 @@ Würstle	Regine	0	0	1	1
 Inia	Elizabeth Kafonika Makarita	0	0	1	1
 Inokuma	Sakumi	0	0	1	1
 Inostroza	Iván	0	0	1	1
-Inoue	Kyoko	0	0	3	3
+Inoue	Kyoko	0	0	2	3
 Inoue	Kazuko	0	0	1	1
 Inskeep	Adi	0	0	1	1
 Institut	Burjat-Mongol'skij Gosudarstvennyj Nauchno-Issledovatel'skij	0	0	1	1
@@ -55027,7 +55027,7 @@ Zurvogel	D. J. L.	0	0	1	1
 Jaljaard	P. C.	0	0	1	1
 Jamal	Abu	0	0	1	1
 James Huang	C. T.	0	0	1	1
-Lucht	Ramona	0	0	2	2
+Lucht	Ramona	0	0	1	2
 James	Dorothy J.	0	0	1	1
 James	Gregory	0	0	2	2
 James	H.S.	0	0	1	1
@@ -55256,7 +55256,7 @@ Levinson	Stephen H.	0	0	1	1
 Madan		0	0	2	2
 Murasugi	Keiko S.	0	0	1	1
 Johnson	Kyle	0	0	2	2
-Johnson	Meredith	0	0	2	2
+Johnson	Meredith	0	0	1	2
 Sinsabaugh	Barbara	0	0	1	1
 Steingass	Francis Joseph	0	0	1	1
 Johnson	Francis	0	0	1	1
@@ -55474,7 +55474,7 @@ Jungmann	Paul	0	0	1	1
 Weitenberg	J. J.	0	0	1	1
 Möhlig	W. J. G.	0	0	2	2
 Tourneux	Henri	0	0	8	8
-Jungraithmayr	Hermann	0	0	6	6
+Jungraithmayr	Hermann	0	0	4	6
 Jungraithmayr	H.	0	0	1	1
 Jungraythmayr	Herrmann	0	0	1	1
 Coutinho Júnior	Walter Alves	0	0	1	1
@@ -55701,7 +55701,7 @@ Kapeliuk	Olga	0	0	6	6
 Kapenda	Jean	0	0	1	1
 Kapepa	C.	0	0	1	1
 Kapetangianni	Konstantia	0	0	1	1
-Onvlee	L.	0	0	2	2
+Onvlee	L.	0	0	1	2
 Kapita	U. H.	0	0	1	1
 Luijendijk	P. J.	0	0	1	1
 Macmillan	Neil A.	0	0	1	1
@@ -55910,7 +55910,7 @@ Spitler	Helen	0	0	1	1
 Keene	William T.	0	0	1	1
 Keidel	George C.	0	0	1	1
 Keim	Inken	0	0	2	2
-Villa-García	Julio	0	0	8	8
+Villa-García	Julio	0	0	6	8
 Yun	Suyeon	0	0	1	1
 Keiser-Besch	Denise	0	0	1	1
 Keisuke	Huziwara	0	0	1	1
@@ -57624,7 +57624,7 @@ van Lier	Eva H.	0	0	1	1
 Matthews	Danielle	0	0	1	1
 Theaksto	Anna	0	0	1	1
 Liffen	Shirley	0	0	1	1
-Ligembe	Nestory N.	0	0	2	2
+Ligembe	Nestory N.	0	0	1	2
 Rodrigues	Cilene	0	0	1	1
 Lightner	Theodore M.	0	0	1	1
 Lightner	Theodore	0	0	1	1
@@ -59848,7 +59848,7 @@ Mürkhein	Vera V.	0	0	1	1
 Murol	Mildred Kiemele	0	0	1	1
 Murphy	Bróna	0	0	1	1
 Murphy	William Peter	0	0	1	1
-Murray-Jardine	G.	0	0	2	2
+Murray-Jardine	G.	0	0	1	2
 Murray	Andrew	0	0	1	1
 Murray	Mrs G.	0	0	1	1
 Murray	Margaret A.	0	0	2	2
@@ -60770,8 +60770,8 @@ Oriji	John Nwachimereze	0	0	1	1
 Oriolo	Leonardo	0	0	1	1
 Orji	G.	0	0	1	1
 Salami	A.	0	0	3	3
-Orlandini	Anna	0	0	4	4
-Poccetti	Paolo	0	0	3	3
+Orlandini	Anna	0	0	3	4
+Poccetti	Paolo	0	0	2	3
 Orlova	Elizaveta Porfir'evna	0	0	1	1
 Ormazabal	Javier	0	0	1	1
 Romero	Juan	0	0	2	2
@@ -60804,7 +60804,7 @@ Osborne	Timothy	0	0	1	1
 Osch	Brechje van	0	0	1	1
 Oschinsky	Lawrence	0	0	1	1
 Oseki	Yohei	0	0	1	1
-Osenova	Petya	0	0	4	4
+Osenova	Petya	0	0	3	4
 Osgood	Cornelius.	0	0	1	1
 O’Shannessy	Carmel	0	0	1	1
 Oshike	Beatrice T.	0	0	1	1
@@ -60960,7 +60960,7 @@ Pakendorf	Brigitte ... [et al.]	0	0	1	1
 Palacio	Joseph Orlando	0	0	1	1
 Palakornkul	Angkap	0	0	3	3
 Palau-Martí	Ferran	0	0	1	1
-Solekaye	Massa	0	0	2	2
+Solekaye	Massa	0	0	1	2
 Palé	Sami	0	0	3	3
 Paleari	Antonio	0	0	1	1
 Palermo	G.M. da	0	0	1	1
@@ -61906,7 +61906,7 @@ Randal	Marjorie MacEachin	0	0	1	1
 Randall	Scott	0	0	1	1
 Randoja	Tiina	0	0	1	1
 Randriamarotsimba	Vololona	0	0	1	1
-Yasuhiko	Nagano	0	0	7	7
+Yasuhiko	Nagano	0	0	6	7
 Randy J	LaPolla	0	0	1	1
 Rangachari	K.	0	0	1	2
 Suseela	M.	0	0	1	1
@@ -62181,7 +62181,7 @@ Ringger	Kurt	0	0	1	1
 Rini	Joel	0	0	3	3
 Reinheimer Rîpeanu	Sanda	0	0	1	1
 Rischel	J>rgen	0	0	1	1
-Rising	David P.	0	0	2	2
+Rising	David P.	0	0	1	2
 Risopatrón	L.	0	0	1	1
 Rispail	Marielle	0	0	1	1
 Unterbeck	Barbara	0	0	2	4
@@ -62307,9 +62307,9 @@ Marcet Rodríguez	Vicente J.	0	0	1	1
 Rodríguez	J.A.	0	0	1	1
 Rodseth	Wendy Sue	0	0	1	1
 Roe	Peter G.	0	0	1	1
-Roeder	Gunther	0	0	3	3
+Roeder	Gunther	0	0	2	3
 Roegiest	Eugeen	0	0	2	2
-Roehrig	F.L.O	0	0	2	2
+Roehrig	F.L.O	0	0	1	2
 Roehrs	Dorian	0	0	2	2
 Roengpitya	Rungpat	0	0	2	2
 Roengpitya	Kanita Kanasut	0	0	1	1
@@ -62532,8 +62532,8 @@ Rujie	You	0	0	1	1
 Rǔlóng	李如龍 Lǐ	0	0	1	1
 Rulong	Li	0	0	1	1
 Rummenhoeller	Klaus	0	0	1	1
-Runsewe	Oluremi I.	0	0	3	3
-Ruoff	Arno	0	0	3	3
+Runsewe	Oluremi I.	0	0	2	3
+Ruoff	Arno	0	0	2	3
 Nadine Rupp	compilers	0	0	1	1
 Rupp	James y Nadine Rupp	0	0	1	1
 Rupp	B.	0	0	1	1
@@ -62760,7 +62760,7 @@ Hermosilla Sanchez	Julia Elisa	0	0	1	1
 Sánchez Corrales	Víctor	0	0	1	1
 Sánchez Jiménez	Santiago U.	0	0	1	1
 Sánchez	José Raúl Monguí	0	0	1	1
-Mongui Sánchez	José Raúl	0	0	2	2
+Mongui Sánchez	José Raúl	0	0	1	2
 Monguí Sánchez	J.R.	0	0	1	1
 Sand	Andrea	0	0	1	1
 Sandahl	S.	0	0	1	1
@@ -63295,7 +63295,7 @@ Sharma	Devidatta D.	0	0	2	2
 Sharma	Hanjabam Surmangol	0	0	1	1
 Sharma	Ghanshyam	0	0	1	1
 Sharma	Narayan	0	0	1	1
-Sharma	Shunu Ram	0	0	2	2
+Sharma	Shunu Ram	0	0	1	2
 Sharp	A. E.	0	0	2	2
 Sharpe	M. R. L.	0	0	2	2
 Shashi	P.	0	0	1	1
@@ -63474,7 +63474,7 @@ Silvestri	Domenico	0	0	1	1
 Sim-Sim	Inês	0	0	1	1
 Sim	Arthur Fraser	0	0	2	2
 Sim	Margaret G.	0	0	2	2
-Sima	Alexander	0	0	2	2
+Sima	Alexander	0	0	1	2
 Simard	Yves	0	0	1	1
 Sime	Tayech	0	0	1	1
 Simelane	Simeon Zantshuke	0	0	1	1
@@ -63776,7 +63776,7 @@ Spoelders	Marc	0	0	1	1
 Spohr	Dennis	0	0	1	1
 Spotted Bear	Alyce	0	0	1	1
 Spreda	Klaus	0	0	2	2
-Sprigg	R. K.	0	0	13	13
+Sprigg	R. K.	0	0	12	13
 Sprigg	Richard K.	0	0	1	1
 Sprigg	R.K.	0	0	3	3
 Spring	Cari	0	0	1	1
@@ -64419,7 +64419,7 @@ Thomason	Olga	0	0	1	1
 Thomassin	P. L.	0	0	1	1
 Thomasson	Gordon Conrad	0	0	1	1
 Thompson	Graham	0	0	1	1
-Thompson	Chad L	0	0	8	8
+Thompson	Chad L	0	0	7	8
 Thompson	[Mr]	0	0	1	1
 Thompson	Chad L.	0	0	1	1
 Thompson	D. A.	0	0	1	1
@@ -64435,7 +64435,7 @@ Thomson	Joseph	0	0	3	3
 Thomson	Gregory	0	0	1	1
 Thomson	Ann	0	0	2	2
 Thongkham	Noppawan	0	0	1	1
-Thongkum	Theraphan L.	0	0	5	5
+Thongkum	Theraphan L.	0	0	4	5
 Thornes	Tim	0	0	3	3
 Thornly	N.	0	0	1	1
 Thornton	Richard	0	0	1	1
@@ -64808,7 +64808,7 @@ Umunna	Ifekandu	0	0	1	1
 Unbegaun	B. O.	0	0	1	1
 Unbegaun	Boris Ottokar	0	0	1	1
 Underriner	Janne	0	0	1	1
-Underwood	Joan V.	0	0	2	2
+Underwood	Joan V.	0	0	1	2
 <Libreville>	UNESCO / Office	0	0	1	1
 Unger	Marshall	0	0	1	1
 Unger	Johann Wolfgang	0	0	1	1
@@ -65431,7 +65431,7 @@ Welles	C.M.	0	0	1	1
 Wells	Lawrence Allen	0	0	2	2
 Wells	Naomi	0	0	1	1
 Wells	Rulon S.	0	0	1	1
-Welmers	Beatrice F.	0	0	3	3
+Welmers	Beatrice F.	0	0	2	3
 Welmers	William E	0	0	1	1
 Welti	Zulema Armatto de	0	0	1	1
 van Wely	F. P. H. Prick	0	0	1	1

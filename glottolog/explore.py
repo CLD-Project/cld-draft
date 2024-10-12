@@ -77,13 +77,15 @@ languages = {}
 for row in progressbar(lines, desc="parsing bibtex"):
     if row.startswith("@"):
         key = row.split("{")[1].strip()[:-1]
+        btype = row[1: row.index("{")]
+        bib_by_source[key]["bibtex_type"] = btype
     if row.startswith("   ") and " = {" in row:
         parts = row.strip().split(" = {")
         attr, val = parts[0], " = {".join(parts[1:])
         bib_by_source[key][attr] = val.strip("},")
     if "lgcode = " in row:
         codes = row.strip().split(" = {")[1][:-2]
-        ncodes = Entry.lgcodes(codes)
+        ncodes = set(Entry.lgcodes(codes))
         for ncode in ncodes:
             if ncode in glottocodes:
                 if glottocodes[ncode].category == "Spoken L1 Language" and \
@@ -142,12 +144,10 @@ with open(project_path("sources.md"), "w") as f:
     f.write(tabulate(table, tablefmt="pipe", headers="firstrow"))
 
 # write to file
-with open(project_path('glottolog.json'), "w") as f:
-    json.dump({"varieties": bib_by_variety, "sources": bib_by_source,
-              "languages": languages}, f)
-with zipfile.ZipFile(project_path("glottolog.json.zip"), mode="w",
+with zipfile.ZipFile(project_path().parent.joinpath("workflow", "glottolog.json.zip"), mode="w",
                      compression=zipfile.ZIP_DEFLATED) as zf:
-    zf.write(project_path("glottolog.json"))
+    zf.writestr("glottolog.json", json.dumps({"varieties": bib_by_variety, "sources": bib_by_source,
+              "languages": languages}))
     
 print("[i] retrieved codes for {0} language varieties".format(len(bib_by_variety)))
 
@@ -175,7 +175,7 @@ for key, vals in progressbar(bib_by_variety.items(), desc="retrieve annotated re
         family_name, first_name = creators[0]
         if family_name and first_name and len(year) == 4 and year.isdigit() and title:
             book_key = family_name.replace(" ", "_") + "-" + year + "-" + "_".join([
-                slug(s) for s in title.split()[:4]])
+                slug(s) for s in title.split()[:3]])
             if "(computerized assignment" in annotation:
                 keep_computed += [(value, book_key)]
                 tracker_computed[book_key].add(value)
@@ -421,14 +421,14 @@ for key, vals in resources.items():
             " ".join(vals["sources"])
             ]]
 
-with open(project_path("resources.tsv"), "w") as f:
+with open(project_path().parent.joinpath("workflow", "resources.tsv"), "w") as f:
     f.write("\t".join([
         "ID", "Creators", "Creator_Variants", "Title", "Title_Variants",
         "Year", "Sources"]) + "\n")
     for row in resource_table:
         f.write("\t".join(row) + "\n")
 
-with open(project_path("references.tsv"), "w") as f:
+with open(project_path().parent.joinpath("workflow", "references.tsv"), "w") as f:
     f.write("\t".join([
         "ID", "Language_ID", "Reference_ID", "DomainOfKnowledge", "BasicInformationType", "Status"]) + "\n")
     current_language = ""
@@ -491,124 +491,4 @@ with open(project_path("languages.md"), "w") as f:
         table += [["Total", sum(by_fam.values())]]
         f.write(tabulate(table, tablefmt='pipe', headers='firstrow'))
         f.write("\n\n\n")
-
-
-input("stop here")
-
-# count individual sources for Mansi and the Phom
-my_table = {
-        "ethnographic": [],
-        "overview": [],
-        "comparative": [],
-        "dictionary": [],
-        "wordlist": [],
-        "grammar": [],
-        "grammar_sketch": [],
-        "text": [],
-        }
-
-mansi = []
-resources = collections.defaultdict(list)
-for ref in set(cols["mans1258"]):
-    if not "author" in data[ref]:
-        if "editor" in data[ref]:
-            author = author_string(data[ref]["editor"])
-        else:
-            authors = []
-    else:
-        authors = author_string(data[ref]["author"])
-    if "hhtype" in data[ref] and authors:
-        hh = data[ref]["hhtype"]
-        year = data[ref]["year"]
-        title = data[ref]["title"]
-        mansi += [[ref, authors[0][0], " AND ".join([", ".join(author) for
-                                                     author in authors]), year, title, hh]]
-        btk = authors[0][0] + "-" + year
-        resources[btk] += [[" AND ".join([", ".join(author) for author in
-                                          authors]), year, title, hh, ref]]
-
-rtypes = collections.defaultdict(int)
-
-with open("mansi-resources.tsv", "w") as f:
-    for k, vals in sorted(resources.items(), key=lambda x: x[0]):
-        if len(vals) > 1:
-            dups = str(len(vals))
-        else:
-            dups = ""
-        for val in vals:
-            f.write(dups + "\t" + k + "\t" + "\t".join(val) + "\n")
-
-            bits = val[-2].split(";")
-            for bit in bits:
-                if "(" in bit:
-                    rtypes[bit.split(" ")[0] + "*"] += 1
-                else:
-                    rtypes[bit] += 1
-
-for k in my_table:
-    my_table[k] += [rtypes.get(k, 0), rtypes.get(k + '*', 0)]
-
-
-resources = collections.defaultdict(list)
-for ref in set(cols["phom1236"]):
-    if not "author" in data[ref]:
-        if "editor" in data[ref]:
-            author = author_string(data[ref]["editor"])
-        else:
-            authors = []
-    else:
-        authors = author_string(data[ref]["author"])
-    if "hhtype" in data[ref] and authors:
-        hh = data[ref]["hhtype"]
-        year = data[ref]["year"]
-        title = data[ref]["title"]
-        mansi += [[ref, authors[0][0], " AND ".join([", ".join(author) for
-                                                     author in authors]), year, title, hh]]
-        btk = authors[0][0] + "-" + year
-        resources[btk] += [[" AND ".join([", ".join(author) for author in
-                                          authors]), year, title, hh, ref]]
-
-rtypes = collections.defaultdict(int)
-
-with open("mansi-resources.tsv", "w") as f:
-    for k, vals in sorted(resources.items(), key=lambda x: x[0]):
-        if len(vals) > 1:
-            dups = str(len(vals))
-        else:
-            dups = ""
-        for val in vals:
-            f.write(dups + "\t" + k + "\t" + "\t".join(val) + "\n")
-
-            bits = val[-2].split(";")
-            for bit in bits:
-                if "(" in bit:
-                    rtypes[bit.split(" ")[0] + "*"] += 1
-                else:
-                    rtypes[bit] += 1
-
-for k in my_table:
-    my_table[k] += [rtypes.get(k, 0), rtypes.get(k + '*', 0)]
-
-out_table = []
-for k, rows in my_table.items():
-    out_table += [[k] + rows]
-
-out_table += [[
-    "References",
-    sum([row[1] for row in out_table]),
-    sum([row[2] for row in out_table]),
-    sum([row[3] for row in out_table]),
-    sum([row[4] for row in out_table])]]
-
-table = r"""
-\tabular{|l|ll|ll|}
-\multirow{2}{*}{Information} &
-\multicolumn{2}{c}{Northern Mansi} &
-\multicolumn{2}{c}{Phom} \\\cline{2-4}
-& Checked & Inferred & Checked & Inferred \\\hline
-"""
-for row in out_table:
-    table += r"""{0} & {1} & {2} & {3} & {4} \\\hline""".format(
-            row[0], row[1], row[2], row[3], row[3]) + "\n"
-print(table)
 

@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+glottolog.json
+glottolog-5.0.bib
 __pycache__/
 *.py[cod]
 *$py.class

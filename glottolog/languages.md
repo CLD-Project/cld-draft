@@ -7,14 +7,14 @@
 | Key                                 |    Value |
 |:------------------------------------|---------:|
 | Varieties                           |  1733    |
-| Sources (all)                       | 84226    |
-| Sources per Variety (all)           |    48.6  |
-| Sources (Target Corpus)             | 42937    |
-| Sources per Variety (Target Corpus) |    24.78 |
-| Sources (annotated)                 | 25431    |
-| Sources per Variety (annotated)     |    14.67 |
-| Sources (computed)                  | 17506    |
-| Sources per Variety (computed)      |    10.1  |
+| Sources (all)                       | 81553    |
+| Sources per Variety (all)           |    47.06 |
+| Sources (Target Corpus)             | 40461    |
+| Sources per Variety (Target Corpus) |    23.35 |
+| Sources (annotated)                 | 23153    |
+| Sources per Variety (annotated)     |    13.36 |
+| Sources (computed)                  | 17308    |
+| Sources per Variety (computed)      |     9.99 |
 
 
 ### Languages by Family
@@ -58,14 +58,14 @@
 | Key                                 |    Value |
 |:------------------------------------|---------:|
 | Varieties                           |   671    |
-| Sources (all)                       | 26625    |
-| Sources per Variety (all)           |    39.68 |
-| Sources (Target Corpus)             | 12903    |
-| Sources per Variety (Target Corpus) |    19.23 |
-| Sources (annotated)                 |  7941    |
-| Sources per Variety (annotated)     |    11.83 |
-| Sources (computed)                  |  4962    |
-| Sources per Variety (computed)      |     7.39 |
+| Sources (all)                       | 25749    |
+| Sources per Variety (all)           |    38.37 |
+| Sources (Target Corpus)             | 12207    |
+| Sources per Variety (Target Corpus) |    18.19 |
+| Sources (annotated)                 |  7474    |
+| Sources per Variety (annotated)     |    11.14 |
+| Sources (computed)                  |  4733    |
+| Sources per Variety (computed)      |     7.05 |
 
 
 ### Languages by Family
@@ -110,8 +110,8 @@
 | Lencan                  |           2 |
 | Jicaquean               |           2 |
 | Wintuan                 |           2 |
-| Coosan                  |           2 |
 | Chimakuan               |           2 |
+| Coosan                  |           2 |
 | Keresan                 |           2 |
 | Haida                   |           2 |
 | Palaihnihan             |           2 |
@@ -127,14 +127,14 @@
 | Key                                 |    Value |
 |:------------------------------------|---------:|
 | Varieties                           |   572    |
-| Sources (all)                       | 34847    |
-| Sources per Variety (all)           |    60.92 |
-| Sources (Target Corpus)             | 14290    |
-| Sources per Variety (Target Corpus) |    24.98 |
-| Sources (annotated)                 |  8997    |
-| Sources per Variety (annotated)     |    15.73 |
-| Sources (computed)                  |  5293    |
-| Sources per Variety (computed)      |     9.25 |
+| Sources (all)                       | 34329    |
+| Sources per Variety (all)           |    60.02 |
+| Sources (Target Corpus)             | 13902    |
+| Sources per Variety (Target Corpus) |    24.3  |
+| Sources (annotated)                 |  8685    |
+| Sources per Variety (annotated)     |    15.18 |
+| Sources (computed)                  |  5217    |
+| Sources per Variety (computed)      |     9.12 |
 
 
 ### Languages by Family
@@ -198,14 +198,14 @@
 | Key                                 |    Value |
 |:------------------------------------|---------:|
 | Varieties                           |   355    |
-| Sources (all)                       | 13182    |
-| Sources per Variety (all)           |    37.13 |
-| Sources (Target Corpus)             |  6781    |
-| Sources per Variety (Target Corpus) |    19.1  |
-| Sources (annotated)                 |  3231    |
-| Sources per Variety (annotated)     |     9.1  |
-| Sources (computed)                  |  3550    |
-| Sources per Variety (computed)      |    10    |
+| Sources (all)                       | 12571    |
+| Sources per Variety (all)           |    35.41 |
+| Sources (Target Corpus)             |  6361    |
+| Sources per Variety (Target Corpus) |    17.92 |
+| Sources (annotated)                 |  2955    |
+| Sources per Variety (annotated)     |     8.32 |
+| Sources (computed)                  |  3406    |
+| Sources per Variety (computed)      |     9.59 |
 
 
 ### Languages by Family
@@ -221,14 +221,14 @@
 | Mirndi                  |           5 |
 | Iwaidjan Proper         |           4 |
 | Maningrida              |           4 |
-| Mangarrayi-Maran        |           4 |
 | Tangkic                 |           4 |
+| Mangarrayi-Maran        |           4 |
 | Jarrakan                |           3 |
 | Yangmanic               |           3 |
 | Giimbiyu                |           3 |
 | Western Tasmanian       |           3 |
-| Northern Daly           |           2 |
 | Eastern Daly            |           2 |
+| Northern Daly           |           2 |
 | Marrku-Wurrugu          |           2 |
 | Southern Daly           |           2 |
 | Indo-European           |           2 |
@@ -247,14 +247,14 @@
 | Key                                 |    Value |
 |:------------------------------------|---------:|
 | Varieties                           |  2210    |
-| Sources (all)                       | 94073    |
-| Sources per Variety (all)           |    42.57 |
-| Sources (Target Corpus)             | 46616    |
-| Sources per Variety (Target Corpus) |    21.09 |
-| Sources (annotated)                 | 27474    |
-| Sources per Variety (annotated)     |    12.43 |
-| Sources (computed)                  | 19142    |
-| Sources per Variety (computed)      |     8.66 |
+| Sources (all)                       | 91272    |
+| Sources per Variety (all)           |    41.3  |
+| Sources (Target Corpus)             | 43968    |
+| Sources per Variety (Target Corpus) |    19.9  |
+| Sources (annotated)                 | 24877    |
+| Sources per Variety (annotated)     |    11.26 |
+| Sources (computed)                  | 19091    |
+| Sources per Variety (computed)      |     8.64 |
 
 
 ### Languages by Family
@@ -285,8 +285,8 @@
 | Dajuic            |           7 |
 | Kadugli-Krongo    |           6 |
 | Kxa               |           5 |
-| South Omotic      |           5 |
 | Koman             |           5 |
+| South Omotic      |           5 |
 | Eastern Jebel     |           4 |
 | Blue Nile Mao     |           4 |
 | Tamaic            |           4 |
@@ -296,9 +296,9 @@
 | Kuliak            |           3 |
 | Katla-Tima        |           3 |
 | Furan             |           2 |
-| Nyimang           |           2 |
 | Temeinic          |           2 |
 | Rashad            |           2 |
+| Nyimang           |           2 |
 | Total             |        2210 |
 
 
@@ -309,14 +309,14 @@
 | Key                                 |    Value |
 |:------------------------------------|---------:|
 | Varieties                           |  2123    |
-| Sources (all)                       | 41499    |
-| Sources per Variety (all)           |    19.55 |
-| Sources (Target Corpus)             | 24155    |
-| Sources per Variety (Target Corpus) |    11.38 |
-| Sources (annotated)                 | 19771    |
-| Sources per Variety (annotated)     |     9.31 |
-| Sources (computed)                  |  4384    |
-| Sources per Variety (computed)      |     2.07 |
+| Sources (all)                       | 39433    |
+| Sources per Variety (all)           |    18.57 |
+| Sources (Target Corpus)             | 22206    |
+| Sources per Variety (Target Corpus) |    10.46 |
+| Sources (annotated)                 | 17874    |
+| Sources per Variety (annotated)     |     8.42 |
+| Sources (computed)                  |  4332    |
+| Sources per Variety (computed)      |     2.04 |
 
 
 ### Languages by Family
@@ -373,8 +373,8 @@
 | East Bird's Head         |           3 |
 | Lepki-Murkim-Kembra      |           3 |
 | Mairasic                 |           3 |
-| West Bomberai            |           3 |
 | Bulaka River             |           3 |
+| West Bomberai            |           3 |
 | Kolopom                  |           3 |
 | Kayagaric                |           3 |
 | Teberan                  |           2 |
@@ -383,15 +383,15 @@
 | Kwomtari-Nai             |           2 |
 | Yawa-Saweru              |           2 |
 | Hatam-Mansim             |           2 |
+| Doso-Turumsa             |           2 |
 | Bayono-Awbono            |           2 |
 | Kaure-Kosare             |           2 |
 | Somahai                  |           2 |
-| Doso-Turumsa             |           2 |
-| Amto-Musan               |           2 |
-| Inanwatan                |           2 |
+| Namla-Tofanma            |           2 |
 | Mombum-Koneraw           |           2 |
 | Taulil-Butam             |           2 |
-| Namla-Tofanma            |           2 |
+| Inanwatan                |           2 |
+| Amto-Musan               |           2 |
 | Pahoturi                 |           2 |
 | Piawi                    |           2 |
 | Manubaran                |           2 |
